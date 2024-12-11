@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+<Document>
+	<name>VS142_1_lalubhai.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>VS142_1_lalubhai</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>72.92678877711296,19.04877780871325,0 72.9269265756011,19.050368723239714,0 72.92705096304417,19.051525137392517,0 72.92716328054667,19.05238523301824,0 72.92722832411528,19.053054545320656,0 72.92731147259474,19.053722587293514,0 72.9278264567256,19.053667445410888,0 72.92841352522373,19.053567936449905,0 72.92874041944742,19.053531492070285,0 72.92887721210717,19.053512160700443,0 72.92883329093456,19.053425011054365,0 72.92873505502939,19.053233281671854,0 72.92863748967648,19.053061200401004,0 72.92852751910685,19.052866935326435,0 72.92845040559769,19.052642880545214,0 72.92836021631956,19.052378577910766,0 72.92829986661673,19.052171001805533,0 72.9282670095563,19.051995750326714,0 72.92826265096664,19.051878176446024,0 72.92842157185078,19.051781835522103,0 72.9285667464137,19.051712115081752,0 72.92879473417997,19.051611654213897,0 72.92894192039967,19.051543201347958,0 72.92881418019533,19.051472846984094,0 72.92875148355961,19.051431965380576,0 72.92861636728048,19.05133277199063,0 72.92848091572523,19.051275727841762,0 72.92844839394093,19.051201570418907,0 72.92834546416998,19.051108715137584,0 72.9283256828785,19.051020613491556,0 72.92835719883442,19.0509125463007,0 72.92846582829952,19.050685319748997,0 72.92849902063608,19.050542391870152,0 72.92835216969252,19.05039154102635,0 72.92820163071156,19.05026667698887,0 72.92811378836632,19.050089522013046,0 72.92818654328585,19.049684188181583,0 72.92827673256397,19.04920564579249,0 72.92840983718634,19.048518253680918,0 72.92840883135796,19.04820323762622,0 72.92685884982347,19.048729954275064,0 72.92678877711296,19.04877780871325,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	<Style><IconStyle><color>ff0000</color></IconStyle></Style></Placemark>
+</Document>
+
+<Document>
+	<name>VS142_2_mhada colony.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>VS142_2_mhada colony</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>72.92979788035154,19.05185884488353,0 72.92999736964703,19.05106054445921,0 72.93010264635086,19.051056424597906,0 72.93022803962232,19.051052304736512,0 72.9303078353405,19.051018712016656,0 72.93036717921495,19.051001598741657,0 72.93051034212112,19.05101269067936,0 72.93063405901194,19.051008253904367,0 72.93074235320091,19.050994309753634,0 72.93085534125566,19.050983534727248,0 72.93094988912344,19.050992091365902,0 72.9311054572463,19.05098416855236,0 72.93122917413712,19.050954378770022,0 72.93135523796082,19.050881488854532,0 72.9314625263214,19.050865960129265,0 72.93165195733309,19.050936314750476,0 72.93211329728365,19.05105262164894,0 72.93226484209299,19.050783245874282,0 72.93258301913738,19.05089479918932,0 72.93329983949661,19.051177168182765,0 72.93388556689023,19.051428796263604,0 72.93349597603084,19.052551293708763,0 72.93202444911003,19.052198889908055,0 72.93137736618519,19.05233737962046,0 72.93069239705801,19.052133606387976,0 72.92984683066605,19.05188863450348,0 72.92979788035154,19.05185884488353,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	<Style><IconStyle><color>ff0000</color></IconStyle></Style></Placemark>
+</Document>
+
+<Document>
+	<name>VS142_3_slum parisar.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>VS142_3_slum parisar</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>72.92976569384336,19.051863915457513,0 72.92997691780329,19.05105927680959,0 72.93021127581595,19.051057058422735,0 72.93057337403297,19.05103931132681,0 72.93098308146,19.05102473335374,0 72.9312264919281,19.051058959897187,0 72.93130595237017,19.050954061857418,0 72.93145783245565,19.050902088181722,0 72.93210826814175,19.051109348962196,0 72.93229501694442,19.050841874756596,0 72.93333169072866,19.051252910176725,0 72.93386511504649,19.0514297469987,0 72.93401867151259,19.050883707243727,0 72.93405119329691,19.050278085889598,0 72.93292097747324,19.049885746019815,0 72.93183971196413,19.049508934076076,0 72.93125834316015,19.049337482773836,0 72.93040808290243,19.049026271269856,0 72.92951960116625,19.04872424977157,0 72.92910788208246,19.048505576990063,0 72.92878568172455,19.048290073097384,0 72.92847990989685,19.048214329750987,0 72.92843297123909,19.048504626238213,0 72.92839039117098,19.048804112802546,0 72.92826801538467,19.049555203713222,0 72.92820129543543,19.05015797547871,0 72.92844571173191,19.050434324367835,0 72.92847655713558,19.050793387087847,0 72.92845141142607,19.05123040942062,0 72.92865056544542,19.051300130063403,0 72.92888458818197,19.051529574153683,0 72.9291471093893,19.051707995236633,0 72.92956687510014,19.051826203059807,0 72.92976569384336,19.051863915457513,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	<Style><IconStyle><color>ff0000</color></IconStyle></Style></Placemark>
+</Document>
+
+<Document>
+	<name>VS142_4_hiranandani area.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>VS142_4_hiranandani area</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>72.9269939661026,19.051125194576965,0 72.92693328112364,19.05048851658454,0 72.92688231915236,19.049915852908605,0 72.92675022035837,19.0491885323305,0 72.92593080550432,19.049478193282596,0 72.92510703206062,19.04981475712359,0 72.92519588023424,19.050233717937925,0 72.92525824159384,19.050651093128476,0 72.9254486784339,19.05098638694018,0 72.92564079165459,19.05141453523648,0 72.92573165148497,19.05177454656835,0 72.92584531009197,19.052238503681995,0 72.92594656348228,19.052203326651203,0 72.925871796906,19.05178690609844,0 72.92610347270964,19.05173017901684,0 72.92626205831766,19.051472846984094,0 72.9268266633153,19.05126875577778,0 72.92693730443716,19.05119269687891,0 72.9269939661026,19.051125194576965,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	<Style><IconStyle><color>ff0000</color></IconStyle></Style></Placemark>
+</Document>
+</Document>
+</kml>

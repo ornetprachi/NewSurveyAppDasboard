@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+<Document>
+	<name>AP59_ 5_yanga Nagar.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>AP59_ 5_yanga Nagar</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>72.80930031090975,19.140451669237898,0 72.80891440808773,19.140663569015985,0 72.80853420495987,19.14111587435887,0 72.80820831656456,19.141489627138416,0 72.80782274901867,19.141815868279718,0 72.80744254589081,19.141852926698665,0 72.8073687851429,19.142568437618262,0 72.80773557722569,19.14385470243689,0 72.80736107379198,19.145219823550075,0 72.80675925314426,19.145905547180536,0 72.80775368213654,19.146865555476445,0 72.80889563262463,19.14667836854989,0 72.80989609658718,19.14605187675034,0 72.8108797967434,19.144991459528494,0 72.81172402203083,19.144151165893643,0 72.81390331685543,19.14284558244878,0 72.81309798359871,19.142538664317357,0 72.81231913715601,19.142441742683616,0 72.81194362789392,19.142329300847667,0 72.81187254935503,19.142125955135747,0 72.81180918216705,19.141982155992,0 72.81168211251497,19.141823786746002,0 72.81152352690697,19.141591300417623,0 72.81123016029596,19.141423111875156,0 72.81078323721886,19.141131394618238,0 72.81047813594341,19.141057910928275,0 72.81023539602757,19.140677822354533,0 72.80994907021523,19.140586917707623,0 72.80956618487835,19.140523252750906,0 72.80936535447836,19.140424112744522,0 72.80930031090975,19.140451669237898,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	<Style><IconStyle><color>ff0000</color></IconStyle></Style></Placemark>
+</Document>
+
+<Document>
+	<name>AP59_1_office area parisar.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>AP59_1_office area parisar</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>72.81708508729935,19.133387554166642,0 72.81664051115513,19.133303930870877,0 72.81629115343094,19.13319813467086,0 72.81590055674314,19.13306319690424,0 72.81556762754917,19.132982741000315,0 72.81505666673183,19.132829114460705,0 72.81470362097025,19.13263019163629,0 72.81442031264305,19.132434752895524,0 72.81417824327946,19.132283026387867,0 72.8137095272541,19.132269722595595,0 72.81336922198534,19.132073966670905,0 72.81270068138838,19.131770512853358,0 72.81243447214365,19.131582358536146,0 72.81246196478605,19.131433482072637,0 72.81271912157536,19.131148715867585,0 72.81297694891691,19.130863632411895,0 72.81345538794994,19.130155039513387,0 72.81372662633657,19.12984778103099,0 72.81400088220835,19.12949934288515,0 72.81422886997461,19.12920760456318,0 72.81425904482603,19.12887912116706,0 72.81442031264305,19.12835044208267,0 72.81470865011215,19.127788817690877,0 72.81508885324001,19.127173974585386,0 72.8153919428587,19.126693438736243,0 72.81568061560392,19.126833766752284,0 72.81597264111042,19.127128360167983,0 72.81623985618353,19.127538255939072,0 72.81648728996515,19.127893033528842,0 72.81668778508902,19.12819649446979,0 72.81707938760519,19.129141401115458,0 72.8174401447177,19.129833209995976,0 72.817224226892,19.13067040890105,0 72.81708978116512,19.131242159782104,0 72.81708676367998,19.132098356984866,0 72.81707469373941,19.13311102697028,0 72.81708508729935,19.133387554166642,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	<Style><IconStyle><color>ff0000</color></IconStyle></Style></Placemark>
+</Document>
+
+<Document>
+	<name>AP59_2_Gulshan colony.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>AP59_2_Gulshan colony</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>72.81505666673183,19.132875994327115,0 72.81471904367208,19.13354022992317,0 72.8143659979105,19.134184507390987,0 72.81368404626846,19.134848737724038,0 72.81337760388851,19.13535649044008,0 72.81397003680468,19.135746727274327,0 72.81449172645807,19.135977004583932,0 72.81493362039328,19.13606157677521,0 72.81563200056553,19.135987457329023,0 72.81608361750841,19.13595293159274,0 72.8165416046977,19.136370407442836,0 72.8170632943511,19.136476835108322,0 72.8171169385314,19.1362259697871,0 72.81716588884592,19.136016915061614,0 72.81717024743557,19.135808176821648,0 72.81705357134342,19.13553165367861,0 72.81696237623692,19.13529725798284,0 72.81692516058683,19.134907336838328,0 72.81697444617748,19.134753395336876,0 72.81692549586296,19.13451329698848,0 72.81689397990704,19.134374242508336,0 72.81688459217548,19.13407681123405,0 72.81696606427431,19.133776211883287,0 72.81694460660219,19.133501269110745,0 72.8166938200593,19.13340909349355,0 72.81638871878386,19.133286509345602,0 72.81613692641258,19.133213972429672,0 72.81587608158588,19.13309772324469,0 72.81560350209475,19.133083786007216,0 72.81546469777822,19.1329982620242,0 72.81530879437923,19.132983691267118,0 72.81520251184702,19.13293142658442,0 72.81512539833784,19.13288739753586,0 72.81505666673183,19.132875994327115,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	<Style><IconStyle><color>ff0000</color></IconStyle></Style></Placemark>
+</Document>
+
+<Document>
+	<name>AP59_6 Jeet nagar.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>AP59_6 Jeet nagar</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>72.81207874417305,19.1317679787899,0 72.81134482473135,19.132767980560867,0 72.81042315065861,19.13407966201559,0 72.80902706086636,19.13565898741712,0 72.80930701643229,19.136125243452405,0 72.80962586402893,19.13634981874963,0 72.81027462333441,19.136677020293245,0 72.81125865876675,19.136957025746014,0 72.81168513000011,19.13707010473658,0 72.81203046441078,19.136782814264468,0 72.81213339418173,19.13653543364485,0 72.81240329146385,19.1361385469341,0 72.81275432556868,19.135784420556057,0 72.81292464584112,19.135557627235237,0 72.81365219503641,19.134812944741288,0 72.81414303928614,19.134285868415688,0 72.81474184244871,19.133319451864583,0 72.81500905752182,19.132851287372155,0 72.8147354722023,19.132686257488437,0 72.81454268842936,19.132572858739547,0 72.81433146446943,19.13243506965218,0 72.81416315585375,19.132342576683065,0 72.8133450821042,19.132177229533877,0 72.81244922429323,19.1317597430834,0 72.81225141137838,19.131655846443127,0 72.81211964786053,19.13171064559386,0 72.81207874417305,19.1317679787899,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	<Style><IconStyle><color>ff0000</color></IconStyle></Style></Placemark>
+</Document>
+
+<Document>
+	<name>AP59_7_  Varsova Village.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>AP59_7_  Varsova Village</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>72.80701909214258,19.141685688639477,0 72.80662849545479,19.14156627802763,0 72.80624158680439,19.14142659600864,0 72.80593078583479,19.14154790715659,0 72.80565217137337,19.14161062150099,0 72.80525118112564,19.14164767996603,0 72.80489578843117,19.14151781693239,0 72.80455715954304,19.141550757809124,0 72.80414912849665,19.141557726070676,0 72.80376490205526,19.141522884760015,0 72.80330289155245,19.141535554328375,0 72.80261658132076,19.14159953563377,0 72.8020154312253,19.141354062668725,0 72.80180554836988,19.140846645137394,0 72.80191954225302,19.140094067949214,0 72.80235003679991,19.139724429664817,0 72.80352048575878,19.13959646557574,0 72.80437745153904,19.13924678102449,0 72.80475463718176,19.139065286848577,0 72.80551102012396,19.13847455834999,0 72.80643939971924,19.13791328513207,0 72.80687928199768,19.137534773052884,0 72.80753843486309,19.137144857192016,0 72.80736040323973,19.137578484115544,0 72.80709151178598,19.137859755024586,0 72.80684843659401,19.138261705525792,0 72.80650947242975,19.138731438401855,0 72.80633177608252,19.139038363611768,0 72.8058798238635,19.140043389227387,0 72.80628986656666,19.14050678221083,0 72.80634518712759,19.140906192344197,0 72.80648600310087,19.14137560095639,0 72.80682429671288,19.14157071237549,0 72.80701909214258,19.141685688639477,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	<Style><IconStyle><color>ff0000</color></IconStyle></Style></Placemark>
+</Document>
+
+<Document>
+	<name>AP59_8 _Varsova jetty.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>AP59_8 _Varsova jetty</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>72.80404184013605,19.143316569224826,0 72.80434191226959,19.143167386605274,0 72.80491188168526,19.14280472341159,0 72.80529510229826,19.142651422747754,0 72.8057537600398,19.142640970424583,0 72.80675087124109,19.142760380259002,0 72.80709151178598,19.142732824151036,0 72.8072963654995,19.142526945037886,0 72.8073724731803,19.142077810942972,0 72.80737917870283,19.141903921603465,0 72.80716259032488,19.141794013310786,0 72.80688028782606,19.141693290373112,0 72.80670057982206,19.14166731778173,0 72.80630998313427,19.141514966279278,0 72.8059995174408,19.141557092592365,0 72.80574604868889,19.1415922506349,0 72.80556868761778,19.141625824974835,0 72.80515730381012,19.14166161648065,0 72.80455481261015,19.141569445418963,0 72.80363716185093,19.14160080259006,0 72.80280567705631,19.141672385604764,0 72.80269302427769,19.14200844527213,0 72.8031449764967,19.142838297504905,0 72.80340112745762,19.1433818167825,0 72.8036230802536,19.14352371429461,0 72.80390437692404,19.143433444686064,0 72.80397210270166,19.14337073103422,0 72.80401267111301,19.14333208927729,0 72.80404184013605,19.143316569224826,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	<Style><IconStyle><color>ff0000</color></IconStyle></Style></Placemark>
+</Document>
+
+<Document>
+	<name>AP59_9_ Dargah Sharif to Shri sinya Mahadev mandir.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>AP59_9_ Dargah Sharif to Shri sinya Mahadev mandir</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>72.80360028147697,19.143682715379782,0 72.80381552875042,19.143510728143443,0 72.80409850180149,19.143298515284403,0 72.80438113957644,19.143161685355995,0 72.80472178012133,19.142952322676532,0 72.8048374503851,19.142872188328035,0 72.80495312064886,19.142803456464538,0 72.80511807650328,19.142736941730675,0 72.80528672039509,19.14267296086614,0 72.80540876090527,19.14266947675895,0 72.80557103455067,19.142668526547883,0 72.80577085912228,19.14266029138508,0 72.80599046498537,19.142693232033835,0 72.8062254935503,19.142732507414134,0 72.80644945800304,19.14277970120552,0 72.80670762062073,19.14278920330953,0 72.80701138079166,19.142770832574616,0 72.80720952898264,19.14269354877081,0 72.80741035938263,19.14277843425828,0 72.80748847872019,19.143108790422716,0 72.80753005295992,19.143391635587484,0 72.80763063579798,19.143578826241882,0 72.80763030052185,19.14391741590485,0 72.80730541795492,19.1451184692383,0 72.80671566724777,19.145847902162856,0 72.80586004257202,19.146011018506893,0 72.8049836307764,19.1458013427108,0 72.80424300581217,19.14548619505396,0 72.80419807881117,19.144996210516897,0 72.8039526566863,19.144689613117738,0 72.80384503304958,19.14441595545395,0 72.80368007719517,19.144196142140775,0 72.80362643301487,19.144062480300015,0 72.80358050018549,19.143937370185103,0 72.80358284711838,19.14384615059851,0 72.80358586460352,19.14377678567078,0 72.80358251184225,19.143746062382988,0 72.80360028147697,19.143682715379782,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	<Style><IconStyle><color>ff0000</color></IconStyle></Style></Placemark>
+</Document>
+
+<Document>
+	<name>AP59_CIFE Road.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>AP59_CIFE Road</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>72.81326025724411,19.13538214727326,0 72.81291425228119,19.13562636211536,0 72.81256724148989,19.136057142279366,0 72.81179744750261,19.13717019699974,0 72.8107812255621,19.136882906701782,0 72.8103869408369,19.137647218154452,0 72.80999131500721,19.138632614064225,0 72.80956115573645,19.139652212319813,0 72.8094394505024,19.140059859813682,0 72.80951488763094,19.140464972370978,0 72.81026724725962,19.140597686901863,0 72.81067326664925,19.140975875218505,0 72.81112186610699,19.141254289681818,0 72.81164858490229,19.141563427375345,0 72.81200833618641,19.142344187517665,0 72.81264334917068,19.142471832739396,0 72.8129430860281,19.142517442918763,0 72.81349796801805,19.142440792471238,0 72.81397104263306,19.142033467595102,0 72.81427178531885,19.14166921821539,0 72.81445987522602,19.141255556640765,0 72.81488433480263,19.140158683296978,0 72.81538255512714,19.13936429285396,0 72.81562194228172,19.13885750269541,0 72.8161496669054,19.138056137582414,0 72.81654831022024,19.137275357160227,0 72.81694058328867,19.13654145187175,0 72.81636089086533,19.13631402609225,0 72.8159548714757,19.136113206968048,0 72.81521324068308,19.136100536983573,0 72.81429827213287,19.13595609909178,0 72.81402133405209,19.135856956342927,0 72.81367499381304,19.135629212870136,0 72.81352076679468,19.135525318664182,0 72.81337860971689,19.135458800998,0 72.81332161277533,19.13539355030894,0 72.81326025724411,19.13538214727326,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	<Style><IconStyle><color>ff0000</color></IconStyle></Style></Placemark>
+</Document>
+
+<Document>
+	<name>Ap59_sai nagar.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>Ap59_sai nagar</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>72.80921213328838,19.1362573279731,0 72.80898716300726,19.13638751189369,0 72.80864182859659,19.13663014150587,0 72.80828308314085,19.136818290071975,0 72.8079330548644,19.1370542673476,0 72.80757866799831,19.13734282433637,0 72.80682396143675,19.138353244943644,0 72.80639749020338,19.139016825019162,0 72.80607126653194,19.139582212143843,0 72.80589926987886,19.140002212754453,0 72.80641928315163,19.14050899939901,0 72.80643403530121,19.141307818688638,0 72.80732084065676,19.141841840847714,0 72.80768293887377,19.141766773780244,0 72.80819121748209,19.14143894884502,0 72.8084309399128,19.1411263267786,0 72.80869413167238,19.14081592130421,0 72.80897710472345,19.140539406548218,0 72.80929829925299,19.140177371064418,0 72.80944213271141,19.139820402666537,0 72.80967514961958,19.13915999325845,0 72.80986659228802,19.138719085362887,0 72.81025752425194,19.137885094722595,0 72.81032659113407,19.13743373076952,0 72.81062632799149,19.13692186671636,0 72.81037420034409,19.136799285176046,0 72.81008318066597,19.136644078444046,0 72.80989810824394,19.136559189802387,0 72.80966442078352,19.136489821812802,0 72.80950583517551,19.13638466115201,0 72.80933115631342,19.136263029460817,0 72.8092684596777,19.136229137280914,0 72.80921213328838,19.1362573279731,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	<Style><IconStyle><color>ff0000</color></IconStyle></Style></Placemark>
+</Document>
+</Document>
+</kml>

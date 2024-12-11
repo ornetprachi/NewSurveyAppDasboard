@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+<Document>
+	<name>SM07_1_station parisar.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>SM07_1_station parisar</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>72.85593286156654,19.25854147183239,0 72.85622891038656,19.256686056103952,0 72.8563978895545,19.255442770223492,0 72.85642571747303,19.25425138458536,0 72.85631742328405,19.253317008072845,0 72.85607434809206,19.252119276466857,0 72.85631842911243,19.25098420879318,0 72.85662487149239,19.250031771437055,0 72.8571281209588,19.248243997722,0 72.857252843678,19.247955951622206,0 72.8573105111718,19.247760016678544,0 72.85739533603191,19.24744759650254,0 72.85738795995712,19.247073134656787,0 72.85771921277046,19.2470433802554,0 72.8583424910903,19.246980706073106,0 72.85895537585021,19.24691676572104,0 72.85921689122915,19.24699431713492,0 72.85923063755037,19.247714119121575,0 72.85918537527323,19.24943289473482,0 72.85908814519644,19.25093546337979,0 72.85896308720112,19.25204742495348,0 72.85881120711565,19.2535854202988,0 72.85875622183084,19.254577718759613,0 72.85855136811733,19.25610619481921,0 72.85836596041918,19.258289526472495,0 72.85804979503155,19.258351879819976,0 72.85756967961788,19.25841803131498,0 72.85698529332876,19.258488613981182,0 72.85644248127937,19.258509503912446,0 72.85603009164333,19.258544003944603,0 72.85593286156654,19.25854147183239,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	<Style><IconStyle><color>ff0000</color></IconStyle></Style></Placemark>
+</Document>
+
+<Document>
+	<name>SM07_2_nala parisar.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>SM07_2_nala parisar</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>72.85342264920473,19.2481025070087,0 72.85322584211826,19.248456075296463,0 72.8534360602498,19.249226199467056,0 72.85368852317333,19.24990515920866,0 72.85372205078602,19.25047111511186,0 72.85377100110055,19.251248193442667,0 72.8538940474391,19.251597323567704,0 72.85392187535764,19.251989184056093,0 72.85400032997131,19.252426623334088,0 72.85403721034527,19.252824495817823,0 72.85410661250353,19.253210022888666,0 72.85419378429651,19.253707914883336,0 72.8541324287653,19.254008928318743,0 72.8540150821209,19.254186497499514,0 72.85392455756664,19.25440584739862,0 72.85392757505178,19.254696097824336,0 72.8539564087987,19.254996476404582,0 72.85394936800003,19.255358259359504,0 72.85410225391388,19.25543074246274,0 72.85435304045677,19.25542979290264,0 72.85465110093354,19.25544593542355,0 72.85465948283672,19.255779230647235,0 72.85448782145977,19.255938756326607,0 72.85437818616629,19.256107144375388,0 72.85454414784907,19.256217609373643,0 72.85480935126543,19.25623786655723,0 72.85477414727211,19.256508173111225,0 72.85472117364407,19.256822475136705,0 72.85435404628515,19.25714342341121,0 72.85405296832323,19.257098478029924,0 72.85373110324144,19.257211157976673,0 72.85360168665648,19.257369099681817,0 72.85350244492292,19.257596041705288,0 72.85330027341843,19.25768941385527,0 72.85323254764079,19.25797554377368,0 72.85383135080338,19.25821989326455,0 72.85472385585308,19.258404737715257,0 72.85516273230313,19.258477852500413,0 72.85569481551649,19.258512352539224,0 72.85600326955318,19.258527545214562,0 72.85612028092146,19.25778785019991,0 72.85619538277389,19.256824374240754,0 72.85646460950375,19.254881579288696,0 72.85620108246803,19.25261717177208,0 72.85607971251011,19.25178249200883,0 72.85655781626701,19.250414139773742,0 72.85708051174879,19.248496591577997,0 72.85720154643059,19.247970828740836,0 72.85655479878187,19.247812244917416,0 72.85560932010414,19.24749254452803,0 72.85506684333086,19.24735390198731,0 72.85449955612421,19.247069969295197,0 72.85420216619968,19.247511220112454,0 72.85366605967283,19.24793189500198,0 72.85342264920473,19.2481025070087,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	<Style><IconStyle><color>ff0000</color></IconStyle></Style></Placemark>
+</Document>
+
+<Document>
+	<name>SM07_3_metro station.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>SM07_3_metro station</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>72.85359967499971,19.249822544676956,0 72.85370226949453,19.25046066963468,0 72.85381391644479,19.25127161652054,0 72.8539329394698,19.252067366125537,0 72.85403586924076,19.25295901891344,0 72.85414852201939,19.25356611235854,0 72.85413444042206,19.253967463829955,0 72.85394735634327,19.254270059400433,0 72.85396009683609,19.254608421359478,0 72.85397551953793,19.255402888697596,0 72.85451464354992,19.255446884983556,0 72.8546742349863,19.255680160057945,0 72.85477347671986,19.255927994678515,0 72.85482410341501,19.25624356388966,0 72.85479359328747,19.256532544991746,0 72.85475537180899,19.256825640310122,0 72.85448681563139,19.256877232628366,0 72.85418774932623,19.25699719261847,0 72.85405296832323,19.25722255257371,0 72.85374484956264,19.257351374768582,0 72.85340186208487,19.257590660935698,0 72.85303205251694,19.258035365120517,0 72.85223945975304,19.25761756478186,0 72.85154711455107,19.25716589609725,0 72.85062678158283,19.256516086059843,0 72.84977115690707,19.255801387000872,0 72.84872710704803,19.254904052284644,0 72.84910764545202,19.2544631378723,0 72.84962631762028,19.253822179775074,0 72.85013929009438,19.25321761947209,0 72.85072233527899,19.252616855246625,0 72.8513452783227,19.251977156042113,0 72.85167016088963,19.251640371292325,0 72.85124201327562,19.251283011530194,0 72.85101570188999,19.251034853363194,0 72.85084839910269,19.250713576607268,0 72.85065662115812,19.250265370742035,0 72.8503542020917,19.249578182676835,0 72.85084672272205,19.249437009645618,0 72.8512467071414,19.249193596667507,0 72.85177677869798,19.249006842642356,0 72.85221129655838,19.249011274096265,0 72.85242687910797,19.24923379623495,0 72.85271689295769,19.249436060050826,0 72.85297472029924,19.249687069416137,0 72.85305183380842,19.249931747784718,0 72.85333514213562,19.249926050233068,0 72.85349003970623,19.249863377151843,0 72.85359967499971,19.249822544676956,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	<Style><IconStyle><color>ff0000</color></IconStyle></Style></Placemark>
+</Document>
+
+<Document>
+	<name>ST170_azad galli parisar.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>ST170_azad galli parisar</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>72.8726027905941,19.05260675287183,0 72.87258233875036,19.052031561222602,0 72.8723919019103,19.051397738914073,0 72.87220951169729,19.050681516791506,0 72.87117417901754,19.0510538892986,0 72.87054017186165,19.05152418665797,0 72.87100721150637,19.052651120188923,0 72.87191513925791,19.05270499477231,0 72.8726027905941,19.05260675287183,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	<Style><IconStyle><color>ff0000</color></IconStyle></Style></Placemark>
+</Document>
+</Document>
+</kml>

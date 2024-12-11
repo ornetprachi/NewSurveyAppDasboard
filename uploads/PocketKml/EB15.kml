@@ -1,0 +1,700 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+<Document>
+	<name>EB15_1_Road No 32 Parisar.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>EB15_1_Road No 32 Parisar</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>72.95367859303951,19.20230217306167,0 72.95333728194237,19.20231737093718,0 72.9530730843544,19.202340484370165,0 72.95270126312971,19.202352199396596,0 72.9525051265955,19.202382911759248,0 72.95250277966261,19.20059841899148,0 72.95375805348158,19.200528128071056,0 72.95367322862148,19.201406445793847,0 72.95367624610662,19.20218882219587,0 72.95367859303951,19.20230217306167,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	<Style><IconStyle><color>ff0000</color></IconStyle></Style></Placemark>
+</Document>
+
+<Document>
+	<name>EB15_10_Indira Nagar chowk.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>EB15_10_Indira Nagar chowk</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>72.95001804828644,19.204932651104706,0 72.94973004609348,19.20500578969815,0 72.9494195804,19.205107423793496,0 72.94885866343976,19.20529106156352,0 72.94824711978436,19.20549464595514,0 72.94779784977436,19.205653270633054,0 72.94759534299374,19.205500661664285,0 72.94746525585651,19.20535280180222,0 72.94737942516804,19.2051682142504,0 72.94726945459843,19.204862362036195,0 72.9471242800355,19.20449540195208,0 72.94696737080811,19.2041651688383,0 72.94667635113001,19.204172134452527,0 72.94655565172434,19.204207279138007,0 72.9465375468135,19.204397883517654,0 72.94656705111265,19.2046375634623,0 72.94627770781517,19.20467397451977,0 72.94624987989664,19.20475027940536,0 72.94630452990532,19.204775292202484,0 72.94634643942118,19.20497792738066,0 72.94637158513069,19.20505929799915,0 72.94643696397543,19.205257816810004,0 72.94658213853836,19.205505410908174,0 72.94672764837742,19.205758387101795,0 72.94678967446089,19.205870785661247,0 72.94679637998343,19.206049989966157,0 72.94681247323751,19.20608070163839,0 72.94709980487823,19.20601611213549,0 72.94806573539972,19.205781183435562,0 72.9490876570344,19.205530740206683,0 72.9495557025075,19.205425940208848,0 72.94959560036659,19.205635223521732,0 72.94978268444538,19.206918779800194,0 72.95045357197523,19.206793084178855,0 72.95040160417557,19.206553723989455,0 72.95034494251014,19.206271620461884,0 72.95024670660496,19.205896431518966,0 72.95014210045338,19.205541188541172,0 72.95007303357124,19.20519860947044,0 72.9500314593315,19.204966845775818,0 72.95001804828644,19.204932651104706,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	<Style><IconStyle><color>ff0000</color></IconStyle></Style></Placemark>
+</Document>
+
+<Document>
+	<name>EB15_11_Indira Nagar chowk rite side.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>EB15_11_Indira Nagar chowk rite side</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>72.95107953250408,19.204927268609513,0 72.95116033405066,19.205274597495954,0 72.95122269541025,19.205537705763074,0 72.95129310339689,19.205789415444194,0 72.95134138315916,19.20601832844239,0 72.95138362795115,19.20622602792717,0 72.95133300125597,19.206237742676876,0 72.95135714113714,19.206398582939908,0 72.95134037733078,19.20644005943891,0 72.95129176229239,19.206463172292604,0 72.95100074261427,19.20652776161993,0 72.9507053643465,19.206575886984584,0 72.95044854283333,19.206620846194113,0 72.9503845050931,19.206329877571207,0 72.95030537992716,19.20596861983777,0 72.9501286894083,19.205298027130063,0 72.95006297528744,19.205045683462682,0 72.95074358582497,19.204933600956764,0 72.95102018862963,19.204928218461625,0 72.95107953250408,19.204927268609513,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	<Style><IconStyle><color>ff0000</color></IconStyle></Style></Placemark>
+</Document>
+
+<Document>
+	<name>EB15_12_Savarkar Nagar road.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>EB15_12_Savarkar Nagar road</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>72.95109126716852,19.204922835966304,0 72.95111943036318,19.20506341402159,0 72.95115698128937,19.205258766660204,0 72.95121029019356,19.20544493719227,0 72.95128405094147,19.20566308572786,0 72.95132260769606,19.205860653963256,0 72.95135580003262,19.20605315611819,0 72.95138128101826,19.206221595318954,0 72.95178294181824,19.206194049822347,0 72.95214470475912,19.206174103080556,0 72.95259531587362,19.206144657885876,0 72.9528709128499,19.206042391201013,0 72.95314148068428,19.205977168452364,0 72.953677251935,19.205864769965643,0 72.95398972928524,19.20577865050974,0 72.95414865016937,19.205736223996514,0 72.95404069125652,19.20531037517914,0 72.95395888388157,19.205016238065983,0 72.95379996299742,19.204403582648542,0 72.95372117310762,19.204248756189592,0 72.9531267285347,19.20440769868738,0 72.95254368335009,19.204579305753594,0 72.95172594487667,19.204783524261458,0 72.95113820582628,19.204912704209928,0 72.95109126716852,19.204922835966304,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	<Style><IconStyle><color>ff0000</color></IconStyle></Style></Placemark>
+</Document>
+
+<Document>
+	<name>EB15_2_Sathe Nagar.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>EB15_2_Sathe Nagar</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>72.9524776339531,19.20236043157684,0 72.95016758143902,19.202457317974858,0 72.95024067163467,19.200760214644674,0 72.95094206929207,19.200694356550635,0 72.9515378549695,19.200653828479663,0 72.95242734253407,19.20059746911438,0 72.95248601585627,19.20219705438428,0 72.9524776339531,19.20236043157684,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	<Style><IconStyle><color>ff0000</color></IconStyle></Style></Placemark>
+</Document>
+
+<Document>
+	<name>EB15_3_Insira Nagar 1.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>EB15_3_Insira Nagar 1</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>72.95018333941698,19.200777629040125,0 72.95014042407274,19.202217318230936,0 72.94950474053621,19.202373413090996,0 72.9491724818945,19.200976469643038,0 72.95008946210146,19.200792193805817,0 72.95018333941698,19.200777629040125,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	<Style><IconStyle><color>ff0000</color></IconStyle></Style></Placemark>
+</Document>
+
+<Document>
+	<name>EB15_4_Ambhewadi.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>EB15_4_Ambhewadi</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>72.9495744779706,19.202460167573932,0 72.95008342713118,19.204926635374793,0 72.95104868710041,19.20488515849413,0 72.9509336873889,19.203537945729682,0 72.95095950365067,19.203092460726502,0 72.95094341039658,19.202475998679024,0 72.95015886425972,19.20251557643509,0 72.95013103634119,19.202248663863806,0 72.94964991509914,19.202379745536554,0 72.9495744779706,19.202460167573932,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	<Style><IconStyle><color>ff0000</color></IconStyle></Style></Placemark>
+</Document>
+
+<Document>
+	<name>EB15_5_Anand Dhighe Udhyan Parisar.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>EB15_5_Anand Dhighe Udhyan Parisar</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>72.95102152973413,19.202509877238796,0 72.95117676258087,19.204890224373248,0 72.95369300991297,19.20422121036261,0 72.95374665409327,19.20409202987108,0 72.95411713421345,19.204029339301858,0 72.9536185786128,19.20233066907711,0 72.95248802751303,19.202390510693444,0 72.95120727270842,19.20248011476609,0 72.95102152973413,19.202509877238796,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	<Style><IconStyle><color>ff0000</color></IconStyle></Style></Placemark>
+</Document>
+
+<Document>
+	<name>EB15_6_Rupdevipada.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>EB15_6_Rupdevipada</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>72.95000161975622,19.204923469201052,0 72.94946551322937,19.202459850951826,0 72.9484623670578,19.202685918988486,0 72.94842079281807,19.203196312348936,0 72.94798962771893,19.20326438578539,0 72.9474075883627,19.203176681864363,0 72.94694188982248,19.203158634481305,0 72.94682923704386,19.203828602672008,0 72.94716954231262,19.204554292926677,0 72.94749576598406,19.205351535336018,0 72.94781025499105,19.205645038617604,0 72.94836446642876,19.205442720877635,0 72.94970523566008,19.20500578969815,0 72.95000161975622,19.204923469201052,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	<Style><IconStyle><color>ff0000</color></IconStyle></Style></Placemark>
+</Document>
+
+<Document>
+	<name>EB15_7_sathe Nagar 2.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>EB15_7_sathe Nagar 2</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>72.94695395976305,19.204155986891813,0 72.94667065143584,19.2041661186948,0 72.94654559344053,19.204199680287722,0 72.94652849435806,19.204401999556648,0 72.94655565172434,19.20462363227296,0 72.94628240168095,19.204663526130197,0 72.94618114829063,19.204426062551722,0 72.94590085744858,19.20441276458119,0 72.94567454606295,19.204347224567876,0 72.94561017304659,19.20396981490089,0 72.9455528408289,19.203635148054044,0 72.94559240341187,19.203393883547196,0 72.94557631015778,19.203116840533998,0 72.94553574174643,19.202775839521742,0 72.94541135430336,19.2026799031764,0 72.94528126716614,19.202567185814683,0 72.94518068432808,19.202357581976035,0 72.94511966407299,19.20210966651701,0 72.94509451836348,19.201923175587034,0 72.94525243341923,19.201873149121646,0 72.94563665986061,19.201800009135372,0 72.94618651270866,19.201692357148378,0 72.94671189039946,19.20156760740474,0 72.94728755950928,19.201451406416314,0 72.94795140624046,19.20125636588066,0 72.94861290603876,19.201072090356956,0 72.94914096593857,19.200977419517947,0 72.94944640249014,19.202446236200196,0 72.94908430427313,19.202532040778795,0 72.94868431985378,19.202625127614198,0 72.94845432043076,19.202666921686426,0 72.94840805232525,19.203184597382617,0 72.94799532741308,19.20324950461796,0 72.94739685952663,19.203164650275873,0 72.94693350791931,19.20314850261627,0 72.94683326035738,19.203711453421523,0 72.94681917876005,19.20383683477836,0 72.94695094227791,19.20413160723832,0 72.94695395976305,19.204155986891813,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	<Style><IconStyle><color>ff0000</color></IconStyle></Style></Placemark>
+</Document>
+
+<Document>
+	<name>EB15_8_road no 28.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>EB15_8_road no 28</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>72.94536039233208,19.202659322764987,0 72.94531043618917,19.202729296153258,0 72.94528126716614,19.202819533284245,0 72.94524975121021,19.2029211687304,0 72.94520616531372,19.203015521829794,0 72.94516660273075,19.20309436045189,0 72.9451582208276,19.203176681864363,0 72.94516190886499,19.20321435972786,0 72.94519677758217,19.203269451714426,0 72.94524036347866,19.20332359382116,0 72.94529970735312,19.203395783269112,0 72.94530674815178,19.203486969894914,0 72.94528126716614,19.20358258914962,0 72.94516928493975,19.203655095103727,0 72.94507808983326,19.203771927774763,0 72.94501069933176,19.203839367734084,0 72.94491481035948,19.20393118735257,0 72.94480718672276,19.20399451119752,0 72.94473376125097,19.2040651172559,0 72.94461775571108,19.2041480714203,0 72.94431902468204,19.2042547719443,0 72.94405315071344,19.20371968553374,0 72.94367227703333,19.203499318079942,0 72.94333331286907,19.203112407842,0 72.94287364929914,19.203080429131855,0 72.94256620109081,19.202827448819683,0 72.94247735291721,19.202278109755905,0 72.94319786131382,19.202205603194884,0 72.94430896639824,19.202040642733948,0 72.94499829411507,19.20195293816049,0 72.94507540762426,19.201958953999153,0 72.94510424137117,19.202096684982035,0 72.94513039290905,19.202216684985768,0 72.94516995549202,19.202352832641253,0 72.94523265212774,19.202499112089715,0 72.94526483863592,19.202571301899475,0 72.94533390551804,19.20263842572924,0 72.94536039233208,19.202659322764987,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	<Style><IconStyle><color>ff0000</color></IconStyle></Style></Placemark>
+</Document>
+
+<Document>
+	<name>EB15_9_mountain Parisar.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>EB15_9_mountain Parisar</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>72.94626731425524,19.20466004333351,0 72.94623713940383,19.20475819484789,0 72.946295812726,19.20477750852609,0 72.94632129371166,19.204905422009652,0 72.94635515660049,19.205047583165513,0 72.94643159955739,19.205260349743842,0 72.9466488584876,19.20563205736164,0 72.9467772692442,19.205865403196768,0 72.9467849805951,19.206089566862303,0 72.9466699808836,19.206135792664934,0 72.9464004188776,19.20624724112198,0 72.94596992433071,19.20642201241391,0 72.94565141201019,19.20644734157124,0 72.94530104845762,19.206471087652705,0 72.94468145817518,19.206473937182242,0 72.9445268958807,19.205713111040666,0 72.94435355812313,19.204270286258055,0 72.94462446123362,19.20415282070325,0 72.94478673487902,19.204010658774084,0 72.94485446065664,19.20397076475852,0 72.9449500143528,19.20390269161439,0 72.94505260884762,19.203802639872336,0 72.94518403708935,19.203661744119763,0 72.94528931379318,19.203587655068862,0 72.94531781226397,19.203485070174057,0 72.94530775398017,19.203387551140686,0 72.94517666101454,19.20321151014185,0 72.94518236070871,19.203093410589194,0 72.94526819139719,19.202879374722748,0 72.94531546533108,19.20272897953166,0 72.94537547975779,19.2026624889823,0 72.94552836567163,19.2027790057368,0 72.9455615580082,19.203019004661286,0 72.94556759297848,19.203233356966678,0 72.94557798653841,19.203402748915916,0 72.94554814696312,19.203622166639448,0 72.94554278254509,19.203660794260337,0 72.94558636844158,19.20391250681365,0 72.94564001262188,19.204207279138007,0 72.94565945863722,19.204343425146003,0 72.94568259268999,19.20437667008434,0 72.94581469148397,19.20441149810775,0 72.9460071399808,19.20443239491826,0 72.94617310166359,19.20444189346762,0 72.94624853879213,19.20461065093639,0 72.94626731425524,19.20466004333351,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	<Style><IconStyle><color>ff0000</color></IconStyle></Style></Placemark>
+</Document>
+</Document>
+</kml>

@@ -1,0 +1,642 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+<Document>
+	<name>VD79_ 8_Malap Dongri  Area.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>VD79_ 8_Malap Dongri  Area</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>72.85689074546099,19.123963195672168,0 72.85736314952374,19.123944822842972,0 72.8576635569334,19.12384852384273,0 72.85796631127596,19.123425631187146,0 72.85831164568663,19.12348993628245,0 72.85856746137142,19.12363596894288,0 72.8586757555604,19.12323873446268,0 72.8587605804205,19.122585544588986,0 72.85868849605322,19.122021999941413,0 72.85855036228895,19.121639966895085,0 72.85814668983221,19.121556654430208,0 72.85771988332272,19.121519591457037,0 72.85735510289669,19.121552536322493,0 72.85662353038788,19.121703955908036,0 72.85658832639456,19.12217088488614,0 72.85668823868036,19.12292892891819,0 72.8568397834897,19.123742088040316,0 72.85687230527401,19.12391694682236,0 72.85689074546099,19.123963195672168,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	<Style><IconStyle><color>ff0000</color></IconStyle></Style></Placemark>
+</Document>
+
+<Document>
+	<name>VD79_ Hanjer nagar road.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>VD79_ Hanjer nagar road</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>72.85629361867905,19.121849990146774,0 72.8565152361989,19.122530425635745,0 72.85666175186634,19.123431649891707,0 72.85671673715115,19.124332869232465,0 72.85655848681927,19.125218561904376,0 72.85681899636984,19.125782729188973,0 72.85733297467232,19.125983877642653,0 72.85789489746094,19.126274671352224,0 72.85872973501682,19.126517949356565,0 72.85909451544285,19.126367167719,0 72.85890810191631,19.125860654445763,0 72.85883568227291,19.12521729482239,0 72.85879611968994,19.124632218681686,0 72.85864692181349,19.123751591239753,0 72.85869587212801,19.123257740918888,0 72.85878974944353,19.122506033909172,0 72.85870492458344,19.121759708691197,0 72.85853561013937,19.12156394031284,0 72.85816110670567,19.121523076010433,0 72.85782314836979,19.12149614991418,0 72.85738963633776,19.12146320503749,0 72.85712409764528,19.121574077192502,0 72.85653099417686,19.121698253917792,0 72.85634826868773,19.12176414357087,0 72.85628389567137,19.12180849236104,0 72.85629361867905,19.121849990146774,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	<Style><IconStyle><color>ff0000</color></IconStyle></Style></Placemark>
+</Document>
+
+<Document>
+	<name>VD79_1_ Railwaymens Apnaghar D group Area.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>VD79_1_ Railwaymens Apnaghar D group Area</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>72.85766422748566,19.130035937324124,0 72.85759583115578,19.12975370280405,0 72.85757068544626,19.1293523651196,0 72.85769071429968,19.128779657406227,0 72.85762835294008,19.1283786341197,0 72.85742182284594,19.12782112777534,0 72.8571817651391,19.127524951764638,0 72.85713415592909,19.126864493186858,0 72.85682570189238,19.126564514246237,0 72.85638950765133,19.126768195888303,0 72.85611223429441,19.126914542418543,0 72.85578936338425,19.127012740234125,0 72.85551209002733,19.127172390751657,0 72.8554343059659,19.127534771512543,0 72.85544000566006,19.12827631917587,0 72.85544168204069,19.128988404529508,0 72.85540077835321,19.12971410757466,0 72.85539105534554,19.13078697655431,0 72.8552958369255,19.131792052391145,0 72.85576354712248,19.131845584465545,0 72.85604182630777,19.1317242661892,0 72.8560646250844,19.13149303267415,0 72.85619270056486,19.131163286786556,0 72.85643309354782,19.130944406107634,0 72.85667113959789,19.13082625476677,0 72.85713080316782,19.1308490614665,0 72.85742651671171,19.130752449730817,0 72.85771150141954,19.13069543294225,0 72.85774033516645,19.130536419350157,0 72.85771518945694,19.130294097545907,0 72.85769406706095,19.130198119007503,0 72.8576722741127,19.13009010349,0 72.85766422748566,19.130035937324124,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	<Style><IconStyle><color>ff0000</color></IconStyle></Style></Placemark>
+</Document>
+
+<Document>
+	<name>VD79_10_Holy sprit hospital Area.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>VD79_10_Holy sprit hospital Area</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>72.86366131156683,19.12564746859501,0 72.86391612142324,19.12557587863396,0 72.86454007029533,19.125378847696012,0 72.86539234220982,19.125227114707457,0 72.86635559052229,19.12542604644691,0 72.86686051636934,19.126293994227645,0 72.86724708974361,19.127260451883792,0 72.86801319569349,19.128021640216975,0 72.86852851510048,19.128540183901972,0 72.86790255457163,19.128943424139802,0 72.86794379353523,19.12923262882599,0 72.86771681159735,19.129354265694985,0 72.86732453852892,19.129559210946134,0 72.8669148311019,19.1297986829731,0 72.86649070680141,19.13003815465291,0 72.8660649061203,19.13012241312434,0 72.86581847816706,19.12979171421533,0 72.86554288119078,19.129310235692856,0 72.86500174552202,19.12850122191012,0 72.86437712609768,19.12754807568619,0 72.86401938647032,19.126784351031116,0 72.86360565572977,19.126085877237397,0 72.86357011646032,19.12582549305395,0 72.86360330879688,19.12569276665168,0 72.86363180726767,19.12565823876345,0 72.86366131156683,19.12564746859501,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	<Style><IconStyle><color>ff0000</color></IconStyle></Style></Placemark>
+</Document>
+
+<Document>
+	<name>VD79_10_tolani college Area.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>VD79_10_tolani college Area</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>72.8628958761692,19.129840178752016,0 72.86332670599222,19.129914617718587,0 72.86369148641825,19.129936474259843,0 72.86403816193342,19.129982087901855,0 72.86436606198549,19.13000299415024,0 72.86466915160418,19.13000489471813,0 72.86568906158209,19.12979298126221,0 72.86554221063852,19.129492057352444,0 72.86535982042551,19.129079949087608,0 72.86467082798481,19.12828835623138,0 72.86412734538317,19.127128676934806,0 72.8638618066907,19.126620898925005,0 72.86379307508469,19.12661076235496,0 72.86363616585732,19.126680768029157,0 72.86347758024931,19.126769779725908,0 72.86330725997686,19.126834400287088,0 72.86309737712145,19.126953188017453,0 72.86282546818256,19.127086863707877,0 72.862319201231,19.127290544705957,0 72.86186892539263,19.127492324856117,0 72.86204595118761,19.127843301359047,0 72.86253243684769,19.12870616821962,0 72.86285698413849,19.12943535689122,0 72.86290023475885,19.129762572134123,0 72.86289185285568,19.12981863895968,0 72.8628958761692,19.129840178752016,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	<Style><IconStyle><color>ff0000</color></IconStyle></Style></Placemark>
+</Document>
+
+<Document>
+	<name>VD79_2_ Jijjamata chowk.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>VD79_2_ Jijjamata chowk</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>72.86068003624678,19.13005525975961,0 72.86057978868484,19.129800900305074,0 72.86047719419003,19.129382140798175,0 72.86038063466549,19.12899822419042,0 72.86024518311024,19.128653268655572,0 72.86012649536133,19.12831369739799,0 72.8595357388258,19.12797887692045,0 72.85931780934334,19.127419468629395,0 72.85907540470362,19.126522700876528,0 72.8587344288826,19.126520800268548,0 72.85833176225424,19.12656324717457,0 72.85792741924524,19.126400745154402,0 72.85738628357649,19.126069405257418,0 72.85677440464497,19.125758654711966,0 72.85640828311443,19.12555465505546,0 72.85604987293482,19.12592115736369,0 72.85573907196522,19.12644224178683,0 72.85597376525402,19.12681982898627,0 72.85647734999657,19.12668583631211,0 72.85681799054146,19.126546458474248,0 72.85700708627701,19.126606644373197,0 72.85723105072975,19.126975361717655,0 72.85736281424761,19.12746001470737,0 72.85767126828432,19.128143594742546,0 72.85768367350101,19.128881338511366,0 72.85768400877714,19.12991335067262,0 72.8578194603324,19.13004797425142,0 72.85817485302687,19.130065396118297,0 72.85844542086124,19.130026117724906,0 72.85867039114237,19.12996086488943,0 72.85898052155972,19.1300162981251,0 72.85942409187555,19.130059377655396,0 72.85965979099274,19.129979553810966,0 72.85995315760374,19.13009010349,0 72.8602197021246,19.130208572118356,0 72.86042287945747,19.13020667155279,0 72.8605579957366,19.130174678695923,0 72.86061968654394,19.13013635061171,0 72.86066092550755,19.13011227676915,0 72.86068003624678,19.13005525975961,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	<Style><IconStyle><color>ff0000</color></IconStyle></Style></Placemark>
+</Document>
+
+<Document>
+	<name>VD79_3 hanjar nagar.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>VD79_3 hanjar nagar</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>72.85651791840792,19.125256891129553,0 72.85692360252142,19.125761822406506,0 72.85774704068899,19.126226205769502,0 72.85840217024088,19.126410564969124,0 72.85890374332666,19.126281957026826,0 72.85884138196707,19.12552266129767,0 72.85877902060747,19.124803908808886,0 72.85878673195839,19.124335720182152,0 72.85862881690264,19.123738286760403,0 72.85839915275574,19.1235643781103,0 72.85791903734207,19.12344653826521,0 72.85764243453741,19.12400405937116,0 72.85714153200388,19.123970164675818,0 72.85686995834112,19.124059811378302,0 72.8567123785615,19.12449885777712,0 72.85658966749907,19.12490400850554,0 72.85653367638588,19.125158692270368,0 72.85651791840792,19.125256891129553,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	<Style><IconStyle><color>ff0000</color></IconStyle></Style></Placemark>
+</Document>
+
+<Document>
+	<name>VD79_6_Meghwadi police station area.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>VD79_6_Meghwadi police station area</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>72.86268431693316,19.129882624805145,0 72.86240369081497,19.129848731315843,0 72.86201510578394,19.12985791740241,0 72.86157589405775,19.12992633789324,0 72.86112729460001,19.130049874818802,0 72.86082856357098,19.13013666737278,0 72.86080107092857,19.130513295846914,0 72.86082789301872,19.131173423077243,0 72.86131404340267,19.13130139369375,0 72.86174219101667,19.131268767531132,0 72.8619483858347,19.13128175464518,0 72.86225114017725,19.131257997728465,0 72.86259312182665,19.131219353136647,0 72.86281105130911,19.131216502305744,0 72.86276679486036,19.130941555271985,0 72.86277987062931,19.1307505491715,0 72.86276645958424,19.13057126297905,0 72.86277987062931,19.13035744968591,0 72.8627835586667,19.1301236801687,0 72.8627560660243,19.129972901822182,0 72.86272656172514,19.129923487040024,0 72.86268431693316,19.129882624805145,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	<Style><IconStyle><color>ff0000</color></IconStyle></Style></Placemark>
+</Document>
+
+<Document>
+	<name>VD79_9_Shakuntala memorila hospital.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>VD79_9_Shakuntala memorila hospital</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>72.86286503076553,19.12973057919124,0 72.8628496080637,19.129505361368462,0 72.86270678043365,19.129160090129712,0 72.86242112517357,19.128650417780385,0 72.86223102360964,19.1282078980016,0 72.86194771528244,19.12772799869123,0 72.86180254071951,19.12755219364448,0 72.86151185631752,19.12766369524539,0 72.8611172363162,19.127839183408007,0 72.86076083779335,19.128001367248142,0 72.86019589751959,19.128215500355697,0 72.86037191748619,19.128789793843193,0 72.86049697548151,19.12927095711989,0 72.86068473011255,19.129899413166434,0 72.86128152161837,19.12998778960623,0 72.86174956709146,19.129830992664456,0 72.86211837083101,19.129767640322527,0 72.86263804882765,19.12981705515131,0 72.86280199885368,19.1297961488794,0 72.8628422319889,19.129774925843083,0 72.86286503076553,19.12973057919124,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	<Style><IconStyle><color>ff0000</color></IconStyle></Style></Placemark>
+</Document>
+
+<Document>
+	<name>VD79_Ambika tower Opposite area jijamata Chowk.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>VD79_Ambika tower Opposite area jijamata Chowk</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>72.85917565226555,19.126546141706292,0 72.85936441272497,19.12652871946827,0 72.85967420786619,19.126498626507342,0 72.85997997969389,19.1264755024389,0 72.86111187189817,19.12607669094109,0 72.86172408610582,19.125813455819006,0 72.86261089146137,19.12566108969028,0 72.8634799271822,19.125649052443354,0 72.86353524774313,19.126138144086088,0 72.8638319671154,19.12657338374754,0 72.86320801824331,19.12687811418179,0 72.8627372905612,19.12709700024871,0 72.86225114017725,19.127284209375436,0 72.86164831370115,19.127559479262747,0 72.86117389798164,19.127768861459085,0 72.86067198961973,19.128005168429993,0 72.86025121808052,19.128166085047823,0 72.85972114652395,19.127974125442385,0 72.8595183044672,19.12756581458272,0 72.8593560308218,19.12719519795585,0 72.8593211621046,19.126981063525808,0 72.85923834890127,19.126778965983693,0 72.85919845104218,19.126671581765905,0 72.85918906331062,19.126614246800983,0 72.85917565226555,19.126546141706292,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	<Style><IconStyle><color>ff0000</color></IconStyle></Style></Placemark>
+</Document>
+
+<Document>
+	<name>VD79_baptista wadi  to ambika tower.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>VD79_baptista wadi  to ambika tower</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>72.8592299669981,19.126410564969124,0 72.8594472259283,19.12643368904665,0 72.85958837717772,19.126410564969124,0 72.85978484898806,19.12641753386955,0 72.8600899502635,19.126367167719,0 72.8604282438755,19.126284174405992,0 72.86081179976463,19.12594459827882,0 72.86117222160101,19.125824859515294,0 72.86110751330853,19.125572077396217,0 72.8610049188137,19.124806126207886,0 72.8609599918127,19.124555559932585,0 72.86083158105612,19.124087370602147,0 72.86075212061405,19.1237867530729,0 72.86048892885447,19.123088583381744,0 72.86015164107084,19.122708770228325,0 72.85983815789223,19.122394845603534,0 72.85967085510492,19.12207395129907,0 72.85946130752563,19.121476826477682,0 72.85905662924051,19.121501851911393,0 72.85872872918844,19.121630463574217,0 72.85880450159311,19.12226148289324,0 72.85876628011465,19.122919425671455,0 72.85873509943485,19.123880201151643,0 72.85890407860279,19.125284133383378,0 72.85902913659811,19.12602442407296,0 72.85912368446589,19.12637952168187,0 72.8591763228178,19.126422918928753,0 72.8592299669981,19.126410564969124,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	<Style><IconStyle><color>ff0000</color></IconStyle></Style></Placemark>
+</Document>
+</Document>
+</kml>

@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+<Document>
+	<name>KS82 walmik Nagar.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>KS82 walmik Nagar</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>72.85457465797663,19.0654398215007,0 72.85442177206278,19.065591292427353,0 72.85426318645477,19.06573864371903,0 72.85387460142374,19.06583687784071,0 72.85368282347918,19.06599531984981,0 72.85346690565348,19.066178161740083,0 72.85315275192261,19.0665292683054,0 72.85295158624649,19.066780556211892,0 72.8528282046318,19.067140217306868,0 72.85275142639875,19.06746438694672,0 72.85311453044415,19.067573710875873,0 72.85344813019037,19.06760223014988,0 72.85391852259636,19.067505264598235,0 72.85418473184109,19.067327811154225,0 72.85464037209749,19.06698716338562,0 72.85479795187712,19.066873719601247,0 72.85492904484272,19.0667352420274,0 72.85514932125807,19.066616411065166,0 72.85529851913452,19.066523247531197,0 72.85603512078524,19.066362587844544,0 72.85596270114183,19.066140452597246,0 72.85572197288275,19.065965532763656,0 72.85556305199862,19.065890431256733,0 72.85539507865906,19.06580360499957,0 72.85525560379028,19.065746248943423,0 72.85517614334822,19.06569586432526,0 72.85504471510649,19.06562488219569,0 72.85493139177561,19.065583053426536,0 72.85482175648212,19.065522528446426,0 72.85470373928547,19.065463270983763,0 72.85463768988848,19.065433800686936,0 72.85459980368614,19.065428413642877,0 72.85457465797663,19.0654398215007,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	<Style><IconStyle><color>ff0000</color></IconStyle></Style></Placemark>
+</Document>
+
+<Document>
+	<name>KS9 2_4_Maharashtra Nagar.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>KS9 2_4_Maharashtra Nagar</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>72.85234104841948,19.06508332557277,0 72.85258244723082,19.065208812226828,0 72.85294286906719,19.06538626793912,0 72.85325970500708,19.065566575423674,0 72.85357352346182,19.065697131863015,0 72.85407777875662,19.065051320123064,0 72.85413712263107,19.06480795174899,0 72.85421825945377,19.06459753922094,0 72.8542896732688,19.064306320236287,0 72.85440064966679,19.0641076319086,0 72.85444356501102,19.06395679340194,0 72.8541324287653,19.063789476578556,0 72.85381156951189,19.063674763052838,0 72.85360872745514,19.063583182308204,0 72.85341896116734,19.06352899436974,0 72.85327982157469,19.06350712905622,0 72.8531413525343,19.06350491083585,0 72.85294856876135,19.063813876959138,0 72.85274438560009,19.064211570967778,0 72.85254053771496,19.06454873868683,0 72.85240843892097,19.06482221162451,0 72.85233099013567,19.065005371694383,0 72.85230752080679,19.065065896863306,0 72.85234104841948,19.06508332557277,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	<Style><IconStyle><color>ff0000</color></IconStyle></Style></Placemark>
+</Document>
+
+<Document>
+	<name>KS9 2_gyaneshwar nagar.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>KS9 2_gyaneshwar nagar</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>72.85455588251352,19.063965349371312,0 72.85467389971018,19.06379581434009,0 72.8548163920641,19.06360378005794,0 72.8548613190651,19.06340794288767,0 72.85496693104506,19.063249181516756,0 72.85503163933754,19.06312496093691,0 72.85510540008545,19.06300993006186,0 72.85517144948244,19.062892363988638,0 72.85517983138561,19.062767826251438,0 72.85531662404537,19.062540615940257,0 72.85537295043468,19.062342559278335,0 72.85518251359463,19.06224210484899,0 72.85491529852152,19.06213594631651,0 72.85466518253088,19.06201552760036,0 72.85447172820568,19.061914122297896,0 72.85421591252089,19.06180004125849,0 72.85401105880737,19.061796238555825,0 72.85379614681005,19.06213024227402,0 72.85355541855097,19.06252413763501,0 72.85341661423445,19.062805219271418,0 72.85319734364748,19.063324284220155,0 72.85318862646818,19.063479876632435,0 72.85339649766684,19.063507445944833,0 72.85352725535631,19.063529311258314,0 72.85373210906982,19.063608850272875,0 72.85388734191656,19.063665256403493,0 72.85401843488216,19.063702015444587,0 72.8541649505496,19.063751450004233,0 72.8542983904481,19.063814827623254,0 72.85438623279333,19.06386743102864,0 72.8544656932354,19.063930491715514,0 72.85452101379633,19.063969152024246,0 72.85455588251352,19.063965349371312,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	<Style><IconStyle><color>ff0000</color></IconStyle></Style></Placemark>
+</Document>
+
+<Document>
+	<name>KS92 _ patthar nagar.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>KS92 _ patthar nagar</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>72.85575114190578,19.063365479781403,0 72.85556707531214,19.06368997369064,0 72.85530790686607,19.06419033951891,0 72.85461656749249,19.065376444502867,0 72.85508763045073,19.065609354850796,0 72.85533707588911,19.065742129446914,0 72.85561669617891,19.06587965719809,0 72.85586781799793,19.066036514747367,0 72.85637274384499,19.06633311770761,0 72.8572266921401,19.066164852631836,0 72.85782650113106,19.06611320060632,0 72.85856544971466,19.065991200359484,0 72.85809237509966,19.065331129934574,0 72.85709995776415,19.06431234109098,0 72.85672377794981,19.06385538928671,0 72.85638146102428,19.06367349549961,0 72.85597745329142,19.063379739780988,0 72.85581450909376,19.063295764210203,0 72.85576891154051,19.063332840222174,0 72.85575114190578,19.063365479781403,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	<Style><IconStyle><color>ff0000</color></IconStyle></Style></Placemark>
+</Document>
+
+<Document>
+	<name>KS92_2_bhart nagar.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>KS92_2_bhart nagar</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>72.85758811980486,19.060754294740047,0 72.85724714398384,19.061001154891624,0 72.85675127059221,19.061673918240242,0 72.85645253956318,19.06206939914208,0 72.85606395453215,19.062677829456902,0 72.85581149160862,19.063204817034634,0 72.85609647631645,19.06342093532846,0 72.85643812268972,19.063630081796195,0 72.85671807825565,19.063817362727505,0 72.85695008933544,19.064036649099027,0 72.85891514271498,19.063756203326502,0 72.85975199192762,19.063679516377306,0 72.85957965999842,19.062992818024043,0 72.85947572439909,19.062449985241123,0 72.85937547683716,19.061888454070868,0 72.85922359675169,19.061269246501336,0 72.85877030342817,19.06062880471466,0 72.85833310335875,19.060631339867633,0 72.8580179437995,19.06063450880879,0 72.85777855664492,19.060652571772213,0 72.85766758024693,19.060700422771088,0 72.85758811980486,19.060754294740047,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	<Style><IconStyle><color>ff0000</color></IconStyle></Style></Placemark>
+</Document>
+</Document>
+</kml>

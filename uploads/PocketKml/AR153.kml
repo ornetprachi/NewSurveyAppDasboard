@@ -1,0 +1,700 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+<Document>
+	<name>AR153_ Jolly  Apt Parisar.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>AR153_ Jolly  Apt Parisar</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>72.90610894560814,19.04902848968387,0 72.90650088340044,19.049270613548792,0 72.90664974600077,19.049928529491716,0 72.90680162608624,19.0506400011666,0 72.90710505098104,19.05146207198879,0 72.90704537183046,19.05257886483787,0 72.90618505328894,19.052763939884677,0 72.90569957345724,19.05278010225053,0 72.90565498173237,19.05142340876461,0 72.90538273751736,19.05020297727874,0 72.90527008473873,19.049874020177448,0 72.90561575442553,19.049492137560758,0 72.90582865476608,19.049298502138818,0 72.90610894560814,19.04902848968387,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	<Style><IconStyle><color>ff0000</color></IconStyle></Style></Placemark>
+</Document>
+
+<Document>
+	<name>AR153_1_highway slum Parisar.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>AR153_1_highway slum Parisar</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>72.91025631129742,19.05585884577359,0 72.91016411036253,19.05577423258757,0 72.91009739041328,19.05559359755166,0 72.91003134101629,19.055493455938226,0 72.90997669100761,19.05534229269205,0 72.90993310511112,19.05511475530285,0 72.90987510234118,19.05496549314125,0 72.9098516330123,19.054814329413954,0 72.90979329496622,19.054598833715488,0 72.9097393155098,19.05438523917342,0 72.90967192500828,19.054178616298312,0 72.90959648787974,19.05389118190138,0 72.90953949093819,19.05363638848044,0 72.90947746485472,19.05337684104853,0 72.90941879153252,19.053135673901092,0 72.90956430137157,19.053106835230558,0 72.90981575846672,19.05312204683763,0 72.90997870266438,19.053165463291766,0 72.91006252169609,19.053038699890152,0 72.91030962020159,19.053067538572538,0 72.91041791439056,19.05328145171938,0 72.91065864264965,19.053349586960078,0 72.9107166454196,19.053615472585214,0 72.91080247610807,19.053989423041248,0 72.91089300066233,19.0543646402787,0 72.9109825193882,19.054791829140886,0 72.91098855435848,19.054972781954813,0 72.91073743253946,19.05522440427867,0 72.91046150028706,19.05551849134725,0 72.91028548032045,19.055819866670788,0 72.91025631129742,19.05585884577359,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	<Style><IconStyle><color>ff0000</color></IconStyle></Style></Placemark>
+</Document>
+
+<Document>
+	<name>AR153_2_ghatla parisar 1.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>AR153_2_ghatla parisar 1</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>72.90812697261573,19.05545384294155,0 72.90840022265911,19.05509891006915,0 72.90856182575226,19.055160072662922,0 72.90865939110518,19.055182572886043,0 72.90878377854824,19.055176551699876,0 72.9089490696788,19.05513218505819,0 72.90892727673054,19.05500130339609,0 72.90887631475925,19.054831442295647,0 72.90883574634789,19.05464636955539,0 72.90876533836126,19.054491402667136,0 72.90866978466511,19.054329146792576,0 72.90860943496227,19.05419604615201,0 72.90855042636395,19.053986570879946,0 72.90845654904842,19.053864878618587,0 72.90833048522474,19.0536988192429,0 72.90836803615093,19.05319144977713,0 72.90831036865711,19.0525557304425,0 72.90893699973822,19.052395691043724,0 72.90946237742901,19.052238503681995,0 72.90989253669977,19.05216783270268,0 72.91049100458622,19.05203219504369,0 72.91053593158722,19.052402346150522,0 72.9105781763792,19.053029192631136,0 72.91063416749239,19.053307755094696,0 72.91042864322662,19.053270043025183,0 72.91031330823898,19.053052960777677,0 72.9100477695465,19.053024755910062,0 72.90997702628374,19.053147082604536,0 72.90976915508509,19.053098595609484,0 72.9095646366477,19.05308686999417,0 72.909393645823,19.053135673901092,0 72.90947679430246,19.053425327962252,0 72.90954250842334,19.053684875318304,0 72.90960017591715,19.05394600680274,0 72.90966890752316,19.054204285718573,0 72.90973160415888,19.0543985492271,0 72.90979228913784,19.05463369333275,0 72.90984023362398,19.05483714658916,0 72.90986370295286,19.054952183133057,0 72.90988348424435,19.055020951497234,0 72.90992069989443,19.055123945537716,0 72.90996931493282,19.055343243404728,0 72.91002631187438,19.055493139034297,0 72.91008699685337,19.055597400396547,0 72.91015271097422,19.055770746650136,0 72.91025061160327,19.05587405712829,0 72.90999379009007,19.05643275654395,0 72.90936145931482,19.05617067826623,0 72.90891118347645,19.055890852997493,0 72.90824867784978,19.055560956462788,0 72.90815882384777,19.05549884330505,0 72.9081591591239,19.0554639838696,0 72.90812697261573,19.05545384294155,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	<Style><IconStyle><color>ff0000</color></IconStyle></Style></Placemark>
+</Document>
+
+<Document>
+	<name>AR153_Amar Nagar Parisar.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>AR153_Amar Nagar Parisar</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>72.91010443121195,19.049251281682505,0 72.90971148759127,19.049171101950737,0 72.90933229029179,19.049069688795775,0 72.90925584733486,19.048861474717746,0 72.90927495807409,19.048604772070146,0 72.90929608047009,19.048297045286525,0 72.90931653231382,19.048051116983284,0 72.90928769856691,19.0478410001159,0 72.9093762114644,19.04756147771706,0 72.90939029306173,19.047364353928202,0 72.90936313569546,19.047058526364708,0 72.90909994393587,19.046983416296584,0 72.90890917181969,19.04689626322136,0 72.9089256003499,19.046610717734225,0 72.90901478379965,19.046220587645198,0 72.90928602218628,19.04634703933422,0 72.90944661945105,19.046882001804683,0 72.90961224585772,19.04760014184111,0 72.90982346981764,19.048436805925302,0 72.91002698242664,19.049122930709853,0 72.91010443121195,19.049251281682505,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	<Style><IconStyle><color>ff0000</color></IconStyle></Style></Placemark>
+</Document>
+
+<Document>
+	<name>AR153_Ganga Estate Parisar.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>AR153_Ganga Estate Parisar</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>72.90563352406025,19.052720206416208,0 72.9056053608656,19.052415022543663,0 72.90561106055975,19.05209938006621,0 72.90559966117144,19.051794195051656,0 72.9055155068636,19.051422458029478,0 72.90550444275141,19.050992725190973,0 72.9054031893611,19.05062637389814,0 72.90520302951336,19.049997933767113,0 72.90465585887432,19.05043527510863,0 72.90404934436083,19.050971492049896,0 72.90325976908207,19.051337842580693,0 72.90222678333521,19.051714016548686,0 72.90133394300938,19.052100330797465,0 72.90066506713629,19.052293012219454,0 72.90093999356031,19.05259249194595,0 72.90153041481972,19.0526349578105,0 72.90203500539064,19.05267045165909,0 72.90248729288578,19.05274017169673,0 72.90274545550346,19.05282415261223,0 72.90372278541327,19.05287549186795,0 72.90514972060919,19.052761721520596,0 72.90563352406025,19.052720206416208,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	<Style><IconStyle><color>ff0000</color></IconStyle></Style></Placemark>
+</Document>
+
+<Document>
+	<name>AR153_Ghatla Gaodevi Parisar.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>AR153_Ghatla Gaodevi Parisar</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>72.90631111711264,19.05281939897664,0 72.90694780647755,19.052763939884677,0 72.90811322629452,19.05290908421185,0 72.90866944938898,19.054618481864303,0 72.9080743342638,19.055299193711935,0 72.90799353271723,19.05588990228796,0 72.9074440151453,19.055988459147112,0 72.90694914758205,19.05592381092456,0 72.90635637938976,19.055776134007953,0 72.9058987274766,19.055755852189392,0 72.90516883134842,19.055786274916308,0 72.90493179112673,19.055353701243742,0 72.90498577058315,19.054839364925467,0 72.90530696511269,19.05439538016679,0 72.90561374276876,19.053830018839765,0 72.90591549128294,19.053392369538777,0 72.90631111711264,19.05281939897664,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	<Style><IconStyle><color>ff0000</color></IconStyle></Style></Placemark>
+</Document>
+
+<Document>
+	<name>AR153_Kelkar wadi parisar.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>AR153_Kelkar wadi parisar</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>72.90794055908918,19.0527553833374,0 72.9079244658351,19.052257201380005,0 72.90793519467115,19.051766306881106,0 72.90789026767015,19.051365730823264,0 72.9078795388341,19.05087229838465,0 72.90814004838467,19.05059880244458,0 72.9080605879426,19.050070507156462,0 72.90782757103443,19.049860392846075,0 72.9080481827259,19.04942716989118,0 72.90804047137499,19.049129269031827,0 72.908088080585,19.04876101212394,0 72.9080481827259,19.048555649913293,0 72.90824800729752,19.04801023453673,0 72.9083677008748,19.04759158502754,0 72.90829092264175,19.046965351844747,0 72.90881261229515,19.046935878261223,0 72.90936347097158,19.04729906850601,0 72.90924578905106,19.048352505871556,0 72.90935307741165,19.049121663045433,0 72.91002329438925,19.04935966687098,0 72.91033409535885,19.050350976070167,0 72.91042629629374,19.051720988593967,0 72.90938526391983,19.05219445316479,0 72.9086322337389,19.052407733617724,0 72.90820308029652,19.052723692417736,0 72.90794055908918,19.0527553833374,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	<Style><IconStyle><color>ff0000</color></IconStyle></Style></Placemark>
+</Document>
+
+<Document>
+	<name>AR153_MG Associates Parisar.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>AR153_MG Associates Parisar</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>72.91162725538015,19.056349411259905,0 72.91164468973875,19.056215995337812,0 72.91125040501356,19.055611661064102,0 72.91101336479187,19.055094790308132,0 72.91055638343096,19.05550359686386,0 72.91027307510376,19.056007790228374,0 72.91016679257154,19.056314235100842,0 72.91074682027102,19.056283812470767,0 72.91143145412207,19.056349411259905,0 72.91162725538015,19.056349411259905,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	<Style><IconStyle><color>ff0000</color></IconStyle></Style></Placemark>
+</Document>
+
+<Document>
+	<name>AR153_NG Acharya Parisar.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>AR153_NG Acharya Parisar</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>72.90504276752472,19.056023318472334,0 72.90582899004221,19.05588831777205,0 72.906534075737,19.05605500876165,0 72.90743596851826,19.05615293171735,0 72.9080605879426,19.056013177578482,0 72.90831740945578,19.055707049053332,0 72.90901310741901,19.056132649944857,0 72.90976781398058,19.05644638333545,0 72.90924243628979,19.05713374259878,0 72.90871873497963,19.057785606267046,0 72.90799286216497,19.05827236327122,0 72.9074215516448,19.05882249837393,0 72.90705475956202,19.058426059033724,0 72.90672317147255,19.05792250681887,0 72.9064666852355,19.057511171024267,0 72.90595572441816,19.056860573882684,0 72.90542095899582,19.056632721674447,0 72.90504276752472,19.056023318472334,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	<Style><IconStyle><color>ff0000</color></IconStyle></Style></Placemark>
+</Document>
+
+<Document>
+	<name>AR153_Omkar Medical.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>AR153_Omkar Medical</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>72.90820676833391,19.0554639838696,0 72.9084337502718,19.055607858219545,0 72.90858831256628,19.055661731842697,0 72.90875695645809,19.05573113371968,0 72.90890917181969,19.055678527733402,0 72.90899131447077,19.055528949175223,0 72.9089966788888,19.05537493382396,0 72.90895778685808,19.055189861690067,0 72.90874421596527,19.05519081240361,0 72.90851388126612,19.055159438853778,0 72.90841799229383,19.05513598791365,0 72.90833182632923,19.05524278473574,0 72.90822923183441,19.05540345519609,0 72.90820676833391,19.0554639838696,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	<Style><IconStyle><color>ff0000</color></IconStyle></Style></Placemark>
+</Document>
+
+<Document>
+	<name>AR153_Sarawati Parisar.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>AR153_Sarawati Parisar</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>72.90749430656433,19.058992038489933,0 72.90812160819769,19.05833732747688,0 72.90873751044273,19.057929795502478,0 72.90930580347776,19.057264305677723,0 72.90984861552715,19.05660927094261,0 72.9105181619525,19.0563136012961,0 72.91116122156382,19.056353847892055,0 72.91161920875311,19.05643370725038,0 72.9122119769454,19.056997792099097,0 72.91136909276247,19.057634445109816,0 72.91047994047403,19.05807113252149,0 72.90955122560263,19.058646620126538,0 72.90864698588848,19.059072847269277,0 72.9076924547553,19.05944203197598,0 72.90762338787317,19.05929911164195,0 72.90749430656433,19.058992038489933,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	<Style><IconStyle><color>ff0000</color></IconStyle></Style></Placemark>
+</Document>
+
+<Document>
+	<name>AR153_St Gregorios School Parisar.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>AR153_St Gregorios School Parisar</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>72.90629502385855,19.04882376163761,0 72.90681973099709,19.04826313509111,0 72.90756303817034,19.047647679686182,0 72.90814574807882,19.047109550484418,0 72.90811188519001,19.04823746475167,0 72.90785606950521,19.049452206215648,0 72.90793552994728,19.05019346985721,0 72.90785741060972,19.051318194043343,0 72.90783729404211,19.052695487494155,0 72.90722038596869,19.052647317276495,0 72.90722038596869,19.052231531658457,0 72.90719289332628,19.051832224367576,0 72.90720328688622,19.051223120442643,0 72.90700882673264,19.050862157175924,0 72.9069136083126,19.050388688803192,0 72.90681805461645,19.049847082428315,0 72.90673289448023,19.049251281682505,0 72.90629502385855,19.04882376163761,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	<Style><IconStyle><color>ff0000</color></IconStyle></Style></Placemark>
+</Document>
+</Document>
+</kml>

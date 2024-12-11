@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+<Document>
+	<name>AG178_1_vadala depo.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>AG178_1_vadala depo</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>72.84928869456053,19.012692280700154,0 72.85006251186132,19.013751643260285,0 72.85049635916948,19.014441715121684,0 72.8508410230279,19.014872176504287,0 72.85124000161888,19.01526618399464,0 72.85145323723555,19.015431647843315,0 72.8516198694706,19.01547951187613,0 72.85188876092434,19.01532387447399,0 72.85227097570896,19.015063633197084,0 72.85266023129225,19.01480751227347,0 72.85332910716534,19.014427767900667,0 72.85379514098167,19.014064822760414,0 72.85435035824776,19.01372089584842,0 72.8547801822424,19.013456531268407,0 72.85511512309313,19.0132695105083,0 72.85500582307577,19.012904026958047,0 72.85478956997395,19.012538542604446,0 72.85457532852888,19.0121087091537,0 72.85452939569952,19.011763510246094,0 72.8543996438384,19.01130768175691,0 72.85381022840738,19.01143732990358,0 72.85335358232261,19.0115875821525,0 72.85307597368956,19.011649711734737,0 72.85259585827589,19.011761608321763,0 72.85189781337976,19.011966065063884,0 72.85120077431202,19.012125509449564,0 72.850521504879,19.01230936163292,0 72.84984525293112,19.012511915785794,0 72.84944795072079,19.012661216106718,0 72.84928869456053,19.012692280700154,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	<Style><IconStyle><color>ff0000</color></IconStyle></Style></Placemark>
+</Document>
+
+<Document>
+	<name>AG178_2_dadar TT area.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>AG178_2_dadar TT area</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>72.8492833301425,19.01264631777922,0 72.84824162721634,19.012940797238826,0 72.84752111881971,19.01317156226358,0 72.84714728593826,19.013450508569235,0 72.84674227237703,19.013815039967852,0 72.84639324992895,19.014131072194466,0 72.84559093415737,19.014693715845414,0 72.84624941647054,19.01573436384523,0 72.84684486687183,19.016471023310455,0 72.84759052097797,19.017435902801193,0 72.84781850874425,19.017722449376908,0 72.84808572381735,19.01771357404791,0 72.84834086894989,19.017521169477668,0 72.84866373986006,19.017295165142862,0 72.8491160273552,19.017002278282725,0 72.84961491823196,19.016690689205927,0 72.85006485879421,19.016376246737785,0 72.85037029534578,19.01622377996403,0 72.85090439021587,19.015835163396844,0 72.8513402491808,19.015571436138885,0 72.85149078816175,19.015475391132117,0 72.851309068501,19.015321338629164,0 72.85093121230602,19.01497836526013,0 72.85059358924629,19.014596402403658,0 72.85029787570238,19.014152944011407,0 72.84999210387468,19.01375449611265,0 72.84991130232811,19.013502810949454,0 72.84982446581125,19.01342324792818,0 72.84964274615048,19.013153811119203,0 72.84940302371979,19.012821927767302,0 72.8492833301425,19.01264631777922,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	<Style><IconStyle><color>ff0000</color></IconStyle></Style></Placemark>
+</Document>
+
+<Document>
+	<name>AG178_3_five garden.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>AG178_3_five garden</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>72.84788757562636,19.017838145586634,0 72.84868218004704,19.017249837448254,0 72.84939531236888,19.01678007697641,0 72.85035789012909,19.01623265537258,0 72.85100564360619,19.015781276851698,0 72.85140663385391,19.015468417565106,0 72.85244733095169,19.01631570381526,0 72.85323891788721,19.017025100654,0 72.853965125978,19.017565546169305,0 72.85472586750984,19.01795986425188,0 72.85546448081732,19.018382075181137,0 72.85586010664701,19.018746278792378,0 72.8548576310277,19.01939956107729,0 72.85450123250484,19.01924361037214,0 72.85408180207014,19.01916975561721,0 72.85366237163544,19.019225225929773,0 72.85324729979038,19.019452812504074,0 72.85293247550726,19.019721288187633,0 72.85276517271996,19.020288667485424,0 72.85276383161546,19.02057394126095,0 72.85281848162413,19.02075841804176,0 72.85265788435936,19.020882353358544,0 72.85239972174168,19.02105478494991,0 72.8521529585123,19.021209149108802,0 72.85199604928493,19.021137514013887,0 72.85179018974304,19.021193617608553,0 72.85168457776308,19.02133086530549,0 72.85163126885891,19.0215172430589,0 72.85148911178112,19.02163357056437,0 72.85129766911267,19.02175401857686,0 72.85117529332638,19.021848475115053,0 72.8510069847107,19.021934373463925,0 72.85083934664726,19.02169569639223,0 72.85061202943325,19.02133910650309,0 72.85019092261791,19.020812619943595,0 72.84971214830875,19.020189772462267,0 72.84902215003967,19.019320951797052,0 72.8481487557292,19.018225489571208,0 72.84788757562636,19.017838145586634,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	<Style><IconStyle><color>ff0000</color></IconStyle></Style></Placemark>
+</Document>
+
+<Document>
+	<name>AG178_4_train patri.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>AG178_4_train patri</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>72.85440735518934,19.011321312251408,0 72.85497229546309,19.011178033509143,0 72.85496726632118,19.01100083684078,0 72.85534713417292,19.011045849250284,0 72.85575181245804,19.01088798877468,0 72.85630401223898,19.012765187376278,0 72.85656049847603,19.013218159008552,0 72.85710599273443,19.01391076895047,0 72.8577034547925,19.01485854630086,0 72.85847157239914,19.015689669684875,0 72.859076410532,19.016663746074187,0 72.85866502672434,19.01690464921468,0 72.85810075700283,19.016284639898814,0 72.85722769796848,19.0156189831514,0 72.85650953650475,19.014938108635302,0 72.85615716129541,19.01465821387978,0 72.85572398453951,19.01421443866967,0 72.85549364984035,19.013783024633547,0 72.85511009395123,19.013278069090056,0 72.85472553223373,19.012566437362267,0 72.85449553281069,19.0116570024495,0 72.85440735518934,19.011321312251408,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	<Style><IconStyle><color>ff0000</color></IconStyle></Style></Placemark>
+</Document>
+
+<Document>
+	<name>AG178_5_wadala slum.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>AG178_5_wadala slum</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>72.85148642957212,19.015533081538873,0 72.85235244780779,19.014940961467296,0 72.8534484654665,19.014242333146342,0 72.85469569265842,19.01349932412461,0 72.85509668290615,19.01327046146186,0 72.85570554435253,19.014077502079985,0 72.85631105303764,19.01477518014863,0 72.85707246512175,19.01537712720639,0 72.857884503901,19.0160465886729,0 72.85876460373402,19.01682730666552,0 72.85950623452663,19.017585832652976,0 72.86023814231157,19.01867717842965,0 72.85961888730526,19.01878748541702,0 72.85823922604322,19.01892505207456,0 72.8574074059725,19.019026483638545,0 72.85701278597116,19.01927657557404,0 72.85633351653814,19.019598619894893,0 72.85588391125202,19.0187630784175,0 72.8555228188634,19.018464171626174,0 72.85497196018696,19.018143709983516,0 72.85396881401539,19.01759280613116,0 72.85320974886417,19.01707359818256,0 72.85166144371033,19.015688718745153,0 72.85148642957212,19.015533081538873,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	<Style><IconStyle><color>ff0000</color></IconStyle></Style></Placemark>
+</Document>
+
+<Document>
+	<name>AG178_6_ off VJTI college.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>AG178_6_ off VJTI college</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>72.8563392162323,19.019642045114818,0 72.85680256783962,19.01946010287666,0 72.85719584673643,19.01922459198345,0 72.85751905292271,19.019042649288348,0 72.85782113671303,19.01901000101361,0 72.86059353500603,19.01883820124873,0 72.86121413111687,19.021307726556206,0 72.86124899983406,19.022141353435835,0 72.86111019551754,19.023213968333913,0 72.85957295447588,19.022995895889302,0 72.85776682198048,19.02295342244384,0 72.85701312124729,19.022964199289248,0 72.85637609660625,19.019820817433583,0 72.8563392162323,19.019642045114818,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	<Style><IconStyle><color>ff0000</color></IconStyle></Style></Placemark>
+</Document>
+
+<Document>
+	<name>AG178_7_Dadar station.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>AG178_7_Dadar station</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>72.84550074487925,19.014749821614945,0 72.84956596791744,19.020275037726105,0 72.84867580980062,19.02083766058233,0 72.84688241779804,19.01844832289478,0 72.84679088741541,19.018363056693875,0 72.84506723284721,19.01954314970694,0 72.84308474510908,19.016779443020745,0 72.84539110958576,19.014881685947863,0 72.84550074487925,19.014749821614945,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	<Style><IconStyle><color>ff0000</color></IconStyle></Style></Placemark>
+</Document>
+</Document>
+</kml>

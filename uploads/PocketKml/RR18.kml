@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+<Document>
+	<name>RR18_01.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>RR18_01</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>72.94834468513727,19.187587754672794,0 72.94904541224241,19.18833188220823,0 72.949308604002,19.1889613798122,0 72.94966131448746,19.189581058955678,0 72.95026782900095,19.19012695730082,0 72.95134909451008,19.19106485962752,0 72.95226205140352,19.192042336885507,0 72.95351631939411,19.193525798732146,0 72.95420028269291,19.192965662841814,0 72.95373123139143,19.19239760900849,0 72.95234352350235,19.19092205310226,0 72.95121598988771,19.189845458902262,0 72.94983733445406,19.18852440486977,0 72.94901054352522,19.18772264782879,0 72.94865917414427,19.187495925935302,0 72.94834468513727,19.187587754672794,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	<Style><IconStyle><color>ff0000</color></IconStyle></Style></Placemark>
+</Document>
+
+<Document>
+	<name>RR18_2_Kisan Nagar 1.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>RR18_2_Kisan Nagar 1</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>72.95111138373613,19.189590875009188,0 72.95127131044865,19.18944933379387,0 72.95145101845264,19.18938188793705,0 72.95173902064562,19.18933945719607,0 72.95187145471573,19.18927422782665,0 72.95206122100353,19.18920456536476,0 72.95224964618683,19.189155168328472,0 72.95246724039316,19.18911495406362,0 72.95272774994373,19.189102604799217,0 72.95295137912035,19.18906872347929,0 72.95290343463421,19.18862098276486,0 72.95308247208595,19.188594700917044,0 72.95337583869696,19.18855955289716,0 72.95365177094936,19.18852187167832,0 72.9541976004839,19.18847532427843,0 72.95445911586285,19.18847532427843,0 72.95468106865883,19.188741309243397,0 72.95482993125916,19.18880907201104,0 72.95527551323175,19.1887913397007,0 72.95527718961239,19.188663413691014,0 72.95527718961239,19.18822992110222,0 72.95524701476097,19.18776032923055,0 72.95523293316364,19.18730466867622,0 72.95527417212725,19.18684900686086,0 72.95541062951088,19.18634552917036,0 72.95554038137197,19.18595034560282,0 72.95565605163574,19.185470930931146,0 72.95545388013124,19.185218556860903,0 72.95519638806581,19.18496364915767,0 72.95502841472626,19.184909501010882,0 72.9549278318882,19.1851444595071,0 72.95465894043446,19.185222040069025,0 72.95446917414665,19.185022230466007,0 72.95437261462212,19.184801204663902,0 72.95370675623417,19.184889551689164,0 72.9533014073968,19.184725207184915,0 72.95280050486326,19.18477523886252,0 72.95213900506496,19.184912984225544,0 72.95136485248804,19.185115960515986,0 72.95069295912981,19.185657757158083,0 72.95025810599327,19.18640442664008,0 72.949757874012,19.187112777891702,0 72.94902697205544,19.187307518537676,0 72.94877383857965,19.18745919442595,0 72.94923651963472,19.18795380251051,0 72.94969785958529,19.188408511320873,0 72.9499352350831,19.18862921563199,0 72.95021753758192,19.188925915222434,0 72.95058399438858,19.189256812213948,0 72.9508002474904,19.18948099850585,0 72.95111138373613,19.189590875009188,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	<Style><IconStyle><color>ff0000</color></IconStyle></Style></Placemark>
+</Document>
+
+<Document>
+	<name>RR18_3_Jalaram Mandir Parisar.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>RR18_3_Jalaram Mandir Parisar</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>72.951200902462,19.18964787143736,0 72.95290041714907,19.191186767538856,0 72.95373525470495,19.190486983235047,0 72.95542169362307,19.1902305004602,0 72.95533921569586,19.1888372537146,0 72.9548792168498,19.188834087231303,0 72.95446246862411,19.188517438593177,0 72.95382913202047,19.188526621412258,0 72.9529470205307,19.188653914230883,0 72.95300804078579,19.189030725729026,0 72.95249842107296,19.18914693548764,0 72.95187044888735,19.189320775000667,0 72.95128505676985,19.18953007879738,0 72.951200902462,19.18964787143736,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	<Style><IconStyle><color>ff0000</color></IconStyle></Style></Placemark>
+</Document>
+</Document>
+</kml>

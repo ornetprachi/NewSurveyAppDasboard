@@ -1,0 +1,1106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+<Document>
+	<name>VD73_1_pratap nagar parisar.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>VD73_1_pratap nagar parisar</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>72.85513423383236,19.14194604781729,0 72.8550735488534,19.141423111875156,0 72.85505209118128,19.141001214438234,0 72.85510037094355,19.140820038931672,0 72.85548157989979,19.140794066202893,0 72.8564964607358,19.140937866381616,0 72.8570681065321,19.14099297919224,0 72.85780973732471,19.140788681612275,0 72.85798609256744,19.140813070638988,0 72.85810142755508,19.14125207250365,0 72.85814668983221,19.14161283867435,0 72.85760387778282,19.141581164766443,0 72.85721998661757,19.141565327810202,0 72.856824696064,19.141597951938383,0 72.8563529625535,19.141681887772528,0 72.85595532506704,19.141756638139828,0 72.85554729402065,19.14183994041605,0 72.85520866513252,19.14191500745024,0 72.85513423383236,19.14194604781729,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	<Style><IconStyle><color>ff0000</color></IconStyle></Style></Placemark>
+</Document>
+
+<Document>
+	<name>VD73_10_samartha nagar parisar.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>VD73_10_samartha nagar parisar</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>72.86027535796165,19.137892696631233,0 72.86040812730789,19.13786989090426,0 72.86054860800505,19.137790070835017,0 72.8606716543436,19.13770993398065,0 72.86080408841372,19.137638982741162,0 72.86098647862673,19.137583868810868,0 72.8611671924591,19.137540157749633,0 72.86134522408247,19.137470790172173,0 72.86161813884974,19.137295628990703,0 72.86160103976727,19.137129019810214,0 72.86122754216194,19.137067887502205,0 72.86119669675827,19.136933269645713,0 72.86095630377531,19.13678471475435,0 72.8607688844204,19.13682367479209,0 72.86057207733393,19.136905079068928,0 72.86036387085915,19.13683191024604,0 72.86004636436701,19.136857883598136,0 72.8600399941206,19.13699471875147,0 72.859618216753,19.13690856329778,0 72.85976406186819,19.13720947369403,0 72.85996556282043,19.137460337520984,0 72.86010503768921,19.137664322473046,0 72.86025356501341,19.13786957415803,0 72.86027535796165,19.137892696631233,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	<Style><IconStyle><color>ff0000</color></IconStyle></Style></Placemark>
+</Document>
+
+<Document>
+	<name>VD73_11_caves road parisar.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>VD73_11_caves road parisar</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>72.85550471395254,19.136906029313174,0 72.85547588020563,19.136576927731113,0 72.85551946610212,19.13626714720184,0 72.85544134676456,19.13576699929245,0 72.8558899462223,19.135830032582955,0 72.85607401281595,19.135851571591285,0 72.85605322569609,19.135585184540837,0 72.85642772912979,19.135554459728553,0 72.85670466721058,19.1364695498834,0 72.85632815212011,19.136655164644033,0 72.8560595959425,19.13687182051709,0 72.85582792013884,19.136935170133874,0 72.85556104034185,19.136923450456603,0 72.85550471395254,19.136906029313174,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	<Style><IconStyle><color>ff0000</color></IconStyle></Style></Placemark>
+</Document>
+
+<Document>
+	<name>VD73_12_ Radha Krishna mandir parisar.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>VD73_12_ Radha Krishna mandir parisar</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>72.85659268498421,19.135978588333234,0 72.8568122908473,19.13591143734966,0 72.85685118287802,19.1356441001443,0 72.85731989890337,19.135484141064467,0 72.85720389336348,19.135317530056156,0 72.85709962248802,19.135155986902806,0 72.85696249455214,19.13487027686035,0 72.85691823810339,19.134790455341086,0 72.85676065832376,19.134673890513465,0 72.85664264112711,19.13464411578888,0 72.85650685429573,19.134684976845723,0 72.85639487206936,19.134722353617555,0 72.85617224872112,19.13473629071675,0 72.85587050020695,19.134832583369953,0 72.8555865213275,19.134875661644003,0 72.85539239645004,19.135006796909046,0 72.85540513694286,19.135475272041646,0 72.8554430231452,19.13573722476496,0 72.85580109804869,19.135797407315003,0 72.85604618489742,19.135790755560546,0 72.85604149103165,19.135559210988546,0 72.85634491592646,19.13552721916854,0 72.85650216042995,19.13556332874711,0 72.85657491534948,19.135937727596485,0 72.85659268498421,19.135978588333234,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	<Style><IconStyle><color>ff0000</color></IconStyle></Style></Placemark>
+</Document>
+
+<Document>
+	<name>VD73_13_Gandhi nagar society parisar.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>VD73_13_Gandhi nagar society parisar</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>72.8567174077034,19.13644389321919,0 72.85661481320858,19.136113523717658,0 72.85659771412611,19.135986190329657,0 72.85680927336216,19.135930442347785,0 72.8568883985281,19.13567545844079,0 72.85724714398384,19.135569980510727,0 72.85780403763056,19.135550658720437,0 72.85833947360516,19.13565962091805,0 72.85800151526928,19.136093568491695,0 72.8579019382596,19.13638466115201,0 72.85779967904091,19.1363849779011,0 72.85765651613474,19.136431223260082,0 72.85742048174143,19.136506926251293,0 72.85721026360989,19.136570909505505,0 72.85677541047335,19.136427422272167,0 72.8567174077034,19.13644389321919,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	<Style><IconStyle><color>ff0000</color></IconStyle></Style></Placemark>
+</Document>
+
+<Document>
+	<name>VD73_14_sai baba mandir Prem nagar parisar.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>VD73_14_sai baba mandir Prem nagar parisar</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>72.857028208673,19.13726522124407,0 72.85753950476646,19.1371727309803,0 72.85772994160652,19.13722404407825,0 72.85789020359516,19.137495179689022,0 72.85801392048597,19.137632964554268,0 72.85827476531267,19.137599389402297,0 72.85857684910297,19.13745907053292,0 72.85867776721716,19.137267438475785,0 72.85868145525455,19.13700200395322,0 72.8585909307003,19.136765393106202,0 72.85844877362251,19.13667733704176,0 72.8583750128746,19.136638060220896,0 72.85831332206726,19.136656114889703,0 72.85825364291668,19.136581678961708,0 72.85824224352837,19.136525614432077,0 72.85817988216877,19.136455929679435,0 72.85812322050333,19.136387195144632,0 72.85804208368063,19.13643312375402,0 72.85791467875242,19.136398914859953,0 72.8578308597207,19.1363985981109,0 72.85756431519985,19.13646891638557,0 72.8573514148593,19.136538284383935,0 72.85719115287066,19.136584212951288,0 72.85684514790773,19.136458146922017,0 72.85667784512043,19.1364945730459,0 72.85650618374348,19.136606385358544,0 72.85672444850206,19.13678249751616,0 72.85685386508703,19.136940871598192,0 72.85697389394045,19.13689240914521,0 72.85700473934412,19.136981098590837,0 72.85689476877451,19.137099879023722,0 72.85695645958185,19.13722214359342,0 72.857028208673,19.13726522124407,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	<Style><IconStyle><color>ff0000</color></IconStyle></Style></Placemark>
+</Document>
+
+<Document>
+	<name>VD73_15_shree siddhivinayak mandir parisar.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>VD73_15_shree siddhivinayak mandir parisar</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>72.85871766507626,19.137322235764405,0 72.85900365561247,19.1373330051716,0 72.85923399031162,19.137054900843182,0 72.8595632314682,19.136737835997554,0 72.85949416458607,19.136124926702834,0 72.85930372774601,19.13606664477031,0 72.85916525870562,19.135958633090965,0 72.85906333476305,19.135820213328227,0 72.85904388874769,19.13571885324531,0 72.85885110497475,19.13565581991237,0 72.85861238837242,19.135607673832812,0 72.85837668925524,19.135593103305965,0 72.85834349691868,19.13573025625775,0 72.85808064043522,19.13605872602789,0 72.85794217139482,19.13638402765385,0 72.85805180668831,19.136409367578338,0 72.8581366315484,19.13637547542846,0 72.85822447389364,19.1365062927536,0 72.8582663834095,19.136531632659324,0 72.85830326378345,19.13661588781789,0 72.85835891962051,19.136627290768384,0 72.85843636840582,19.136652313906968,0 72.85859864205122,19.1367606418809,0 72.85867340862751,19.13691838248779,0 72.85871732980013,19.137148024668193,0 72.85869721323252,19.137277574391803,0 72.85871766507626,19.137322235764405,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	<Style><IconStyle><color>ff0000</color></IconStyle></Style></Placemark>
+</Document>
+
+<Document>
+	<name>VD73_16_kashmiri heights parisar.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>VD73_16_kashmiri heights parisar</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>72.85908412188292,19.135745460273107,0 72.85916157066822,19.135927591598204,0 72.85923432558775,19.135985873579806,0 72.85931680351496,19.136053974782246,0 72.85946868360043,19.136094201990964,0 72.85955250263214,19.13612112570786,0 72.8595806658268,19.136506926251293,0 72.8596718609333,19.136813538848198,0 72.86002725362778,19.13678344776109,0 72.86070082336664,19.136799918672605,0 72.8611296415329,19.136767293596286,0 72.86145552992821,19.1369475233063,0 72.8618323802948,19.136822091050906,0 72.86188535392284,19.136683355263486,0 72.86169927567244,19.1365062927536,0 72.86157187074423,19.136355836983288,0 72.86145620048046,19.136224702789573,0 72.86138378083706,19.136107822224762,0 72.86131136119366,19.135958316341075,0 72.86120440810919,19.13578061955325,0 72.86098949611187,19.135660571169463,0 72.86061231046915,19.135515182640585,0 72.86018583923578,19.13551771664654,0 72.85974830389023,19.135645050395798,0 72.85941537469625,19.135706499980955,0 72.85915821790695,19.135720120246738,0 72.85908412188292,19.135745460273107,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	<Style><IconStyle><color>ff0000</color></IconStyle></Style></Placemark>
+</Document>
+
+<Document>
+	<name>VD73_17_kalpataru road parisar.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>VD73_17_kalpataru road parisar</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>72.86583121865988,19.138774198914234,0 72.8658489882946,19.137734956955153,0 72.86587614566088,19.13662760751699,0 72.86555226892233,19.135842702588196,0 72.86522168666124,19.13565835391617,0 72.86489881575108,19.135376762506134,0 72.86468792706728,19.13527445189739,0 72.86434024572372,19.135372961493932,0 72.8639768064022,19.135485091316884,0 72.86372534930706,19.135605773329385,0 72.86342527717352,19.135852521841585,0 72.86304406821728,19.136271264942742,0 72.86213546991348,19.136766976847937,0 72.86261223256588,19.137643100447857,0 72.86299612373114,19.137619661192986,0 72.86326568573713,19.138095097320157,0 72.86390103399754,19.13799880656951,0 72.86433286964893,19.138357362632515,0 72.8655931726098,19.13831365177606,0 72.86583121865988,19.138774198914234,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	<Style><IconStyle><color>ff0000</color></IconStyle></Style></Placemark>
+</Document>
+
+<Document>
+	<name>VD73_18_kalpataru estate parisar.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>VD73_18_kalpataru estate parisar</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>72.865583114326,19.135815778825908,0 72.8653658553958,19.135694146715668,0 72.86527801305056,19.13538468128125,0 72.86527968943119,19.13535047217,0 72.865559309721,19.135261465097315,0 72.86584060639143,19.135182594021295,0 72.86627545952797,19.135103406156063,0 72.86672070622444,19.13507933303751,0 72.86698658019304,19.13509041934254,0 72.86711297929287,19.134650767589516,0 72.86808762699366,19.13454623926274,0 72.86835618317127,19.134532618900142,0 72.86840479820967,19.134771450211755,0 72.86843363195658,19.13513159704043,0 72.86848895251751,19.13559088605177,0 72.86857578903437,19.136234522020242,0 72.86866798996925,19.136861051079833,0 72.86886379122734,19.137964914745904,0 72.8678921610117,19.1377979894944,0 72.86743886768818,19.137896497585434,0 72.86743819713593,19.138494196543157,0 72.8668474406004,19.13862627916878,0 72.86699093878269,19.139605651120096,0 72.86622449755669,19.139253432639713,0 72.86606289446354,19.13768111004328,0 72.86616414785385,19.13721770912874,0 72.86751732230186,19.1370941775649,0 72.86695271730423,19.135788538308997,0 72.86662079393864,19.13560830733395,0 72.86584094166756,19.13583953508698,0 72.865583114326,19.135815778825908,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	<Style><IconStyle><color>ff0000</color></IconStyle></Style></Placemark>
+</Document>
+
+<Document>
+	<name>VD73_2_hanuman mandir 2.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>VD73_2_hanuman mandir 2</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>72.85518653690815,19.140446601377384,0 72.85576052963734,19.14063126144408,0 72.85655044019222,19.14081687152595,0 72.85691253840923,19.140788681612275,0 72.85691857337952,19.140541940477064,0 72.85689074546099,19.140249588179696,0 72.85687766969204,19.139939497799013,0 72.85685855895281,19.139726013378166,0 72.85685386508703,19.139537234639537,0 72.85684280097485,19.13945139725578,0 72.8564602509141,19.139421940135954,0 72.85638615489006,19.139207188071197,0 72.85635866224766,19.13869121183566,0 72.85626143217087,19.13832220390106,0 72.85587251186371,19.138233198430292,0 72.85560093820095,19.138220528608482,0 72.8552321344614,19.138237949613217,0 72.85517882555723,19.138725420254783,0 72.85518418997526,19.139318681803402,0 72.85508997738361,19.140201126697928,0 72.85518653690815,19.140446601377384,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	<Style><IconStyle><color>ff0000</color></IconStyle></Style></Placemark>
+</Document>
+
+<Document>
+	<name>VD73_3_ Link road parisar.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>VD73_3_ Link road parisar</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>72.85702921450138,19.14090429190176,0 72.85698529332876,19.1406911254694,0 72.85695847123861,19.140520085339485,0 72.85694673657417,19.140345244134615,0 72.85692427307367,19.140078230850317,0 72.85687129944563,19.13965062860575,0 72.8568759933114,19.139434926608786,0 72.85707347095013,19.1394209899062,0 72.85731688141823,19.139432392662947,0 72.85759884864092,19.139431442433242,0 72.85783287137747,19.139420356419677,0 72.85811148583889,19.139386781631206,0 72.85863284021616,19.13939058255099,0 72.85910658538342,19.13939279975417,0 72.85942208021879,19.13941180435156,0 72.85957362502813,19.139745334679848,0 72.85920817404985,19.139987959357583,0 72.85867340862751,19.140215063334654,0 72.85818725824356,19.140477642020542,0 72.8578244894743,19.14071709821436,0 72.85723239183426,19.140901441238064,0 72.85702921450138,19.14090429190176,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	<Style><IconStyle><color>ff0000</color></IconStyle></Style></Placemark>
+</Document>
+
+<Document>
+	<name>VD73_3_jogeshwari mandir parisar.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>VD73_3_jogeshwari mandir parisar</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>72.85686325281858,19.139444112162128,0 72.85643812268972,19.139432709406183,0 72.85641700029373,19.139189450425032,0 72.8563630208373,19.138737456548714,0 72.85627417266369,19.138236365885593,0 72.85678815096617,19.138171116294156,0 72.8573252633214,19.138099848507064,0 72.85812389105558,19.13797346688896,0 72.85824559628963,19.13848754489735,0 72.85828247666359,19.1389237022482,0 72.85835355520248,19.13933641943566,0 72.85802599042654,19.13937537887129,0 72.85762399435043,19.139410537378478,0 72.8572266921401,19.139403569026292,0 72.85694573074579,19.13939596718722,0 72.85686325281858,19.139444112162128,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	<Style><IconStyle><color>ff0000</color></IconStyle></Style></Placemark>
+</Document>
+
+<Document>
+	<name>VD73_4_Anand nagar road.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>VD73_4_Anand nagar road</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>72.85841289907694,19.13935795798659,0 72.85831935703754,19.138869538979723,0 72.85829421132803,19.138494196543157,0 72.85819128155708,19.138146410131448,0 72.85819061100483,19.137967131968217,0 72.85874582827091,19.13761934444628,0 72.85922963172197,19.13716639602882,0 72.85962592810392,19.137073588961933,0 72.86009967327118,19.13768111004328,0 72.86054626107216,19.138366864991102,0 72.8608701378107,19.138886009683127,0 72.86100793629885,19.139280989328487,0 72.8605254739523,19.1394171889871,0 72.86024015396833,19.13948877294867,0 72.85990118980408,19.13963130729299,0 72.85967387259007,19.1396588639187,0 72.85956222563982,19.139311396703885,0 72.85921420902014,19.13931931529029,0 72.85889770835638,19.13935795798659,0 72.85853125154972,19.139357007756452,0 72.85841289907694,19.13935795798659,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	<Style><IconStyle><color>ff0000</color></IconStyle></Style></Placemark>
+</Document>
+
+<Document>
+	<name>VD73_6_gupha road parisar.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>VD73_6_gupha road parisar</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>72.85527806729078,19.138138808234487,0 72.85524688661098,19.13772893877176,0 72.85523917526007,19.13719902102629,0 72.85531025379896,19.136953541518192,0 72.85585775971413,19.136956075502074,0 72.85610016435385,19.13692186671636,0 72.85631004720926,19.137200921511386,0 72.85638615489006,19.137648485141078,0 72.85649545490742,19.138048218935413,0 72.85626210272312,19.13819994014598,0 72.855743765831,19.138094463828573,0 72.8554892912507,19.138147677114247,0 72.85527806729078,19.138138808234487,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	<Style><IconStyle><color>ff0000</color></IconStyle></Style></Placemark>
+</Document>
+
+<Document>
+	<name>VD73_8_majas road parisar.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>VD73_8_majas road parisar</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>72.86112058907747,19.139259767511103,0 72.8616751357913,19.139165377902195,0 72.86220587790012,19.1390535673225,0 72.86278691142797,19.138953159456943,0 72.86283284425735,19.138769764491236,0 72.86261525005102,19.138516685438912,0 72.86232087761164,19.138289895870955,0 72.86190781742334,19.138358946358995,0 72.86175359040499,19.138344059329604,0 72.86168955266476,19.138412159559433,0 72.86159098148346,19.13845175270338,0 72.86145452409983,19.138500531443682,0 72.86136467009783,19.138511934264002,0 72.8612208366394,19.138511934264002,0 72.86102838814259,19.13854772644492,0 72.86088589578867,19.13858858653579,0 72.86076050251722,19.13865161874913,0 72.86087114363909,19.138835964079206,0 72.86093853414059,19.138986734333606,0 72.86097709089518,19.139148273739103,0 72.8610521927476,19.13926230145959,0 72.86112058907747,19.139259767511103,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	<Style><IconStyle><color>ff0000</color></IconStyle></Style></Placemark>
+</Document>
+
+<Document>
+	<name>VD73_8_squatters colony parisar.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>VD73_8_squatters colony parisar</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>72.86027401685715,19.137914868862783,0 72.86040510982275,19.137884144483998,0 72.86048859357834,19.137834732068985,0 72.86056436598301,19.13779513877707,0 72.86062806844711,19.137761246911634,0 72.86069378256798,19.13770961723412,0 72.860789000988,19.137649752127682,0 72.86094021052122,19.137601923376266,0 72.86109544336796,19.137569931952022,0 72.86119569092989,19.13753730702785,0 72.86131773144007,19.13748409354545,0 72.86160439252853,19.137371965079975,0 72.8617700189352,19.137806541646114,0 72.8615752235055,19.137969982682584,0 72.86174286156893,19.138234148666893,0 72.86176834255457,19.13831776946594,0 72.86167982965708,19.138405507910306,0 72.8615390136838,19.138460938311425,0 72.86137372255325,19.1384979974835,0 72.86123525351286,19.13849704724843,0 72.8609673678875,19.138545509230408,0 72.86082219332457,19.138587002811512,0 72.86068573594093,19.138366548245816,0 72.86054089665413,19.138307316868374,0 72.86040913313627,19.138114418812695,0 72.86031424999237,19.13797346688896,0 72.86027401685715,19.137914868862783,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	<Style><IconStyle><color>ff0000</color></IconStyle></Style></Placemark>
+</Document>
+
+<Document>
+	<name>VD73_RR thakur road parisar.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>VD73_RR thakur road parisar</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>72.85660844296217,19.138099848507064,0 72.85642337054014,19.13744164944601,0 72.85634692758322,19.137107797716222,0 72.85632982850075,19.13689240914521,0 72.85634726285934,19.136759058139102,0 72.85648204386234,19.13674702170094,0 72.85664834082127,19.13685629985728,0 72.8567412123084,19.13707770668274,0 72.85682436078787,19.137220559856036,0 72.85704731941223,19.137319701786147,0 72.85724010318518,19.137263637507107,0 72.85744361579418,19.137209156946533,0 72.85766925662756,19.137410608232045,0 72.85800252109766,19.137696947372135,0 72.8584387153387,19.13759210422692,0 72.85871498286724,19.137445450410578,0 72.85881824791431,19.137430246551748,0 72.85871632397175,19.13759907265555,0 72.85841189324856,19.137789120595862,0 72.85812053829432,19.13794210902889,0 72.85775609314442,19.137982335777597,0 72.85734571516514,19.138047268697743,0 72.85702418535948,19.138121070473552,0 72.85667583346367,19.138156545993525,0 72.85660844296217,19.138099848507064,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	<Style><IconStyle><color>ff0000</color></IconStyle></Style></Placemark>
+</Document>
+
+<Document>
+	<name>VD77_2_Hanuman mandir road (meghawadi) PARISAR.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>VD77_2_Hanuman mandir road (meghawadi) PARISAR</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>72.86077223718166,19.13546133500482,0 72.86055531352758,19.13543536143305,0 72.86038465797901,19.13540336958904,0 72.86042220890522,19.13525861433619,0 72.86046043038368,19.135149968625406,0 72.86048255860806,19.134991592825696,0 72.86051038652658,19.134840502171173,0 72.86052446812391,19.1347138013061,0 72.86050569266081,19.134573796737136,0 72.86051172763109,19.134449629689794,0 72.86052145063877,19.134314059439635,0 72.86048490554094,19.134153465564726,0 72.86049831658602,19.134000473621455,0 72.86053150892258,19.133831010330482,0 72.86057375371456,19.133682769402498,0 72.86056604236364,19.133554800631146,0 72.86055766046047,19.1334201799107,0 72.86051273345947,19.133285559080527,0 72.86047015339136,19.133122746918126,0 72.86042623221874,19.13296658646369,0 72.86039605736732,19.132811376129407,0 72.86034509539604,19.132630825148844,0 72.86060024052858,19.132551636060015,0 72.86082789301872,19.13244235505507,0 72.86081850528717,19.13161403436213,0 72.86088354885578,19.131435699382656,0 72.86112293601036,19.131418277660313,0 72.86164160817862,19.131377732553908,0 72.8625937923789,19.131355876203358,0 72.86288447678089,19.13142999772827,0 72.8628670424223,19.13188264512228,0 72.8629495203495,19.13256303929115,0 72.86290761083364,19.13316519212769,0 72.86293175071478,19.13387598938915,0 72.862903252244,19.13430328983555,0 72.86247745156288,19.134329580338395,0 72.86225952208042,19.134362205896352,0 72.86223135888577,19.134533569158037,0 72.86226857453585,19.134728688662783,0 72.86215659230947,19.13493140998196,0 72.8620295226574,19.135057793928446,0 72.86187496036291,19.135180693512968,0 72.86172308027744,19.135268433624304,0 72.86157555878162,19.135407170600526,0 72.86141697317362,19.135432827425827,0 72.86122351884842,19.135423958400242,0 72.86103542894125,19.135399885328418,0 72.86082252860069,19.13541635637794,0 72.86077223718166,19.13546133500482,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	<Style><IconStyle><color>ff0000</color></IconStyle></Style></Placemark>
+</Document>
+</Document>
+</kml>

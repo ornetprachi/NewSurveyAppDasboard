@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+<Document>
+	<name>PP24_1_vitawa parisar.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>PP24_1_vitawa parisar</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>72.98603542149067,19.1888543527234,0 72.9882123693824,19.189478465329117,0 72.98967819660902,19.187844874865306,0 72.98886615782976,19.187408846912763,0 72.98863615840673,19.186608667702547,0 72.98811748623848,19.186437358549448,0 72.98805948346853,19.186131788175874,0 72.9877057671547,19.186038058704106,0 72.9872752726078,19.185412349782446,0 72.98672072589397,19.18668561426967,0 72.98645082861186,19.18796361866105,0 72.98601396381855,19.188757141668255,0 72.98603542149067,19.1888543527234,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	<Style><IconStyle><color>ff0000</color></IconStyle></Style></Placemark>
+</Document>
+
+<Document>
+	<name>PP24_2_vitawa parisar 2.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>PP24_2_vitawa parisar 2</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>72.98765480518341,19.184401267537293,0 72.98795152455568,19.18441551709531,0 72.98792503774166,19.18467295889775,0 72.98855938017367,19.18471032434116,0 72.9889127612114,19.18499278148658,0 72.98912733793259,19.185122610281017,0 72.98990149050951,19.18500988089463,0 72.99001514911652,19.1851884746059,0 72.98995915800333,19.185366434813478,0 72.98996552824974,19.18553426187928,0 72.99032226204874,19.18548486374183,0 72.99037557095289,19.185818300882058,0 72.9907963424921,19.185713171676163,0 72.99151718616486,19.186355028763682,0 72.989810295403,19.187920870904453,0 72.98972379416227,19.187869573581878,0 72.98958163708447,19.187786611211546,0 72.98943243920803,19.18769224938074,0 72.9892698302865,19.187630819166536,0 72.9888966679573,19.187407896959538,0 72.98872768878937,19.186771743717784,0 72.98864554613829,19.18661151757604,0 72.98840347677469,19.18651050536306,0 72.98814229667187,19.186419942636668,0 72.98808429390192,19.1861311548688,0 72.98772286623716,19.186020009441595,0 72.98734534531832,19.185399366930444,0 72.98747207969427,19.18453616330376,0 72.9875998198986,19.184444332864427,0 72.98765480518341,19.184401267537293,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	<Style><IconStyle><color>ff0000</color></IconStyle></Style></Placemark>
+</Document>
+
+<Document>
+	<name>PP24_3_vitawa parisar 3.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>PP24_3_vitawa parisar 3</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>72.99158222973347,19.186294864663424,0 72.99256592988968,19.185368968053478,0 72.99243081361055,19.18514382619625,0 72.99233727157116,19.185058645863386,0 72.99221355468036,19.18465047629635,0 72.99185112118721,19.184501014417506,0 72.9918571561575,19.184187840676373,0 72.99169924110174,19.183821784466687,0 72.99132004380226,19.182408850531004,0 72.99077119678259,19.1825684474412,0 72.99044396728277,19.18261974641521,0 72.98932548612356,19.182685928401273,0 72.9892611131072,19.18229675260875,0 72.98792537301779,19.182713161172515,0 72.9879381135106,19.184644459825048,0 72.98857446759938,19.1846897416827,0 72.98911157995462,19.18507922847574,0 72.98995044082403,19.184979165290013,0 72.99003157764673,19.18517707501309,0 72.98996988683939,19.18551336266909,0 72.99033265560865,19.18547726402706,0 72.99038160592318,19.18580310148295,0 72.99081545323133,19.185696705649878,0 72.99152322113515,19.1863344463108,0 72.99158222973347,19.186294864663424,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	<Style><IconStyle><color>ff0000</color></IconStyle></Style></Placemark>
+</Document>
+
+<Document>
+	<name>PP24_4_Vitava Koliwada Parisar 4.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>PP24_4_Vitava Koliwada Parisar 4</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>72.9917310923338,19.183727103705618,0 72.9913867637515,19.18240726722755,0 72.99127746373415,19.182362301403053,0 72.99078695476055,19.182525698283985,0 72.99031220376492,19.1826029634193,0 72.98936203122139,19.182648879158762,0 72.98931509256363,19.182269519768667,0 72.98903916031122,19.182325252087747,0 72.98857245594263,19.182468066069298,0 72.98796527087688,19.182651095780344,0 72.98763804137707,19.181154552763505,0 72.98807792365551,19.181064303754955,0 72.98909850418568,19.18087968896237,0 72.9901060089469,19.180837572694255,0 72.99105450510979,19.18106335376513,0 72.99237951636314,19.181589647289787,0 72.99255285412073,19.182209987497902,0 72.9922692105174,19.182952872697115,0 72.99197550863028,19.1834883432838,0 72.99179311841726,19.183652689022416,0 72.9917310923338,19.183727103705618,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	<Style><IconStyle><color>ff0000</color></IconStyle></Style></Placemark>
+</Document>
+</Document>
+</kml>

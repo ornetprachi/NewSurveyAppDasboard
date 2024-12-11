@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+<Document>
+	<name>CM121_1_milind nagar.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>CM121_1_milind nagar</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>72.88681615144014,19.129266839204444,0 72.88766037672758,19.12836374619063,0 72.88871381431818,19.127579752285797,0 72.88922142237425,19.127179676386664,0 72.88978468626738,19.126787835473472,0 72.89040192961693,19.12628100672146,0 72.89094574749471,19.126400745154406,0 72.89041835814714,19.127266787215234,0 72.89015349000692,19.128437552293875,0 72.89053738117218,19.129559210946134,0 72.88992013782263,19.130091687295753,0 72.88916006684303,19.12990163049705,0 72.88819413632154,19.129496808786847,0 72.88726408034563,19.129197784914712,0 72.88704749196768,19.129286478492578,0 72.88681615144014,19.129266839204444,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	<Style><IconStyle><color>ff0000</color></IconStyle></Style></Placemark>
+</Document>
+
+<Document>
+	<name>CM121_2_kailash nagar.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>CM121_2_kailash nagar</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>72.89799258112907,19.133552583349584,0 72.89862927049398,19.133992238026302,0 72.89912849664688,19.134314059439635,0 72.89954122155905,19.13454687276795,0 72.8999187424779,19.134112287622923,0 72.8995606675744,19.13380725378046,0 72.89921700954437,19.13381073807468,0 72.89908021688461,19.13348479787021,0 72.89875667542219,19.133360946758952,0 72.89821051061153,19.133448687837138,0 72.89799258112907,19.133552583349584,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	<Style><IconStyle><color>ff0000</color></IconStyle></Style></Placemark>
+</Document>
+
+<Document>
+	<name>CM121_3_dargah parisar.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>CM121_3_dargah parisar</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>72.9047430306673,19.14035379615439,0 72.90411975234747,19.139880583728257,0 72.90396586060524,19.139336736179075,0 72.9036332666874,19.139016191531102,0 72.90330469608307,19.138764063090083,0 72.9026696830988,19.13820247411074,0 72.90258921682835,19.137442916434203,0 72.90223214775324,19.137030194513454,0 72.90158607065678,19.137394137381445,0 72.90149889886379,19.13684648066358,0 72.90230892598629,19.1355414729505,0 72.90374927222729,19.135930442347785,0 72.90603116154671,19.136651363661258,0 72.9055517166853,19.13776504786886,0 72.9062132164836,19.139115015639135,0 72.9050836712122,19.13992207697383,0 72.9047430306673,19.14035379615439,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	<Style><IconStyle><color>ff0000</color></IconStyle></Style></Placemark>
+</Document>
+
+<Document>
+	<name>CM121_4_nitie college.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>CM121_4_nitie college</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>72.90161423385143,19.136719147840804,0 72.901177033782,19.137287710307223,0 72.90074419230223,19.137752061264667,0 72.90038276463747,19.137602873616494,0 72.8999237716198,19.13686295156881,0 72.89954960346222,19.136634259237727,0 72.89951104670763,19.13629058664871,0 72.90018126368523,19.135340019384593,0 72.90063690394163,19.13498620804582,0 72.90146369487047,19.135351739174247,0 72.90163200348616,19.13643217350705,0 72.90161423385143,19.136719147840804,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	<Style><IconStyle><color>ff0000</color></IconStyle></Style></Placemark>
+</Document>
+
+<Document>
+	<name>CM121_5_moraji nagar.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>CM121_5_moraji nagar</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>72.89923343807459,19.13674512121063,0 72.90045987814665,19.13503023653482,0 72.89909094572067,19.13433084735048,0 72.89784774184227,19.13347877953191,0 72.89645668119192,19.132664084554836,0 72.89599165320396,19.133623853099287,0 72.89576936513186,19.13470239822347,0 72.8963091596961,19.135458484247145,0 72.8980415314436,19.135365042718245,0 72.89837948977947,19.136422037539113,0 72.89923343807459,19.13674512121063,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	<Style><IconStyle><color>ff0000</color></IconStyle></Style></Placemark>
+</Document>
+
+<Document>
+	<name>CM121_6_gautam nagar.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>CM121_6_gautam nagar</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>72.89571471512318,19.13450157713932,0 72.89545722305775,19.134499993375858,0 72.89519771933556,19.134465150575807,0 72.89485473185778,19.134397365471013,0 72.89439842104912,19.13439483144786,0 72.89451006799936,19.133387870921467,0 72.89454258978367,19.132243748521848,0 72.89465323090553,19.13184463419219,0 72.89548370987177,19.13207586721498,0 72.89647344499826,19.132586796020146,0 72.89625518023968,19.133085369784254,0 72.89594639092684,19.133448687837138,0 72.8957237675786,19.134380577566922,0 72.89571471512318,19.13450157713932,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	<Style><IconStyle><color>ff0000</color></IconStyle></Style></Placemark>
+</Document>
+
+<Document>
+	<name>CM121_7_bhim nagar.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>CM121_7_bhim nagar</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>72.8956875577569,19.134551307304363,0 72.89539318531752,19.134534519415922,0 72.89502136409283,19.134426189981593,0 72.89431259036064,19.13434731850663,0 72.89426397532225,19.13458710034382,0 72.89505992084742,19.134915255635963,0 72.8953304886818,19.135456583742,0 72.89593901485205,19.13576731604272,0 72.89633329957724,19.136495523292503,0 72.89693679660559,19.136107505475156,0 72.89663270115852,19.135411605113838,0 72.89621829986572,19.135425542154852,0 72.89583910256624,19.135112908701892,0 72.89575327187777,19.13489625052101,0 72.8956875577569,19.134551307304363,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	<Style><IconStyle><color>ff0000</color></IconStyle></Style></Placemark>
+</Document>
+
+<Document>
+	<name>CM121_8_mahatma phule nagar.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>CM121_8_mahatma phule nagar</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>72.89470419287682,19.141008182722963,0 72.89468239992857,19.140868500231754,0 72.89481818675995,19.14069746028561,0 72.89492346346378,19.140490311669126,0 72.89499588310719,19.140306284927885,0 72.8953006491065,19.139999995559467,0 72.89540626108646,19.139862212669627,0 72.89550248533487,19.139689271224483,0 72.89558328688145,19.13941497178425,0 72.89563525468111,19.13914035514449,0 72.89579048752785,19.138974381313744,0 72.89599366486073,19.138765646812633,0 72.89604898542166,19.13867664158093,0 72.89638929069042,19.138445417800984,0 72.89657402783632,19.138340258385725,0 72.89672322571278,19.13867917553836,0 72.8972040116787,19.138577500465626,0 72.89736527949572,19.138459037840832,0 72.89725363254547,19.138260121798396,0 72.89745178073645,19.13816984931155,0 72.89775285869837,19.138572115802706,0 72.89755571633577,19.13893035387644,0 72.89730057120323,19.13922207502274,0 72.89669372141361,19.139635424950004,0 72.89609592407942,19.140033570223235,0 72.8954679518938,19.14055080922772,0 72.89483293890953,19.141015151007416,0 72.89470419287682,19.141008182722963,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	<Style><IconStyle><color>ff0000</color></IconStyle></Style></Placemark>
+</Document>
+
+<Document>
+	<name>CM121_9_filter pada.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>CM121_9_filter pada</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>72.89586760103703,19.138751710053544,0 72.89577405899763,19.138933838062556,0 72.89561111479998,19.1390918933371,0 72.89558295160532,19.13932121575097,0 72.89552394300699,19.139519180285784,0 72.89546594023705,19.13967723499994,0 72.89541430771351,19.139828321228542,0 72.89525974541903,19.14003135302867,0 72.89511021226645,19.14019542534619,0 72.89498012512922,19.140323072229478,0 72.89490636438131,19.140501397610848,0 72.8948000818491,19.140705062064765,0 72.89468575268984,19.140884653995286,0 72.89470318704844,19.141020852330836,0 72.89473235607147,19.14111999197884,0 72.8945942223072,19.141344560482093,0 72.89454326033592,19.141588766504885,0 72.89442155510187,19.14194509760205,0 72.89431426674128,19.142243148177865,0 72.8941647335887,19.142170931934718,0 72.89398670196533,19.14217283236258,0 72.89376273751259,19.142175999742296,0 72.89355386048555,19.14218328471539,0 72.89338923990726,19.142122787755074,0 72.89344523102045,19.142002427244517,0 72.89353776723146,19.141876998829606,0 72.89366014301777,19.141668267998572,0 72.89376340806484,19.141516866714696,0 72.89380464702845,19.141384469662263,0 72.89391294121742,19.141161484912892,0 72.89393339306116,19.141020852330836,0 72.89396960288286,19.140827957445726,0 72.89398703724146,19.140652483085166,0 72.89405576884747,19.140389587935996,0 72.8940473869443,19.140060493297746,0 72.89401486515999,19.139764022494067,0 72.89387539029121,19.13948718923304,0 72.8936467319727,19.139229043382585,0 72.89342243224382,19.13889392828995,0 72.89336543530226,19.138641799662196,0 72.89319980889559,19.138453019683826,0 72.89300736039877,19.13836433102886,0 72.89240822196007,19.138195822453177,0 72.8921839222312,19.13779418853795,0 72.89244074374437,19.137685861242097,0 72.89308682084084,19.137797672748036,0 72.89353307336569,19.13818346937413,0 72.89400715380907,19.138522070103637,0 72.89452347904444,19.138926552946057,0 72.89488691836596,19.13902664408378,0 72.89539653807878,19.13893700550442,0 72.89574556052685,19.13880777382728,0 72.89586760103703,19.138751710053544,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	<Style><IconStyle><color>ff0000</color></IconStyle></Style></Placemark>
+</Document>
+</Document>
+</kml>

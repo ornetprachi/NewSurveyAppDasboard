@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+<Document>
+	<name>GS51_01_Oberoi Mall back side karmarkar Road parisar.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>GS51_01_Oberoi Mall back side karmarkar Road parisar</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>72.85982273519039,19.174211251278628,0 72.86098413169384,19.17437845635835,0 72.86282882094383,19.174915854868914,0 72.86417562514544,19.17507545903888,0 72.86571688950062,19.175434251181915,0 72.86582719534636,19.175091609452235,0 72.86593414843082,19.174758150596734,0 72.86598242819309,19.174442424923516,0 72.86601930856705,19.174106431341006,0 72.86603037267923,19.17379862135021,0 72.86595292389393,19.17354591271805,0 72.8658925741911,19.173430958663154,0 72.86586675792933,19.17309749644685,0 72.86580942571163,19.17262976150777,0 72.86579266190529,19.172301681232213,0 72.86576818674803,19.171944782352845,0 72.86563742905855,19.171916281078044,0 72.8653085231781,19.171980250599056,0 72.86510735750198,19.17211610657863,0 72.86505673080683,19.17215664167438,0 72.86480359733105,19.172076204834,0 72.86476839333773,19.172033136273413,0 72.86474458873272,19.17177820816588,0 72.86442372947931,19.169217821389964,0 72.86346986889839,19.169332145012145,0 72.86239296197891,19.169427467417652,0 72.86131002008915,19.169563325501663,0 72.86032866686583,19.16971755120956,0 72.85958904772997,19.169891727913505,0 72.85940431058407,19.16995854838199,0 72.85945661365986,19.170360420675507,0 72.85949651151896,19.17097510287881,0 72.8596031293273,19.171749390181084,0 72.85963498055935,19.172514173454317,0 72.85971377044916,19.17324823538604,0 72.85973120480776,19.173810021730482,0 72.8597841784358,19.17418401710185,0 72.85982273519039,19.174211251278628,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	<Style><IconStyle><color>ff0000</color></IconStyle></Style></Placemark>
+</Document>
+
+<Document>
+	<name>GS51_02_Vitbhatti parisar.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>GS51_02_Vitbhatti parisar</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>72.85919778048992,19.174168499952607,0 72.85740103572607,19.173661183370264,0 72.85738561302423,19.173601647988534,0 72.85793714225292,19.172994892552225,0 72.85821978002787,19.17281153543329,0 72.85872001200914,19.172573709228963,0 72.85887490957975,19.17215189146837,0 72.85904120653868,19.172065754375488,0 72.85904724150896,19.172268746496655,0 72.85923030227423,19.174136515619956,0 72.85919778048992,19.174168499952607,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	<Style><IconStyle><color>ff0000</color></IconStyle></Style></Placemark>
+</Document>
+
+<Document>
+	<name>GS51_03_Virwani Industrial Estate Vitbhatti road parisar.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>GS51_03_Virwani Industrial Estate Vitbhatti road parisar</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>72.85864558070898,19.171114443193456,0 72.85735040903091,19.170759125158277,0 72.85628993064165,19.170486460798944,0 72.85587720572948,19.17038163849197,0 72.85518284887075,19.170590649672434,0 72.85468328744173,19.17059349982307,0 72.85439595580101,19.170533329965995,0 72.85435102880001,19.170941534512682,0 72.85425581037998,19.171418141334666,0 72.8541636094451,19.17185611170393,0 72.85417836159468,19.172327648999836,0 72.85425681620836,19.172630078187265,0 72.85462595522404,19.172618361045828,0 72.85520363599062,19.17282641935211,0 72.85584066063166,19.173051578045108,0 72.85645388066769,19.173306504182722,0 72.85699602216482,19.173499361085646,0 72.85726256668568,19.173562379959026,0 72.85744864493608,19.17334957241051,0 72.85766255110502,19.17304112764845,0 72.85791635513306,19.17282673603121,0 72.85819228738546,19.172769733781763,0 72.85842396318913,19.172652562429285,0 72.85863921046257,19.172556925209573,0 72.8587344288826,19.172417269434717,0 72.85877767950296,19.172257979370148,0 72.85882662981749,19.172078738278394,0 72.8588192537427,19.17174622336926,0 72.85876326262951,19.171456143148177,0 72.85868681967258,19.171198680690182,0 72.85865496844053,19.171152761759338,0 72.85864558070898,19.171114443193456,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	<Style><IconStyle><color>ff0000</color></IconStyle></Style></Placemark>
+</Document>
+
+<Document>
+	<name>GS51_04_Near Western express Highway Parisar.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>GS51_04_Near Western express Highway Parisar</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>72.85728670656681,19.17378722096913,0 72.85724580287933,19.174309420948276,0 72.85713348537683,19.175112509984796,0 72.85731554031372,19.175635655784788,0 72.85755895078182,19.17541715077978,0 72.85789959132671,19.175269263894553,0 72.8582164272666,19.175208779070278,0 72.85854734480381,19.175249630079684,0 72.85909719765186,19.17522651284305,0 72.85918705165386,19.175261030359568,0 72.85921186208725,19.174961772751118,0 72.85924170166254,19.174336338428116,0 72.8590727224946,19.174330954932497,0 72.85870525985956,19.17421948486608,0 72.85840921103954,19.17414759930029,0 72.85810343921185,19.174052912978546,0 72.85732660442591,19.17379228780526,0 72.85728670656681,19.17378722096913,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	<Style><IconStyle><color>ff0000</color></IconStyle></Style></Placemark>
+</Document>
+
+<Document>
+	<name>GS51_05_Squatters colony chincholi fatak parisar.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>GS51_05_Squatters colony chincholi fatak parisar</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>72.85063449293375,19.176359886968466,0 72.85075183957815,19.176067914832316,0 72.8509010374546,19.175760425179405,0 72.8510408475995,19.175405117162388,0 72.85145625472069,19.175067225494203,0 72.85195045173168,19.174703365743955,0 72.85227734595537,19.174453825259253,0 72.85228908061981,19.173533878964,0 72.8522015735507,19.172877088001833,0 72.85186495631933,19.17288880512486,0 72.85130236297846,19.173354005903906,0 72.85080213099718,19.173766003591147,0 72.85037834197283,19.173962660079415,0 72.84987777471542,19.17411023146075,0 72.84924644976854,19.174106431341006,0 72.84920152276754,19.175174894892002,0 72.84915793687105,19.17603561419544,0 72.84907378256321,19.17688492883551,0 72.84915693104267,19.17712274881694,0 72.84950092434883,19.176901395742757,0 72.84979395568371,19.176802910946055,0 72.85004876554012,19.176777893898283,0 72.85028614103794,19.176593907645454,0 72.85048596560955,19.17640232105365,0 72.85059727728367,19.17637255386072,0 72.85063449293375,19.176359886968466,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	<Style><IconStyle><color>ff0000</color></IconStyle></Style></Placemark>
+</Document>
+
+<Document>
+	<name>GS51_06_Upper Govind Nagar.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>GS51_06_Upper Govind Nagar</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>72.85077463835478,19.17630826937251,0 72.85099659115076,19.175668906521018,0 72.85112667828798,19.175441534686,0 72.85126011818647,19.175285730963292,0 72.85155516117811,19.175035874685744,0 72.8518046066165,19.174865820196494,0 72.85205338150263,19.174704949121463,0 72.85231087356806,19.174495309807646,0 72.85279400646687,19.174013645056583,0 72.85241950303316,19.17401459508706,0 72.85239167511463,19.173334055182668,0 72.85310178995132,19.17327831982168,0 72.85354536026716,19.173545279362596,0 72.85393495112658,19.173845489575218,0 72.85415355116129,19.17412416523241,0 72.85428062081337,19.174326838141624,0 72.85454481840134,19.174578912224582,0 72.85514060407877,19.17490160448908,0 72.85555399954319,19.17520434562679,0 72.85582087934017,19.17549030248764,0 72.856016010046,19.175856693886313,0 72.8561806306243,19.176129032686713,0 72.85636939108372,19.17665755867872,0 72.85653870552778,19.177193049731073,0 72.85638280212879,19.177300717739595,0 72.85601131618023,19.177212366643666,0 72.85555768758059,19.177028697547083,0 72.85503935068846,19.176942563003685,0 72.85457331687212,19.176819061190063,0 72.85411465913057,19.176692075895428,0 72.85359866917133,19.176636658342158,0 72.85305418074131,19.176604991160477,0 72.85245303064585,19.176459638718516,0 72.8520493581891,19.17627945217999,0 72.85153839737177,19.17619331724486,0 72.85112030804157,19.176266468608087,0 72.85081721842289,19.176316186182753,0 72.85077463835478,19.17630826937251,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	<Style><IconStyle><color>ff0000</color></IconStyle></Style></Placemark>
+</Document>
+
+<Document>
+	<name>GS51_07_Koyana Vasahat parisar.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>GS51_07_Koyana Vasahat parisar</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>72.8572441264987,19.175635972458494,0 72.85702720284462,19.175895644695817,0 72.85690482705832,19.176078681709864,0 72.85684145987034,19.176201234060628,0 72.85681363195181,19.176305419320727,0 72.85678915679455,19.17643683832384,0 72.85678010433912,19.176575857347963,0 72.85676132887602,19.176722159702248,0 72.85675697028637,19.176877962066566,0 72.85673383623362,19.177022997468406,0 72.85672210156918,19.17713446563806,0 72.8566325828433,19.177195583096793,0 72.85655613988638,19.17716169932713,0 72.85653535276651,19.17710596526095,0 72.85648673772812,19.1770100139551,0 72.85645052790642,19.176898862372518,0 72.85642940551043,19.176824761275803,0 72.85640258342028,19.176744960057455,0 72.85636838525534,19.17664742518253,0 72.8563492745161,19.176591374270497,0 72.85633586347103,19.176536273355325,0 72.85629831254482,19.17644570514436,0 72.85626277327538,19.176338669921787,0 72.85622857511044,19.176249368292336,0 72.85620108246803,19.17616956679526,0 72.85608775913715,19.17594441236303,0 72.8559871762991,19.17573572464685,0 72.85586211830378,19.175523553253196,0 72.85576958209276,19.175421584217542,0 72.85566933453083,19.175312964957964,0 72.85558819770813,19.175224929470552,0 72.85543330013752,19.175090976102705,0 72.85519190132618,19.17491427149344,0 72.8549873828888,19.174796784990626,0 72.85483617335558,19.174693232127577,0 72.85573270171881,19.174230251864422,0 72.8560284152627,19.17465934784326,0 72.85658530890942,19.175294914520137,0 72.85720456391573,19.175623305509617,0 72.8572441264987,19.175635972458494,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	<Style><IconStyle><color>ff0000</color></IconStyle></Style></Placemark>
+</Document>
+
+<Document>
+	<name>GS51_08_irani colony Bharat compound mulund link road parisar.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>GS51_08_irani colony Bharat compound mulund link road parisar</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>72.85718612372875,19.173791654450746,0 72.8571455553174,19.174272686498096,0 72.85711873322725,19.174963672801137,0 72.85714756697416,19.175400050375845,0 72.85676904022694,19.175268947220143,0 72.85629261285067,19.174707482525427,0 72.85593185573816,19.174282503464035,0 72.85569213330746,19.17413556559018,0 72.85486031323671,19.174660614545612,0 72.85459712147713,19.174547244647407,0 72.85440064966679,19.174368639398125,0 72.85424508154392,19.17413493223699,0 72.85407576709986,19.17386987371403,0 72.85385213792324,19.17371121840848,0 72.85362582653761,19.173529445475435,0 72.85333547741175,19.17336825641758,0 72.85314369946718,19.173227967973666,0 72.8527856245637,19.173259952482685,0 72.8524074330926,19.17329827054965,0 72.85229176282883,19.17329447041119,0 72.85224918276072,19.172889755161837,0 72.85230048000813,19.17282135248627,0 72.85270985215902,19.17278493438354,0 72.85342868417501,19.17272286525077,0 72.85406604409218,19.17271558162651,0 72.854665517807,19.172794434758945,0 72.85546984523535,19.173087046053105,0 72.85633351653814,19.17342494178203,0 72.85711269825697,19.173770437073337,0 72.85718612372875,19.173791654450746,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	<Style><IconStyle><color>ff0000</color></IconStyle></Style></Placemark>
+</Document>
+
+<Document>
+	<name>GS51_09_Jay Prakash Nagar Peru Baug.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>GS51_09_Jay Prakash Nagar Peru Baug</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>72.85836763679981,19.166213076818032,0 72.85807326436043,19.164569754789408,0 72.85736817866564,19.16468503171959,0 72.85683441907167,19.164732219230938,0 72.85650584846735,19.164762305221057,0 72.85634055733681,19.164736019566828,0 72.8562131524086,19.16469611603554,0 72.85610251128674,19.164652728851674,0 72.85585977137089,19.16456532105971,0 72.85557813942432,19.164466195500445,0 72.85525426268578,19.164337300514738,0 72.85503331571817,19.16422772386286,0 72.85499844700098,19.16414158262877,0 72.85493742674589,19.164039606550805,0 72.85478554666042,19.16397088350616,0 72.85460952669382,19.163930663093474,0 72.85453777760267,19.16388854249329,0 72.85443216562271,19.163818235903598,0 72.85432923585176,19.16374349553213,0 72.85419680178165,19.163657037348298,0 72.85401239991188,19.16348950469452,0 72.85383705049753,19.163678572724333,0 72.8537468612194,19.163775165185193,0 72.85376999527216,19.163798284028083,0 72.85375792533159,19.16382742009945,0 72.85372506827116,19.16387872490824,0 72.85362347960472,19.16402187157427,0 72.85345617681742,19.16427174454968,0 72.85316247493029,19.164527317657456,0 72.85282250493765,19.164700233066988,0 72.85270348191261,19.165062214738196,0 72.85265754908323,19.16547169960759,0 72.85263039171696,19.165938821476473,0 72.85265285521746,19.166207376365232,0 72.85423468798399,19.16632138538384,0 72.85542760044336,19.166380923395533,0 72.85632412880659,19.16637617302304,0 72.85830829292536,19.16622194418867,0 72.85836763679981,19.166213076818032,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	<Style><IconStyle><color>ff0000</color></IconStyle></Style></Placemark>
+</Document>
+
+<Document>
+	<name>GS51_10_Hanuman tekadi Parisar.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>GS51_10_Hanuman tekadi Parisar</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>72.85827543586493,19.166346404019023,0 72.85840585827827,19.167253089463856,0 72.85856679081917,19.16832508101459,0 72.85858523100615,19.169206104005927,0 72.8588118776679,19.170625484843406,0 72.85879779607058,19.17109417551866,0 72.8583076223731,19.17094565138813,0 72.8577882796526,19.170807260979743,0 72.85697657614946,19.17060236695804,0 72.85638883709908,19.17041805712583,0 72.8559784591198,19.17033888617241,0 72.85554394125938,19.1704323078934,0 72.85521235316992,19.170538713585678,0 72.85465847700834,19.17055264765934,0 72.85438321530819,19.17048931095137,0 72.85441674292088,19.169949364527742,0 72.85439629107714,19.169611778357673,0 72.85440500825644,19.169195653365396,0 72.85436175763607,19.168419453939805,0 72.85428330302238,19.167729706952073,0 72.85427290946245,19.166931015603488,0 72.85432320088148,19.166419559753315,0 72.85521268844604,19.166468330224824,0 72.85607099533081,19.166468013533482,0 72.8569795936346,19.16640879224468,0 72.8578194603324,19.16634672071058,0 72.85815171897411,19.166312518018543,0 72.85827543586493,19.166346404019023,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	<Style><IconStyle><color>ff0000</color></IconStyle></Style></Placemark>
+</Document>
+</Document>
+</kml>

@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+<Document>
+	<name>SK195_1_BDD chawl.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>SK195_1_BDD chawl</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>72.8217015042901,19.006211066463166,0 72.82040163874626,19.004037714174924,0 72.81968582421541,19.00276082476439,0 72.81877890229224,19.00119639997569,0 72.8180443122983,19.000012055641538,0 72.81787734478712,18.999752107416494,0 72.81773183494806,18.99935457605283,0 72.81753301620483,18.9988216796489,0 72.81748205423355,18.998667294708607,0 72.81791489571333,18.998622278949554,0 72.81943738460541,18.998554121263034,0 72.82122574746609,18.99850847144808,0 72.82250817865132,18.998431120344154,0 72.82708000391722,18.9983036811519,0 72.82677289098501,18.998924074509755,0 72.82647114247084,18.999244256175906,0 72.82606914639473,18.999879228489476,0 72.82562658190727,19.00080869931903,0 72.82528292387724,19.00171470647432,0 72.82502945512533,19.002355375456236,0 72.82484002411366,19.00268252462315,0 72.82456040382385,19.002995724967032,0 72.82425664365292,19.003359328270406,0 72.82392036169766,19.00405229627147,0 72.82388716936111,19.00447168950129,0 72.82387141138315,19.004826096561334,0 72.82379396259785,19.005321884777334,0 72.82367762178183,19.00579516460498,0 72.8236461058259,19.006084901222764,0 72.82363671809435,19.006250691204844,0 72.82336380332708,19.006233573317605,0 72.82277572900057,19.00622152739588,0 72.82236870378254,19.006249740211157,0 72.8218587487936,19.00625449517955,0 72.8217015042901,19.006211066463166,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	<Style><IconStyle><color>ff0000</color></IconStyle></Style></Placemark>
+</Document>
+
+<Document>
+	<name>SK195_2_kamla mill compound.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>SK195_2_kamla mill compound</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>72.82349925488234,19.0061917295858,0 72.82365817576647,19.00563444615409,0 72.8238482773304,19.00503595083312,0 72.82393276691437,19.004543648777613,0 72.82395824790001,19.00423140235308,0 72.82402161508799,19.003925812391472,0 72.82415471971035,19.003632584981485,0 72.82432872802019,19.003305754686256,0 72.82472234219313,19.002850854031053,0 72.8249278664589,19.002578230045795,0 72.82506968826056,19.002379467858685,0 72.82519675791264,19.002193068654062,0 72.82531142234802,19.0018519702491,0 72.8254247456789,19.001490582700267,0 72.82563194632532,19.000852129445697,0 72.82607886940241,18.99996196808829,0 72.82623913139105,18.999594553233646,0 72.82639671117067,18.999309877490806,0 72.8265854716301,18.99917292863035,0 72.82680541276932,18.99898525778665,0 72.82694153487682,18.998721186798488,0 72.8270860388875,18.998462504607865,0 72.82716315239668,18.998319214790005,0 72.82718896865845,18.998262786465045,0 72.82752692699434,18.99823584034805,0 72.8282256424427,18.999482648461886,0 72.82865446060896,19.000319871856043,0 72.82885897904634,19.000733251334808,0 72.82913692295551,19.001283577022654,0 72.82939340919256,19.001594560952643,0 72.82961200922728,19.002115402257175,0 72.82980848103762,19.00253099630992,0 72.83033821731806,19.00342399695255,0 72.83079855144024,19.004369932057415,0 72.83136516809464,19.00558657928762,0 72.83193379640579,19.00696139896871,0 72.83263485878706,19.00826741959131,0 72.83261306583881,19.0083422301708,0 72.83266302198172,19.008479805470667,0 72.832737788558,19.008631962351824,0 72.83223621547222,19.00861896562366,0 72.83081129193306,19.008636400258762,0 72.83090919256212,19.006267809090335,0 72.82712861895561,19.006103921114384,0 72.82395523041487,19.00615559180895,0 72.82349925488234,19.0061917295858,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	<Style><IconStyle><color>ff0000</color></IconStyle></Style></Placemark>
+</Document>
+
+<Document>
+	<name>SK195_3_parel carshed.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>SK195_3_parel carshed</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>72.82758291810751,18.998268492701023,0 72.83100374042988,19.004764915432258,0 72.83139668405056,19.004443793385803,0 72.83187344670296,18.99944619221686,0 72.8313685208559,18.998483110434364,0 72.83119384199381,18.99805609378546,0 72.82770261168478,18.998253910097567,0 72.82758291810751,18.998268492701023,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	<Style><IconStyle><color>ff0000</color></IconStyle></Style></Placemark>
+</Document>
+
+<Document>
+	<name>SK195_4_india bulls.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>SK195_4_india bulls</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>72.83102251589298,19.004818488546515,0 72.83520575612785,19.00649826637715,0 72.83502604812384,19.006610800424568,0 72.83517021685839,19.006738550250912,0 72.83529426902533,19.00693984320251,0 72.83542033284903,19.007154132754145,0 72.83263955265284,19.008315285686294,0 72.83108118921517,19.004976354782855,0 72.83102251589298,19.004818488546515,0</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	<Style><IconStyle><color>ff0000</color></IconStyle></Style></Placemark>
+</Document>
+</Document>
+</kml>
