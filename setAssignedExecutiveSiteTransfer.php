@@ -70,16 +70,16 @@ $TableQuery = "SELECT
                     CASE WHEN ed.Attendance='1' THEN 0 ELSE 1 END as absents,
                     CASE WHEN em.ExeType='C' THEN 1 ELSE 0 END as contracts,
                     CASE WHEN em.ExeType='S' THEN 1 ELSE 0 END as staff 
-                    from [$ServerIP].[Survey_Entry_Data].[dbo].[Executive_Details] ed 
-                    INNER JOIN [$ServerIP].[Survey_Entry_Data].[dbo].[Executive_Master] em on (ed.Executive_Cd=em.Executive_Cd) 
-                    INNER JOIN [$ServerIP].[Survey_Entry_Data].[dbo].[Site_Master] sm on (sm.SiteName=ed.SiteName) 
+                    from [Survey_Entry_Data].[dbo].[Executive_Details] ed 
+                    INNER JOIN [Survey_Entry_Data].[dbo].[Executive_Master] em on (ed.Executive_Cd=em.Executive_Cd) 
+                    INNER JOIN [Site_Master] sm on (sm.SiteName=ed.SiteName) 
                     WHERE convert(varchar, ed.SurveyDate, 23) = '$Date' and ed.ElectionName <> 'OFFICE STAFF'
                 ) as tb1 
                 GROUP BY tb1.ElectionName,tb1.SiteName 
                 ORDER BY tb1.ElectionName,tb1.SiteName;";
 
 $db1=new DbOperation();
-$TableData = $db->ExecutveQueryMultipleRowSALData($TableQuery, $userName, $appName, $developmentMode);
+$TableData = $db->ExecutveQueryMultipleRowSALData($ULB,$TableQuery, $userName, $appName, $developmentMode);
 // echo "<pre>";
 // print_r($TableData);
 // echo "</pre>";

@@ -1,5 +1,5 @@
 <?php
-
+/**changes Added by prachi */
 $electionName = "";
 $SiteName = "";
 $FilterType = "";
@@ -23,11 +23,11 @@ if ($_SERVER['REQUEST_METHOD'] === "POST") {
     $ServerIP = $_SESSION['SurveyUtility_ServerIP'];
     $_SESSION['assign-executive-to-site'] = "AssignedReportTab";
     
-    if($ServerIP == "103.14.99.154"){
-        $ServerIP =".";
-    }else{
-        $ServerIP ="103.14.99.154";
-    }
+    // if($ServerIP == "103.14.99.154"){
+    //     $ServerIP =".";
+    // }else{
+    //     $ServerIP ="103.14.99.154";
+    // }
     $PassedArr = array();
     $ExecutiveCdsArr = array();
     $getAllPreviousData = array();
@@ -45,7 +45,7 @@ if ($_SERVER['REQUEST_METHOD'] === "POST") {
             $Supervisor = $_POST['Supervisor'];
             $SelectedExecutiveCds = substr($SelectedExecutiveCds,0,-1);
 
-            $removeQuery = "DELETE FROM [$ServerIP].[Survey_Entry_Data].[dbo].[Executive_Details] 
+            $removeQuery = "DELETE FROM [Survey_Entry_Data].[dbo].[Executive_Details] 
             WHERE Executive_Cd IN ($SelectedExecutiveCds)
             AND convert(varchar, SurveyDate, 23) = '$Date'
             AND SiteName = '$SiteName';";

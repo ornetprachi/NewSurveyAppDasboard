@@ -25,11 +25,11 @@ $currentDate = date('Y-m-d');
 
 $QCAssignList = array(); 
 
-if($ServerIP == "103.14.99.154"){
-    $ServerIP =".";
-}else{
-    $ServerIP ="103.14.99.154";
-}
+// if($ServerIP == "103.14.99.154"){
+//     $ServerIP =".";
+// }else{
+//     $ServerIP ="103.14.99.154";
+// }
  
 $dataElectionNameAverageCount = $db->getCorporationDataForAssignExecutiveToSite($userName, $appName, $developmentMode);
 
@@ -63,7 +63,7 @@ $dataSite = array();
 // if(isset($_SESSION['SurveyUA_ElectionName']) && !empty($_SESSION['SurveyUA_ElectionName'])){
 //     $electionCd = $_SESSION['SurveyUA_Election_Cd']; 
 //     $electionName = $_SESSION['SurveyUA_ElectionName'];
-    $dataSite = $db->getSiteDropDownDatabyElectionName($userName, $appName,  $developmentMode);
+    $dataSite = $db->getSiteDropDownDatabyElectionName($ULB,$userName, $appName,  $developmentMode);
     
     // $query = "SELECT 
     //             distinct(SiteName) as SiteName, 
@@ -88,7 +88,7 @@ $dataSite = array();
                         COALESCE(ExecutiveName, '') as ExecutiveName, 
                         COALESCE(MobileNo, '') as MobileNo,
                         COALESCE(Designation, '') as Designation 
-                        FROM [$ServerIP].[Survey_Entry_Data].[dbo].[Executive_Master]
+                        FROM [Survey_Entry_Data].[dbo].[Executive_Master]
                         WHERE (Designation = 'SP' or Designation = 'Survey Supervisor') 
                         AND EmpStatus = 'A' AND ElectionName <> 'AMC' 
                         ORDER BY ExecutiveName;";
@@ -108,7 +108,6 @@ if(isset($_SESSION['SurveyUA_Date_AssignExecutiveToSite']) && !empty($_SESSION['
     $Date = date('Y-m-d', strtotime('-1 day', strtotime($currentDate)));
     $_SESSION['SurveyUA_Date_AssignExecutiveToSite'] = $Date;
 }
-
 
 $FilterTypeCondition = "";
 if($FilterType == "All"){
@@ -136,16 +135,19 @@ $TableQuery = "SELECT
                 '' as remark,
                 '' as presenttime,
                 COALESCE(CONCAT(cem.address1,' ' ,cem.address2,' ',cem.address3),'') AS Address
-                FROM [$ServerIP].[Survey_Entry_Data].[dbo].[Executive_Master] em 
-                INNER JOIN [$ServerIP].[Survey_Entry_Data].[dbo].[Election_Master] eem on (em.ElectionName=eem.ElectionName) 
-                INNER JOIN [$ServerIP].[Survey_Entry_Data].[dbo].[User_Master] um on (em.Executive_Cd = um.Executive_Cd AND um.AppName = 'SurveyUtilityApp')
-                LEFT JOIN  [$ServerIP].[ChankyaAdmin].[dbo].[emp_mst] cem on (em.CHAdminEmp_Id = cem.emp_id)
+                FROM [Survey_Entry_Data].[dbo].[Executive_Master] em 
+                INNER JOIN [Survey_Entry_Data].[dbo].[Election_Master] eem on (em.ElectionName=eem.ElectionName) 
+                INNER JOIN [Survey_Entry_Data].[dbo].[User_Master] um on (em.Executive_Cd = um.Executive_Cd AND um.AppName = 'SurveyUtilityApp')
+                LEFT JOIN  [ChankyaAdmin].[dbo].[emp_mst] cem on (em.CHAdminEmp_Id = cem.emp_id)
                 WHERE em.EmpStatus = 'A' AND (Designation LIKE '%SE-Belapur%' OR Designation LIKE '%Survey Executive%') 
                 AND eem.ActiveFlag = 1  $FilterTypeCondition
                 ORDER BY ExecutiveName;";
 
+          
+
 $db1=new DbOperation();
 $TableData = $db->ExecutveQueryMultipleRowSALData($ULB,$TableQuery, $userName, $appName, $developmentMode);
+
 
 $ReportTableQuery = "SELECT 
                 tb1.SiteName,
@@ -167,16 +169,20 @@ $ReportTableQuery = "SELECT
                     CASE WHEN ed.Attendance='0' THEN 1 ELSE 0 END as assigned,
                     CASE WHEN em.ExeType='C' THEN 1 ELSE 0 END as contracts,
                     CASE WHEN em.ExeType='S' THEN 1 ELSE 0 END as staff 
-                    from [$ServerIP].[Survey_Entry_Data].[dbo].[Executive_Details] ed 
-                    INNER JOIN [$ServerIP].[Survey_Entry_Data].[dbo].[Executive_Master] em on (ed.Executive_Cd=em.Executive_Cd) 
-                    INNER JOIN [$ServerIP].[Survey_Entry_Data].[dbo].[Site_Master] sm on (sm.SiteName=ed.SiteName) 
+                    from [Survey_Entry_Data].[dbo].[Executive_Details] ed 
+                    INNER JOIN [Survey_Entry_Data].[dbo].[Executive_Master] em on (ed.Executive_Cd=em.Executive_Cd) 
+                    INNER JOIN [Site_Master] sm on (sm.SiteName=ed.SiteName) 
                     WHERE convert(varchar, ed.SurveyDate, 23) = '$Date' and ed.ElectionName <> 'OFFICE STAFF'
                 ) as tb1 
                 GROUP BY tb1.ElectionName,tb1.SiteName 
                 ORDER BY tb1.ElectionName,tb1.SiteName;";
 
+
 $db2=new DbOperation();
 $ReportTableData = $db2->ExecutveQueryMultipleRowSALData($ULB,$ReportTableQuery, $userName, $appName, $developmentMode);
+
+
+
 
 $MinDate = "";
 
@@ -642,10 +648,10 @@ $MinDate =  $CurYear."-$previousSecondMonth-01";
 
 
 <script>
-    var Executive_CdArray = [];
+
     function setAssignExecutiveToSite(Executive_Cd){
-        var selected = 0;
-        var check = Executive_CdArray.includes(Executive_Cd);                                                                   
+        let selected = 0;
+        let check = Executive_CdArray.includes(Executive_Cd);                                                                   
         if(check == false){
             Executive_CdArray.push(Executive_Cd);
             // selected++;

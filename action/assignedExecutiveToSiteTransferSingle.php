@@ -1,5 +1,5 @@
 <?php
-  
+/*Changes Done By prachi*/
 $electionName = "";
 $SiteName = "";
 $FilterType = "";
@@ -22,11 +22,11 @@ if ($_SERVER['REQUEST_METHOD'] === "POST") {
     $ULB=$_SESSION['SurveyUtility_ULB'];
     $ServerIP = $_SESSION['SurveyUtility_ServerIP'];
 
-    if($ServerIP == "103.14.99.154"){
-        $ServerIP =".";
-    }else{
-        $ServerIP ="103.14.99.154";
-    }
+    // if($ServerIP == "103.14.99.154"){
+    //     $ServerIP =".";
+    // }else{
+    //     $ServerIP ="103.14.99.154";
+    // }
     $PassedArr = array();
     $ExecutiveCdsArr = array();
     $getAllPreviousData = array();
@@ -38,9 +38,9 @@ if ($_SERVER['REQUEST_METHOD'] === "POST") {
             $TransferDate = date('Y-m-d', strtotime('+1 day', strtotime($Date)));
 
             $getAllPreviousDataQuery = "SELECT ed.Executive_Cd, ed.ExecutiveName, ed.Site_CD, ed.SiteName, ed.ElectionName, ed.Attendance, ed.InTime, ed.latitude, ed.longitude
-            FROM [$ServerIP].[Survey_Entry_Data].[dbo].[Executive_Details] AS ed
-            INNER JOIN [$ServerIP].[Survey_Entry_Data].[dbo].[Site_Master] AS sm ON (ed.SiteName = sm.SiteName AND sm.Closed = 0)
-            INNER JOIN [$ServerIP].[Survey_Entry_Data].[dbo].[Executive_Master] AS em ON (ed.Executive_Cd = em.Executive_Cd AND em.EmpStatus <> 'NA')
+            FROM [Survey_Entry_Data].[dbo].[Executive_Details] AS ed
+            INNER JOIN [Site_Master] AS sm ON (ed.SiteName = sm.SiteName AND sm.Closed = 0)
+            INNER JOIN [Survey_Entry_Data].[dbo].[Executive_Master] AS em ON (ed.Executive_Cd = em.Executive_Cd AND em.EmpStatus <> 'NA')
             WHERE CONVERT(VARCHAR,ed.SurveyDate,23) = '$Date'";
             $getAllPreviousData = $db->ExecutveQueryMultipleRowSALData($ULB,$getAllPreviousDataQuery, $userName, $appName, $developmentMode);
             
@@ -57,7 +57,7 @@ if ($_SERVER['REQUEST_METHOD'] === "POST") {
                     $latitude = $value['latitude'];
                     $longitude = $value['longitude'];
                     
-                    $queryData = "SELECT * FROM [$ServerIP].[Survey_Entry_Data].[dbo].[Executive_Details] WHERE Executive_Cd = $Executive_Cd AND convert(varchar, SurveyDate, 23) = '$TransferDate';";
+                    $queryData = "SELECT * FROM [Survey_Entry_Data].[dbo].[Executive_Details] WHERE Executive_Cd = $Executive_Cd AND convert(varchar, SurveyDate, 23) = '$TransferDate';";
                     $SingleData = $db->ExecutveQuerySingleRowSALData($ULB,$queryData, $userName, $appName, $developmentMode);
                     $SingleDataCOUNT = sizeof($SingleData);
 
@@ -65,11 +65,11 @@ if ($_SERVER['REQUEST_METHOD'] === "POST") {
                         $flag = "E";
                     }else{
 
-                        $insertinto="INSERT INTO [$ServerIP].[Survey_Entry_Data].[dbo].[Executive_Details] (Executive_Cd,ExecutiveName,Site_CD,SiteName,SurveyDate,UpdateByUser,Attendance,UpdatedDate,ElectionName, Attendance, InTime, latitude, longitude) 
+                        $insertinto="INSERT INTO [Survey_Entry_Data].[dbo].[Executive_Details] (Executive_Cd,ExecutiveName,Site_CD,SiteName,SurveyDate,UpdateByUser,Attendance,UpdatedDate,ElectionName, Attendance, InTime, latitude, longitude) 
                                                             VALUES ('$Executive_Cd','$ExecutiveName','$Site_CD','$SiteName','$TransferDate','$updatedByUser',0,GETDATE(),'$ElectionName', $Attendance, '$InTime', '$latitude', '$longitude');";
                         $runQuery = $db->RunQueryData($ULB,$insertinto, $userName, $appName,  $developmentMode);
 
-                        $insertinto="UPDATE [$ServerIP].[Survey_Entry_Data].[dbo].[Executive_Master]
+                        $insertinto="UPDATE [Survey_Entry_Data].[dbo].[Executive_Master]
                                     SET 
                                         Attendance = $Attendance,
                                         SurveyDate = '$TransferDate',

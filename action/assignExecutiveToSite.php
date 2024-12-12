@@ -1,5 +1,5 @@
 <?php
-
+/*Changes Done By prachi*/
 $electionName = "";
 $SiteName = "";
 $FilterType = "";
@@ -82,31 +82,31 @@ if ($_SERVER['REQUEST_METHOD'] === "POST") {
                 $ExecutiveCdsArr = array($ExecutiveCds);
             }
 
-            $getElectionNameQuery = "SELECT ElectionName FROM [$ServerIP].[Survey_Entry_Data].[dbo].[Site_Master] WHERE Site_Cd = $Site_Cd AND SiteName = '$SiteName'";
+            $getElectionNameQuery = "SELECT ElectionName FROM [Site_Master] WHERE Site_Cd = $Site_Cd AND SiteName = '$SiteName'";
             $ElectionNameData = $db->ExecutveQuerySingleRowSALData($ULB,$getElectionNameQuery, $userName, $appName, $developmentMode);
             $ElectionName = $ElectionNameData['ElectionName'];
 
 
             foreach ($ExecutiveCdsArr as $ExecutiveCd) {
-                $queryData = "SELECT * FROM [$ServerIP].[Survey_Entry_Data].[dbo].[Executive_Details] WHERE Executive_Cd = $ExecutiveCd AND convert(varchar, SurveyDate, 23) = '$Date';";
+                $queryData = "SELECT * FROM [Survey_Entry_Data].[dbo].[Executive_Details] WHERE Executive_Cd = $ExecutiveCd AND convert(varchar, SurveyDate, 23) = '$Date';";
                 $SingleData = $db->ExecutveQuerySingleRowSALData($ULB,$queryData, $userName, $appName, $developmentMode);
                 $SingleDataCOUNT = sizeof($SingleData);
                 if($SingleDataCOUNT > 0){
                     $flag = "E";
                 }else{
 
-                    $ExecQuery = "SELECT * FROM [$ServerIP].[Survey_Entry_Data].[dbo].[Executive_Master] WHERE Executive_Cd = $ExecutiveCd;";
+                    $ExecQuery = "SELECT * FROM [Survey_Entry_Data].[dbo].[Executive_Master] WHERE Executive_Cd = $ExecutiveCd;";
                     $ExecData = $db->ExecutveQuerySingleRowSALData($ULB,$ExecQuery, $userName, $appName, $developmentMode);
                     if(sizeof($ExecData)>0){
                         $Executive_Cd = $ExecData['Executive_Cd'];
                         $ExecutiveName = $ExecData['ExecutiveName'];
                     }
 
-                    $insertinto="INSERT INTO [$ServerIP].[Survey_Entry_Data].[dbo].[Executive_Details] (Executive_Cd,ExecutiveName,Site_CD,SiteName,SurveyDate,UpdateByUser,UpdatedDate,ElectionName $AttendanceCondiColumn) 
+                    $insertinto="INSERT INTO [Survey_Entry_Data].[dbo].[Executive_Details] (Executive_Cd,ExecutiveName,Site_CD,SiteName,SurveyDate,UpdateByUser,UpdatedDate,ElectionName $AttendanceCondiColumn) 
                                                         VALUES ('$Executive_Cd','$ExecutiveName','$Site_Cd','$SiteName','$Date','$updatedByUser',GETDATE(),'$ElectionName' $AttendanceCondiValues);";
                     $runQuery = $db->RunQueryData($ULB,$insertinto, $userName, $appName,  $developmentMode);
 
-                    $insertinto="UPDATE [$ServerIP].[Survey_Entry_Data].[dbo].[Executive_Master]
+                    $insertinto="UPDATE [Survey_Entry_Data].[dbo].[Executive_Master]
                                 SET 
                                     Attendance = $Attendance,
                                     SurveyDate = '$Date',
@@ -116,7 +116,7 @@ if ($_SERVER['REQUEST_METHOD'] === "POST") {
                                 WHERE Executive_Cd = $Executive_Cd;";
                     $runQuery = $db->RunQueryData($ULB,$insertinto, $userName, $appName,  $developmentMode);
 
-                    $insertinto="UPDATE [$ServerIP].[Survey_Entry_Data].[dbo].[Site_Master]
+                    $insertinto="UPDATE [Site_Master]
                                 SET
                                     SupervisorName = '$SupervisorName',
                                     Supervisor_Cd = '$SupervisorCd'

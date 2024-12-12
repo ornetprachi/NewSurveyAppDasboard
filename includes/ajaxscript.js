@@ -1,3 +1,4 @@
+var Executive_CdArray = [];
 function setElectionNameInSession(electionName) {
     var ajaxRequest; // The variable that makes Ajax possible!
 
@@ -7198,7 +7199,7 @@ function updateAttendanceData(Executive_Cd,SurveyDate,Doc_No,action) {
 
     function setFilterTypeInSessionFromAETS(filter) {
         var ajaxRequest; // The variable that makes Ajax possible!
-    
+        Executive_CdArray = [];
         try {
             // Opera 8.0+, Firefox, Safari
             ajaxRequest = new XMLHttpRequest();

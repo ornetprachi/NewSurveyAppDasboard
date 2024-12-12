@@ -1,5 +1,6 @@
 <section id="ModalSection">
 <?php
+/**Chnages Added By prachi */
 session_start();
 include 'api/includes/DbOperation.php'; 
 // include_once 'includes/ajaxscript.php';  
@@ -11,11 +12,11 @@ $electionName=$_SESSION['SurveyUA_ElectionName'];
 $developmentMode=$_SESSION['SurveyUA_DevelopmentMode'];
 $ULB=$_SESSION['SurveyUtility_ULB'];
 $ServerIP = $_SESSION['SurveyUtility_ServerIP'];
-if($ServerIP == "103.14.99.154"){
-    $ServerIP =".";
-}else{
-    $ServerIP ="103.14.99.154";
-}
+// if($ServerIP == "103.14.99.154"){
+//     $ServerIP =".";
+// }else{
+//     $ServerIP ="103.14.99.154";
+// }
 
 if( $_SERVER['REQUEST_METHOD'] === "POST" ) {
   
@@ -35,7 +36,7 @@ if( $_SERVER['REQUEST_METHOD'] === "POST" ) {
             $totalexecutives = $_GET['totalexecutives']; 
             $ElectionName = $_GET['ElectionName'];
 
-            $dataSite = $db->getSiteDropDownDatabyElectionName($userName, $appName,  $developmentMode);
+            $dataSite = $db->getSiteDropDownDatabyElectionName($ULB,$userName, $appName,  $developmentMode);
 
             $SiteWiseQuery = "SELECT
                     ed.Executive_Cd,
@@ -47,15 +48,15 @@ if( $_SERVER['REQUEST_METHOD'] === "POST" ) {
                         WHEN ed.Attendance='4' THEN 'Training'
                         WHEN ed.Attendance='0' THEN 'Assigned'
                     ELSE '' END as attendance
-                    from [$ServerIP].[Survey_Entry_Data].[dbo].[Executive_Details] ed 
-                    INNER JOIN [$ServerIP].[Survey_Entry_Data].[dbo].[Executive_Master] em on (ed.Executive_Cd=em.Executive_Cd) 
-                    INNER JOIN [$ServerIP].[Survey_Entry_Data].[dbo].[Site_Master] sm on (sm.SiteName=ed.SiteName) 
+                    from [Survey_Entry_Data].[dbo].[Executive_Details] ed 
+                    INNER JOIN [Survey_Entry_Data].[dbo].[Executive_Master] em on (ed.Executive_Cd=em.Executive_Cd) 
+                    INNER JOIN [Site_Master] sm on (sm.SiteName=ed.SiteName) 
                     WHERE convert(varchar, ed.SurveyDate, 23) = '$Date' 
                     AND ed.ElectionName <> 'OFFICE STAFF' AND ed.SiteName = '$Site' 
                     AND sm.SupervisorName = '$SupervisorName' AND ed.ElectionName = '$ElectionName'
                     ORDER BY ed.ExecutiveName;";
 
-            $SiteWiseData = $db->ExecutveQueryMultipleRowSALData($SiteWiseQuery, $userName, $appName, $developmentMode);
+            $SiteWiseData = $db->ExecutveQueryMultipleRowSALData($ULB,$SiteWiseQuery, $userName, $appName, $developmentMode);
             // print_r($SiteWiseData);
 
         } 

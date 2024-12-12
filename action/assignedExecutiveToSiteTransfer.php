@@ -1,5 +1,5 @@
 <?php
-
+//Changes added by prachi
 $electionName = "";
 $SiteName = "";
 $FilterType = "";
@@ -55,7 +55,7 @@ if ($_SERVER['REQUEST_METHOD'] === "POST") {
                 $electionName = $PassedArr[3];
 
                 $getAllPreviousDataQuery = "SELECT Executive_Cd, ExecutiveName, Site_CD, SiteName, ElectionName 
-                                        FROM [$ServerIP].[Survey_Entry_Data].[dbo].[Executive_Details]
+                                        FROM [Survey_Entry_Data].[dbo].[Executive_Details]
                                         WHERE CONVERT(VARCHAR,SurveyDate,23) = '$RecordDate'
                                         AND SiteName = '$SiteName'";
                 $getAllPreviousData = $db->ExecutveQueryMultipleRowSALData($ULB,$getAllPreviousDataQuery, $userName, $appName, $developmentMode);
@@ -67,7 +67,7 @@ if ($_SERVER['REQUEST_METHOD'] === "POST") {
                     $SiteName = $getAllPreviousDataLoop['SiteName'];
                     $ElectionName = $getAllPreviousDataLoop['ElectionName'];
                     
-                    $queryData = "SELECT * FROM [$ServerIP].[Survey_Entry_Data].[dbo].[Executive_Details] WHERE Executive_Cd = $Executive_Cd AND convert(varchar, SurveyDate, 23) = '$TransferDate';";
+                    $queryData = "SELECT * FROM [Survey_Entry_Data].[dbo].[Executive_Details] WHERE Executive_Cd = $Executive_Cd AND convert(varchar, SurveyDate, 23) = '$TransferDate';";
                     $SingleData = $db->ExecutveQuerySingleRowSALData($ULB,$queryData, $userName, $appName, $developmentMode);
                     $SingleDataCOUNT = sizeof($SingleData);
 
@@ -75,11 +75,11 @@ if ($_SERVER['REQUEST_METHOD'] === "POST") {
                         $flag = "E";
                     }else{
 
-                        $insertinto="INSERT INTO [$ServerIP].[Survey_Entry_Data].[dbo].[Executive_Details] (Executive_Cd,ExecutiveName,Site_CD,SiteName,SurveyDate,UpdateByUser,Attendance,UpdatedDate,ElectionName) 
+                        $insertinto="INSERT INTO [Survey_Entry_Data].[dbo].[Executive_Details] (Executive_Cd,ExecutiveName,Site_CD,SiteName,SurveyDate,UpdateByUser,Attendance,UpdatedDate,ElectionName) 
                                                             VALUES ('$Executive_Cd','$ExecutiveName','$Site_CD','$SiteName','$TransferDate','$updatedByUser',0,GETDATE(),'$ElectionName');";
                         $runQuery = $db->RunQueryData($ULB,$insertinto, $userName, $appName,  $developmentMode);
 
-                        $insertinto="UPDATE [$ServerIP].[Survey_Entry_Data].[dbo].[Executive_Master]
+                        $insertinto="UPDATE [Survey_Entry_Data].[dbo].[Executive_Master]
                                     SET 
                                         Attendance = 0,
                                         SurveyDate = '$TransferDate',
@@ -87,9 +87,10 @@ if ($_SERVER['REQUEST_METHOD'] === "POST") {
                                         Site_CD = '$Site_CD',
                                         SiteName = '$SiteName' 
                                     WHERE Executive_Cd = $Executive_Cd;";
+                                  
                         $runQuery = $db->RunQueryData($ULB,$insertinto, $userName, $appName,  $developmentMode);
 
-                        $insertinto="UPDATE [$ServerIP].[Survey_Entry_Data].[dbo].[Site_Master]
+                        $insertinto="UPDATE [Site_Master]
                                     SET
                                         SupervisorName = '$SupervisorName',
                                         Supervisor_Cd = '$SupervisorCd'

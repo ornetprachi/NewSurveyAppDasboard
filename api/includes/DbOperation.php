@@ -20,7 +20,7 @@ class DbOperation
     {
         try  
         {  
-
+    
             $connectionString = array("Database"=> $dbname, "CharacterSet" => "UTF-8",   
                     "Uid"=> $dbusername, "PWD"=>$dbpassword);
 
@@ -46,13 +46,13 @@ class DbOperation
     }
 
 
-    function getSurveyUtilityAppDBConnectByElectionName($ULB,$userName, $appName,  $developmentMode){
+    function getSurveyUtilityAppDBConnectByElectionName($ULB,$userName,$appName,$developmentMode){
         $data = array();
         $conn = $this->con_user;
         $tsql = "SELECT DBName as DbName,ServerName,ServerPwd,ServerId as ServerUser
 				FROM Survey_Entry_Data..Election_Master
 				WHERE ULB = '$ULB'  AND survey_flag = 1;";
-
+    
         $params = array($userName, $appName, $developmentMode);
         $dbDetail = $this->getDataInRowWithConnAndQueryAndParamsForSingleRecordForLogin($conn, $tsql, $params);  
         
@@ -393,7 +393,7 @@ function checkUserDeActiveStatus($mobile, $password, $appName){
     //    return $data;
     // }
 
-   
+   //Changes done by Prachi
     function getSurveyUtilityCorporationElectionByCdData($ULB,$userName, $appName, $electionCd, $developmentMode){
         $data = array();
         $dbConn = $this->getSurveyUtilityAppDBConnectByElectionName($ULB,$userName, $appName, $developmentMode);
@@ -415,16 +415,17 @@ function checkUserDeActiveStatus($mobile, $password, $appName){
                         COALESCE(Site_Cd, 0) AS Site_Cd,
                         COALESCE(SiteName, '') AS SiteName,
                         COALESCE(ActiveFlag, 0 ) AS ActiveFlag
-                    FROM Election_Master WHERE Election_Cd = $electionCd";
+                    FROM [Survey_Entry_Data].[dbo].[Election_Master] WHERE Election_Cd = $electionCd";
             $params = array($userName, $appName, $electionCd, $developmentMode);
             $data = $this->getDataInRowWithConnAndQueryAndParamsForSingleRecord($conn, $tsql, $params);  
         }
         
        return $data;
     }
-
+    //Changes done by Prachi
 
     function getDataInRowWithConnAndQueryAndParams($conn, $query, $params){
+
         $options =  array( "Scrollable" => SQLSRV_CURSOR_KEYSET );
         // if($conn){
         //     echo "here";
@@ -1081,19 +1082,34 @@ function checkUserDeActiveStatus($mobile, $password, $appName){
     function getCorporationDataForAssignExecutiveToSite($userName, $appName, $developmentMode){
         $data = array();
         $conn = $this->con_user;
-        $connectionString154 = array("Database"=> "Survey_Entry_Data", "CharacterSet" => "UTF-8", "Uid"=> "sa", "PWD"=>"154@2023SQL#ORNET01");
-        $conn154 = sqlsrv_connect("103.14.99.154", $connectionString154); 
+        $connectionString154 = array("Database"=> "Survey_Entry_Data", "CharacterSet" => "UTF-8", "Uid"=> "sqlvmadmin", "PWD"=>"fEMpEALVeRingio123");
+        $conn154 = sqlsrv_connect("52.140.77.2", $connectionString154); 
         $tsql = "SELECT * FROM Survey_Entry_Data..Election_Master WHERE ActiveFlag = 1 ORDER BY ElectionName;";
         $params = array($userName, $appName, $developmentMode);
         $data = $this->getDataInRowWithConnAndQueryAndParams($conn154, $tsql, $params);
         return $data;
     }
 
-
-    function getSiteDropDownDatabyElectionName($userName, $appName,  $developmentMode){
+    /***********************Changes Added By Prachi**************************/
+    function getSiteDropDownDatabyElectionName($ULB,$userName, $appName,  $developmentMode){
         $data = array();
-        $connectionString154 = array("Database"=> "Survey_Entry_Data", "CharacterSet" => "UTF-8", "Uid"=> "sa", "PWD"=>"154@2023SQL#ORNET01");
-        $conn154 = sqlsrv_connect("103.14.99.154", $connectionString154); 
+        $dbConn = $this->getSurveyUtilityAppDBConnectByElectionName($ULB,$userName, $appName,  $developmentMode);
+        if(!$dbConn["error"]){
+            $conn = $dbConn["conn"];
+            $tsql = "SELECT 
+            distinct(SiteName) as SiteName,
+            COALESCE(sm.Site_Cd,0) AS Site_Cd, 
+            COALESCE(sm.SiteStatus,'') AS SiteStatus, 
+            COALESCE(sm.ClientName,'') AS ClientName,
+            COALESCE(sm.Area, '') AS Area,
+            COALESCE(sm.Ward_No,0) AS Ward_No,
+            COALESCE(sm.Address,'') AS Address,
+            COALESCE(sm.ElectionName,'') AS ElectionName
+            FROM [Site_Master] sm
+            WHERE Closed = 0 ORDER BY Ward_No;";
+            $params = array($userName, $appName, $developmentMode);
+            $data = $this->getDataInRowWithConnAndQueryAndParams($conn, $tsql, $params);
+        }
         // $tsql = "SELECT ServerName,ServerId,ServerPwd FROM Survey_Entry_Data..Election_Master WHERE Election_Cd = $electionCd;";
         // $params = array($userName, $appName, $developmentMode);
         // $data = $this->getDataInRowWithConnAndQueryAndParams($conn154, $tsql, $params);
@@ -1105,23 +1121,11 @@ function checkUserDeActiveStatus($mobile, $password, $appName){
 
         //     $connectionString = array("Database"=> "Survey_Entry_Data", "CharacterSet" => "UTF-8", "Uid"=> "$ServerId", "PWD"=>"$ServerPwd");
         //     $ConnElectionWise = sqlsrv_connect($ServerName, $connectionString);   sm.ElectionName = '$electionName' AND 
-            $tsql = "SELECT 
-                        distinct(SiteName) as SiteName,
-                        COALESCE(sm.Site_Cd,0) AS Site_Cd, 
-                        COALESCE(sm.SiteStatus,'') AS SiteStatus, 
-                        COALESCE(sm.ClientName,'') AS ClientName,
-                        COALESCE(sm.Area, '') AS Area,
-                        COALESCE(sm.Ward_No,0) AS Ward_No,
-                        COALESCE(sm.Address,'') AS Address,
-                        COALESCE(sm.ElectionName,'') AS ElectionName
-                    FROM [Survey_Entry_Data].[dbo].[Site_Master] sm
-                    WHERE Closed = 0 ORDER BY Ward_No;";
-            $params = array($userName, $appName, $developmentMode);
-            $data = $this->getDataInRowWithConnAndQueryAndParams($conn154, $tsql, $params);
+     
         // }
         return $data;
     }
-
+    /***********************Changes Added By Prachi**************************/
     function getSiteDropDownDatabyElectionNameAttendance($userName, $appName,  $developmentMode){
         $data = array();
         $connectionString154 = array("Database"=> "Survey_Entry_Data", "CharacterSet" => "UTF-8", "Uid"=> "sa", "PWD"=>"154@2023SQL#ORNET01");

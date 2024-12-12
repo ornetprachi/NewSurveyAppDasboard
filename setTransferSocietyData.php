@@ -27,11 +27,11 @@ $AllVotersData = '';
 
 
 
-    $query = "SELECT sm.SiteName FROM Survey_Entry_Data..Site_Master AS sm
-    LEFT JOIN Survey_Entry_Data..Election_Master as em on (sm.ElectionName = em.ElectionName)
-    WHERE em.ULB = '$ULB'
-    order by sm.SiteName ;";
-    $FromSiteNameData = $db->ExecutveQueryMultipleRowSALData($query, $userName, $appName, $developmentMode);
+    $query = "SELECT sm.SiteName FROM Site_Master AS sm
+            LEFT JOIN Survey_Entry_Data..Election_Master as em on (sm.ElectionName = em.ElectionName)
+            WHERE em.ULB = '$ULB'
+            order by sm.SiteName ;";
+    $FromSiteNameData = $db->ExecutveQueryMultipleRowSALData($ULB,$query, $userName, $appName, $developmentMode);
 
  
 
@@ -44,10 +44,8 @@ if(isset($_SESSION['To_SocietyTransfer_SocietyCd']) && !empty($_SESSION['To_Soci
 if(isset($_SESSION['From_SocietyTransfer_SiteName']) && !empty($_SESSION['From_SocietyTransfer_SiteName'])){
     $Site = $_SESSION['From_SocietyTransfer_SiteName'];
 
-    $query = "SELECT Society_Cd,SocietyName FROM Survey_Entry_Data..Society_Master WHERE SiteName = '$Site' order by SocietyName ;";
-    $FromSocietyNameData = $db->ExecutveQueryMultipleRowSALData($query, $userName, $appName, $developmentMode);
-    
-
+    $query = "SELECT Society_Cd,SocietyName FROM Society_Master WHERE SiteName = '$Site' order by SocietyName ;";
+    $FromSocietyNameData = $db->ExecutveQueryMultipleRowSALData($ULB,$query, $userName, $appName, $developmentMode);
 }
 if(isset($_SESSION['From_SocietyTransfer_SocietyCd']) && !empty($_SESSION['From_SocietyTransfer_SocietyCd'])){
     $SocietyCd = $_SESSION['From_SocietyTransfer_SocietyCd'];
@@ -77,16 +75,16 @@ if(isset($_SESSION['From_SocietyTransfer_SocietyCd']) && !empty($_SESSION['From_
         $cond = "WHERE Convert(Varchar, D.UpdatedDate, 34) = '$UpdatedDate' AND D.UpdateByUser = '$UpdatedBy'";
     }
 
-    $Qry = " SELECT DBName  FROM Survey_Entry_Data..Election_Master as em
-   LEFT JOIN Survey_Entry_Data..Site_Master as sm on (em.ElectionName = sm.ElectionName) WHERE sm.SiteName = '$Site'";
-    $DbData = $db->ExecutveQuerySingleRowSALData($Qry, $userName, $appName, $developmentMode);
+    $Qry = " SELECT DBName FROM Survey_Entry_Data..Election_Master as em
+   LEFT JOIN Site_Master as sm on (em.ElectionName = sm.ElectionName) WHERE sm.SiteName = '$Site'";
+    $DbData = $db->ExecutveQuerySingleRowSALData($ULB,$Qry, $userName, $appName, $developmentMode);
     $DBName = $DbData['DBName'];
 
-      $Subqry= "SELECT SubLocation_Cd,SocietyName  FROM $DBName..SubLocationMaster WHERE Survey_Society_Cd = '$SocietyCd'";
-    $SubLocData = $db->ExecutveQuerySingleRowSALData($Subqry, $userName, $appName, $developmentMode);;
+    $Subqry= "SELECT SocietyName FROM Society_Master WHERE Society_Cd = '$SocietyCd'";
+    $SocietyData = $db->ExecutveQuerySingleRowSALData($ULB,$Subqry, $userName, $appName, $developmentMode);;
 
-    $SubLocation_Cd = $SubLocData['SubLocation_Cd'];
-// IF($SubLocation_Cd !=''){
+
+// IF($SocietyCd !=''){
     $InfoQry = "SELECT 
     D.UpdateByUser,
     ex.ExecutiveName,
@@ -96,28 +94,29 @@ if(isset($_SESSION['From_SocietyTransfer_SocietyCd']) && !empty($_SESSION['From_
         SELECT
              UpdateByUser,CONVERT(varchar,UpdatedDate,34) AS UpdatedDate
             FROM  
-            $DBName..Dw_VotersInfo 
+            Dw_VotersInfo 
             WHERE (UpdatedStatus = 'Y' OR UpdatedStatus = 'N') 
-            AND SubLocation_Cd = $SubLocation_Cd
+            AND Society_Cd = $SocietyCd
         UNION 
         SELECT 
             UpdateByUser, CONVERT(varchar,UpdatedDate,34) AS UpdatedDate
             FROM 
-            $DBName..NewVoterRegistration 
+            NewVoterRegistration 
             WHERE (UpdatedStatus = 'Y' OR UpdatedStatus = 'N') 
-            AND Subloc_cd = $SubLocation_Cd
+            AND Society_Cd = $SocietyCd
         UNION  
         SELECT 
            UpdateByUser,CONVERT(varchar,UpdatedDate,34) AS UpdatedDate
             FROM 
-            $DBName..LockRoom 
+            LockRoom 
             WHERE (Locked = 1) 
-            AND Sublocation_Cd = $SubLocation_Cd
+            AND Society_Cd = $SocietyCd
     ) AS D
 	LEFT JOIN Survey_Entry_Data..User_Master as em on (D.UpdateByUser = em.UserName COLLATE SQL_Latin1_General_CP1_CI_AS)
 	LEFT JOIN Survey_Entry_Data..Executive_Master as ex on (em.Executive_Cd = ex.Executive_Cd)
     ORDER BY  Convert(varchar, D.UpdatedDate,20);";
-    $UpdtedData = $db->ExecutveQueryMultipleRowSALData($InfoQry, $userName, $appName, $developmentMode);
+
+    $UpdtedData = $db->ExecutveQueryMultipleRowSALData($ULB,$InfoQry, $userName, $appName, $developmentMode);
 
 
     $DetailQuery = "SELECT 
@@ -135,29 +134,29 @@ if(isset($_SESSION['From_SocietyTransfer_SocietyCd']) && !empty($_SESSION['From_
         SELECT
             Voter_Cd,'Voter' as Datatype,FullName,RoomNo,Col4 as Floor,Remark,UpdateByUser,CONVERT(varchar,UpdatedDate,34) AS UpdatedDate
             FROM  
-            $DBName..Dw_VotersInfo 
+            Dw_VotersInfo 
             WHERE (UpdatedStatus = 'Y' OR UpdatedStatus = 'N') 
-            AND SubLocation_Cd = $SubLocation_Cd
+            AND Society_Cd = $SocietyCd
         UNION 
         SELECT 
             Voter_Cd,'NonVoter' as Datatype,Fullname,Roomno,Col4 as Floor,Remark,UpdateByUser, CONVERT(varchar,UpdatedDate,34) AS UpdatedDate
             FROM 
-            $DBName..NewVoterRegistration 
+            NewVoterRegistration 
             WHERE (UpdatedStatus = 'Y' OR UpdatedStatus = 'N') 
-            AND Subloc_cd = $SubLocation_Cd
+            AND Subloc_cd = $SocietyCd
         UNION  
         SELECT 
             LR_Cd AS Voter_Cd,'LockRoom' as Datatype,'LOCKED' AS FullName,RoomNo,FloorNo as Floor,Remark,UpdateByUser,CONVERT(varchar,UpdatedDate,34) AS UpdatedDate
             FROM 
-            $DBName..LockRoom 
+            LockRoom 
             WHERE (Locked = 1) 
-            AND Sublocation_Cd = $SubLocation_Cd
+            AND Society_Cd = $SocietyCd
     ) AS D
 	LEFT JOIN Survey_Entry_Data..User_Master as em on (D.UpdateByUser = em.UserName COLLATE SQL_Latin1_General_CP1_CI_AS)
 	LEFT JOIN Survey_Entry_Data..Executive_Master as ex on (em.Executive_Cd = ex.Executive_Cd)
     $cond
     ORDER BY  Convert(varchar, D.UpdatedDate,20);";
-    $DetailData = $db->ExecutveQueryMultipleRowSALData($DetailQuery, $userName, $appName, $developmentMode);
+    $DetailData = $db->ExecutveQueryMultipleRowSALData($ULB,$DetailQuery, $userName, $appName, $developmentMode);
 
     foreach($DetailData as $Key=>$val){
         $Vtr = $val['Voter_Cd'];
@@ -165,7 +164,7 @@ if(isset($_SESSION['From_SocietyTransfer_SocietyCd']) && !empty($_SESSION['From_
         $AllVotersData .= $Vtr.'~'.$Dtp.",";
 
     }
-    // print_r($UpdtedData);
+    // print_r($DetailQuery);
 // }
 }
 
@@ -372,7 +371,7 @@ if(isset($_SESSION['From_SocietyTransfer_SocietyCd']) && !empty($_SESSION['From_
         <div class="card">
             <div class="card-header" style="margin-top: -10px;">
             <?php if($SocietyCd != ''){?>
-                <h4 class="card-title"><?php echo $SubLocData['SocietyName']; ?> :  ( Selected Entries : <span id="SelectedSocietiesCds"> 0 </span> )</h4>
+                <h4 class="card-title"><?php echo $SocietyData['SocietyName']; ?> :  ( Selected Entries : <span id="SelectedSocietiesCds"> 0 </span> )</h4>
                 <?php } ?>
             </div>
             <div class="content-body ">

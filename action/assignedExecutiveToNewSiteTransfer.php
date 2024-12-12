@@ -1,5 +1,5 @@
 <?php
-
+/**Chnages Added By prachi*/
 $electionName = "";
 $SiteName = "";
 $FilterType = "";
@@ -23,11 +23,11 @@ if ($_SERVER['REQUEST_METHOD'] === "POST") {
     $ULB=$_SESSION['SurveyUtility_ULB'];
     $_SESSION['assign-executive-to-site'] = "AssignedReportTab";
 
-    if($ServerIP == "103.14.99.154"){
-        $ServerIP =".";
-    }else{
-        $ServerIP ="103.14.99.154";
-    }
+    // if($ServerIP == "103.14.99.154"){
+    //     $ServerIP =".";
+    // }else{
+    //     $ServerIP ="103.14.99.154";
+    // }
     $PassedArr = array();
     $ExecutiveCdsArr = array();
     $getAllPreviousData = array();
@@ -51,14 +51,14 @@ if ($_SERVER['REQUEST_METHOD'] === "POST") {
             $SelectedExecutiveCds = substr($SelectedExecutiveCds,0,-1);
             $SelectedExecutiveCds = explode(',',$SelectedExecutiveCds);
 
-            $getElectionNameQuery = "SELECT ElectionName FROM [$ServerIP].[Survey_Entry_Data].[dbo].[Site_Master] WHERE Site_Cd = $SiteCd AND SiteName = '$NewSiteName'";
+            $getElectionNameQuery = "SELECT ElectionName FROM [Site_Master] WHERE Site_Cd = $SiteCd AND SiteName = '$NewSiteName'";
             $ElectionNameData = $db->ExecutveQuerySingleRowSALData($ULB,$getElectionNameQuery, $userName, $appName, $developmentMode);
             $ElectionName = $ElectionNameData['ElectionName'];
 
             foreach($SelectedExecutiveCds AS $SelectedExecutiveCdsLoop){
                 $Executive_Cd = $SelectedExecutiveCdsLoop;
             
-                $insertinto="UPDATE [$ServerIP].[Survey_Entry_Data].[dbo].[Executive_Details] 
+                $insertinto="UPDATE [Survey_Entry_Data].[dbo].[Executive_Details] 
                             SET 
                                 Site_CD = '$SiteCd',
                                 SiteName = '$NewSiteName',
@@ -69,7 +69,7 @@ if ($_SERVER['REQUEST_METHOD'] === "POST") {
                             WHERE Executive_Cd = $Executive_Cd AND SiteName = '$OldSite' AND SurveyDate = '$Date';";
                 $runQuery = $db->RunQueryData($ULB,$insertinto, $userName, $appName,  $developmentMode);
 
-                $insertinto="UPDATE [$ServerIP].[Survey_Entry_Data].[dbo].[Executive_Master]
+                $insertinto="UPDATE [Survey_Entry_Data].[dbo].[Executive_Master]
                             SET 
                                 Attendance = 0,
                                 ElectionName = '$ElectionName', 
