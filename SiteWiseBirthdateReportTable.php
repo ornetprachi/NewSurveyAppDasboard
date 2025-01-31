@@ -32,10 +32,20 @@ if(
 if(isset($_GET['SiteName']) && !empty($_GET['SiteName'])){
     $SiteName = $_GET['SiteName'];
     
+    if(isset($_GET['Date']) && !empty($_GET['Date']) && isset($_GET['Month']) && !empty($_GET['Month']) ){
+        $day = $_GET['Date'];  
+        $month = $_GET['Month']; 
+        $year = date('Y');  
+
+        $fromDate = date('Y-m-d', strtotime("$year-$month-$day"));
+        $toDate = $fromDate;
+    }
+    
+
     // &SiteName=DB42
 
 
-$SQL = "SELECT TOP(1) COALESCE(em.DBName,'') AS DBName FROM Survey_Entry_Data..Site_Master sm 
+$SQL = "SELECT TOP(1) COALESCE(em.DBName,'') AS DBName FROM Site_Master sm 
         INNER JOIN Survey_Entry_Data..Election_Master em ON (em.ElectionName = sm.ElectionName)
         WHERE sm.SiteName ='$SiteName'";
 $GetDBName = $db->ExecutveQuerySingleRowSALData($ULB,$SQL , $userName, $appName, $developmentMode);
@@ -43,27 +53,52 @@ $GetDBName = $db->ExecutveQuerySingleRowSALData($ULB,$SQL , $userName, $appName,
 $DBName = $GetDBName['DBName'];
 
     $sql2 = "SELECT 
-            COALESCE(sbd.Society_Cd,0) AS Society_Cd,
-            COALESCE(sbd.Ac_No,0) AS Ac_No,
-            COALESCE(sbd.List_No,0) AS List_No,
-            COALESCE(sbd.Voter_Cd,'') AS Voter_Cd,
-            COALESCE(ss.Latitude,'') AS Latitude,
-            COALESCE(ss.Longitude,'') AS Longitude,
-            COALESCE(sbd.IdCard_No,'') AS IdCard_No,
-            COALESCE(sbd.FullName,'') AS FullName,
-            COALESCE(sbd.FullNameMar,'') AS FullNameMar,
-            COALESCE(sbd.MobileNo,'') AS MobileNo,
-            COALESCE(sbd.Sex,'') AS Sex,
-            COALESCE(sbd.FamilyNo,'') AS FamilyNo,
-            COALESCE(sbd.FamilyCount,'') AS FamilyCount,
-            COALESCE(sbd.RoomNo,'') AS RoomNo,
-            COALESCE(sbd.Ward_no,'') AS Ward_no,
-            COALESCE(sbd.BirthDate,'') AS BirthDate,
-            COALESCE(sbd.DataUpdatedDate,'') AS DataUpdatedDate
-            FROM DataAnalysis..SurveyBirthdayData sbd
-            INNER JOIN DataAnalysis..SurveySummary ss ON (sbd.Society_Cd = ss.Society_Cd)
-            WHERE ss.SiteName = '$SiteName'
-            AND DATEPART(month, CONVERT(varchar,BirthDate,23)) * 100 + DATEPART(day, CONVERT(varchar,BirthDate,23)) 
+                COALESCE(dw.Society_Cd,0) AS Society_Cd,
+                COALESCE(dw.Ac_No,0) AS Ac_No,
+                COALESCE(dw.List_No,0) AS List_No,
+                COALESCE(dw.Voter_Cd,'') AS Voter_Cd,
+                COALESCE(dw.Latitude,'') AS Latitude,
+                COALESCE(dw.Longitude,'') AS Longitude,
+                COALESCE(dw.IdCard_No,'') AS IdCard_No,
+                COALESCE(dw.FullName,'') AS FullName,
+                COALESCE(dw.FullNameMar,'') AS FullNameMar,
+                COALESCE(dw.MobileNo,'') AS MobileNo,
+                COALESCE(dw.Sex,'') AS Sex,
+                COALESCE(dw.FamilyNo,'') AS FamilyNo,
+                COALESCE(dw.FamilyCount,'') AS FamilyCount,
+                COALESCE(dw.RoomNo,'') AS RoomNo,
+                COALESCE(dw.Ward_no,'') AS Ward_no,
+                COALESCE(dw.BirthDate,'') AS BirthDate
+            FROM Dw_VotersInfo AS dw
+            WHERE
+                dw.SiteName = '$SiteName' AND 
+            DATEPART(month, CONVERT(varchar,BirthDate,23)) * 100 + DATEPART(day, CONVERT(varchar,BirthDate,23)) 
+            BETWEEN MONTH('$fromDate') * 100 + DAY('$fromDate') 
+            AND MONTH('$toDate') * 100 + DAY('$toDate')
+            AND dw.SF = 1
+
+            UNION ALL
+            SELECT
+                COALESCE(nv.Society_Cd,0) AS Society_Cd,
+                COALESCE(nv.Ac_No,0) AS Ac_No,
+                COALESCE(nv.List_No,0) AS List_No,
+                COALESCE(nv.Voter_Cd,'') AS Voter_Cd,
+                COALESCE(nv.Latitude,'') AS Latitude,
+                COALESCE(nv.Longitude,'') AS Longitude,
+                NULL AS IdCard_No,
+                COALESCE(nv.FullName,'') AS FullName,
+                NULL AS FullNameMar,
+                COALESCE(nv.MobileNo,'') AS MobileNo,
+                COALESCE(nv.Sex,'') AS Sex,
+                COALESCE(nv.FamilyNo,'') AS FamilyNo,
+                COALESCE(nv.FamilyCount,'') AS FamilyCount,
+                COALESCE(nv.RoomNo,'') AS RoomNo,
+                COALESCE(nv.Ward_no,'') AS Ward_no,
+                COALESCE(nv.BirthDate,'') AS BirthDate
+            FROM NewVoterRegistration AS nv
+            WHERE
+                nv.SiteName = '$SiteName' AND 
+            DATEPART(month, CONVERT(varchar,BirthDate,23)) * 100 + DATEPART(day, CONVERT(varchar,BirthDate,23)) 
             BETWEEN MONTH('$fromDate') * 100 + DAY('$fromDate') 
             AND MONTH('$toDate') * 100 + DAY('$toDate');
             ";

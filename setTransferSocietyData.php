@@ -27,19 +27,17 @@ $AllVotersData = '';
 
 
 
-    $query = "SELECT sm.SiteName FROM Site_Master AS sm
-            LEFT JOIN Survey_Entry_Data..Election_Master as em on (sm.ElectionName = em.ElectionName)
-            WHERE em.ULB = '$ULB'
-            order by sm.SiteName ;";
-    $FromSiteNameData = $db->ExecutveQueryMultipleRowSALData($ULB,$query, $userName, $appName, $developmentMode);
+$query = "SELECT sm.SiteName FROM Site_Master AS sm
+        LEFT JOIN Survey_Entry_Data..Election_Master as em on (sm.ElectionName = em.ElectionName)
+        WHERE em.ULB = '$ULB'
+        order by sm.SiteName ;";
+$FromSiteNameData = $db->ExecutveQueryMultipleRowSALData($ULB,$query, $userName, $appName, $developmentMode);
 
  
 
 if(isset($_SESSION['To_SocietyTransfer_SocietyCd']) && !empty($_SESSION['To_SocietyTransfer_SocietyCd'])){
     $ToSociety = $_SESSION['To_SocietyTransfer_SocietyCd'];
 }
-
-
 
 if(isset($_SESSION['From_SocietyTransfer_SiteName']) && !empty($_SESSION['From_SocietyTransfer_SiteName'])){
     $Site = $_SESSION['From_SocietyTransfer_SiteName'];
@@ -76,7 +74,7 @@ if(isset($_SESSION['From_SocietyTransfer_SocietyCd']) && !empty($_SESSION['From_
     }
 
     $Qry = " SELECT DBName FROM Survey_Entry_Data..Election_Master as em
-   LEFT JOIN Site_Master as sm on (em.ElectionName = sm.ElectionName) WHERE sm.SiteName = '$Site'";
+            LEFT JOIN Site_Master as sm on (em.ElectionName = sm.ElectionName) WHERE sm.SiteName = '$Site'";
     $DbData = $db->ExecutveQuerySingleRowSALData($ULB,$Qry, $userName, $appName, $developmentMode);
     $DBName = $DbData['DBName'];
 
@@ -87,26 +85,25 @@ if(isset($_SESSION['From_SocietyTransfer_SocietyCd']) && !empty($_SESSION['From_
 // IF($SocietyCd !=''){
     $InfoQry = "SELECT 
     D.UpdateByUser,
-    ex.ExecutiveName,
-    Convert(Varchar, D.UpdatedDate, 34) AS UpdatedDate
+    ex.ExecutiveName
     FROM 
     (
         SELECT
-             UpdateByUser,CONVERT(varchar,UpdatedDate,34) AS UpdatedDate
+             UpdateByUser
             FROM  
             Dw_VotersInfo 
             WHERE (UpdatedStatus = 'Y' OR UpdatedStatus = 'N') 
             AND Society_Cd = $SocietyCd
         UNION 
         SELECT 
-            UpdateByUser, CONVERT(varchar,UpdatedDate,34) AS UpdatedDate
+            UpdateByUser
             FROM 
             NewVoterRegistration 
             WHERE (UpdatedStatus = 'Y' OR UpdatedStatus = 'N') 
             AND Society_Cd = $SocietyCd
         UNION  
         SELECT 
-           UpdateByUser,CONVERT(varchar,UpdatedDate,34) AS UpdatedDate
+           UpdateByUser
             FROM 
             LockRoom 
             WHERE (Locked = 1) 
@@ -114,9 +111,32 @@ if(isset($_SESSION['From_SocietyTransfer_SocietyCd']) && !empty($_SESSION['From_
     ) AS D
 	LEFT JOIN Survey_Entry_Data..User_Master as em on (D.UpdateByUser = em.UserName COLLATE SQL_Latin1_General_CP1_CI_AS)
 	LEFT JOIN Survey_Entry_Data..Executive_Master as ex on (em.Executive_Cd = ex.Executive_Cd)
-    ORDER BY  Convert(varchar, D.UpdatedDate,20);";
+    ORDER BY  Convert(varchar, D.UpdateByUser,20);";
 
     $UpdtedData = $db->ExecutveQueryMultipleRowSALData($ULB,$InfoQry, $userName, $appName, $developmentMode);
+
+    $InfoDateQry = "SELECT 
+                    Convert(Varchar, D.UpdatedDate, 34) AS UpdatedDate 
+                    FROM (
+                        SELECT CONVERT(varchar, UpdatedDate, 34) AS UpdatedDate 
+                        FROM Dw_VotersInfo 
+                        WHERE (UpdatedStatus = 'Y' OR UpdatedStatus = 'N') AND Society_Cd = 2 
+
+                        UNION 
+
+                        SELECT CONVERT(varchar, UpdatedDate, 34) AS UpdatedDate 
+                        FROM NewVoterRegistration 
+                        WHERE (UpdatedStatus = 'Y' OR UpdatedStatus = 'N') AND Society_Cd = 2 
+
+                        UNION 
+
+                        SELECT CONVERT(varchar, UpdatedDate, 34) AS UpdatedDate 
+                        FROM LockRoom 
+                        WHERE (Locked = 1) AND Society_Cd = 2
+                    ) AS D
+                    ORDER BY Convert(varchar, D.UpdatedDate, 20);";
+
+    $UpdatedDateData = $db->ExecutveQueryMultipleRowSALData($ULB,$InfoDateQry, $userName, $appName, $developmentMode);
 
 
     $DetailQuery = "SELECT 
@@ -281,9 +301,9 @@ if(isset($_SESSION['From_SocietyTransfer_SocietyCd']) && !empty($_SESSION['From_
                                                 <select class="select2 form-control" name="UpdateDate" onchange="SetUpdatedDate(this.value)">
                                                     <option value="">--SELECT--</option>
                                                         <?php
-                                                    if (sizeof($UpdtedData)>0) 
+                                                    if (sizeof($UpdatedDateData)>0) 
                                                     {
-                                                        foreach ($UpdtedData as $key => $value) 
+                                                        foreach ($UpdatedDateData as $key => $value) 
                                                             {
                                                                 if($UpdatedDate == $value["UpdatedDate"])
                                                                 {

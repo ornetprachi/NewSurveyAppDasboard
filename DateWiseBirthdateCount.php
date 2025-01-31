@@ -1,6 +1,6 @@
 <div class="Birthday">
 <?php
-
+//Chnages Added By Prachi For Report
 // include 'api/includes/DbOperation.php'; 
 
 $db=new DbOperation();
@@ -14,25 +14,46 @@ if(isset($_SESSION['SurveyUA_BdayDate_BirthdateFilter']) && !empty($_SESSION['Su
     // echo "Set";
     $Date = $_SESSION['SurveyUA_BdayDate_BirthdateFilter'];
 }else
-{
+{   
     // echo "NotSet";
     $Date = date("Y-m-d");
 }
-$BdayQuery = "  SELECT CONCAT(DATEPART(day, CONVERT(varchar,CONVERT(date,BirthDate,101),23)) ,'-', 
-                DATEPART(month, CONVERT(varchar,CONVERT(date,BirthDate,101),23)),'-',YEAR(Getdate())) as Date ,
-                DATEPART(day, CONVERT(varchar,CONVERT(date,BirthDate,101),23)) as BirthDate,
-                COUNT(BirthDate) As Birthdays FROM DataAnalysis..SurveyBirthdayData as sbd
-				INNER JOIN  DataAnalysis..SurveySummary as ss on (sbd.Society_Cd = ss.Society_Cd)
-                WHERE DATEPART(month, 
-                CONVERT(varchar,CONVERT(date,BirthDate,101),23)) BETWEEN MONTH('$Date') AND MONTH('$Date') 
-                AND DATEPART(day, CONVERT(varchar,CONVERT(date,BirthDate,101),23)) >= DAY('$Date') 
-                AND ss.ULB = '$ULB'
-                GROUP BY CONCAT(DATEPART(day, CONVERT(varchar,CONVERT(date,BirthDate,101),23)) ,'-', 
-                DATEPART(month, CONVERT(varchar,CONVERT(date,BirthDate,101),23)),'-',YEAR(Getdate())),
-                DATEPART(day, CONVERT(varchar,CONVERT(date,BirthDate,101),23)) 
-                ORDER BY DATEPART(day, CONVERT(varchar,CONVERT(date,BirthDate,101),23))";
+$BdayQuery = "SELECT 
+                  Total_Mob_Nos.Birthdate AS Date,
+                  COUNT(Total_Mob_Nos.Birthdate) AS Birthdays
+              FROM 
+                  (
+                      SELECT 
+                          FORMAT(TRY_CONVERT(date, dw.Birthdate), 'dd-MM') + '-' + CAST(YEAR(GETDATE()) AS VARCHAR(4)) AS Birthdate
+                      FROM 
+                          Dw_VotersInfo AS dw
+                      WHERE 
+                          dw.SF = 1 
+                          AND dw.Birthdate <> '' 
+                          AND dw.Birthdate IS NOT NULL 
+                          AND TRY_CONVERT(date, dw.BirthDate) IS NOT NULL
+                          AND DATEPART(month, TRY_CONVERT(date, dw.BirthDate)) = MONTH('$Date') 
+                          AND DATEPART(day, TRY_CONVERT(date, dw.BirthDate)) >= DAY('$Date')
+                          AND dw.SiteName IS NOT NULL
+                      UNION ALL  
+                      SELECT 
+                          FORMAT(TRY_CONVERT(date, nv.Birthdate), 'dd-MM') + '-' + CAST(YEAR(GETDATE()) AS VARCHAR(4)) AS Birthdate
+                      FROM 
+                          NewVoterRegistration AS nv
+                      WHERE 
+                          nv.Birthdate <> '' 
+                          AND nv.Birthdate IS NOT NULL
+                          AND TRY_CONVERT(date, nv.BirthDate) IS NOT NULL
+                          AND DATEPART(month, TRY_CONVERT(date, nv.BirthDate)) = MONTH('$Date') 
+                          AND DATEPART(day, TRY_CONVERT(date, nv.BirthDate)) >= DAY('$Date')
+                          AND nv.SiteName IS NOT NULL
+                  ) AS Total_Mob_Nos
+              GROUP BY 
+                  Total_Mob_Nos.Birthdate
+              ORDER BY 
+                  Total_Mob_Nos.Birthdate ASC;";
 
-$BdayCount = $db->ExecutveQueryMultipleRowSALData($BdayQuery, $userName, $appName, $developmentMode);
+$BdayCount = $db->ExecutveQueryMultipleRowSALData($ULB,$BdayQuery, $userName, $appName, $developmentMode);
 
 ?>
 
@@ -51,7 +72,7 @@ $BdayCount = $db->ExecutveQueryMultipleRowSALData($BdayQuery, $userName, $appNam
     <link rel="stylesheet" type="text/css" href="app-assets/css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="app-assets/css/bootstrap-extended.css">
     <link rel="stylesheet" type="text/css" href="app-assets/css/colors.css">
-    <link rel="stylesheet" type="text/css" href="app-assets/css/components.css">
+    <!-- <link rel="stylesheet" type="text/css" href="app-assets/css/components.css"> -->
     <link rel="stylesheet" type="text/css" href="app-assets/css/themes/dark-layout.css">
     <link rel="stylesheet" type="text/css" href="app-assets/css/themes/semi-dark-layout.css">
 
@@ -115,18 +136,58 @@ $BdayCount = $db->ExecutveQueryMultipleRowSALData($BdayQuery, $userName, $appNam
             $date = date("d",strtotime($Birthdate));
             $month = date("m",strtotime($Birthdate));
 
-                $DateWiseBdayQuery = " SELECT ss.SiteName,sm.ClientName,CONCAT(DATEPART(day, CONVERT(varchar,CONVERT(date,BirthDate,101),23)) ,'-', 
-                DATEPART(month, CONVERT(varchar,CONVERT(date,BirthDate,101),23)),'-',YEAR(Getdate())) as Date ,COUNT(BirthDate) As Birthdays 
-                FROM DataAnalysis..SurveyBirthdayData as sbd
-                INNER JOIN  DataAnalysis..SurveySummary as ss on (sbd.Society_Cd = ss.Society_Cd)
-                INNER JOIN Survey_Entry_Data..Site_Master as sm on (ss.SiteName = sm.SiteName)
-                WHERE DATEPART(month, CONVERT(varchar,CONVERT(date,BirthDate,101),23))
-                BETWEEN '$month' AND '$month' AND ss.ULB = '$ULB'
-                AND DATEPART(day, CONVERT(varchar,CONVERT(date,BirthDate,101),23)) = '$date'
-                GROUP BY ss.SiteName,sm.ClientName,CONCAT(DATEPART(day, CONVERT(varchar,CONVERT(date,BirthDate,101),23)) ,'-', 
-                DATEPART(month, CONVERT(varchar,CONVERT(date,BirthDate,101),23)),'-',YEAR(Getdate()))";
+            $DateWiseBdayQuery = "SELECT 
+                                        sm.SiteName,
+                                        sm.ClientName,
+                                        COUNT(CombinedBirthdates.Birthdate) AS Birthdays,
+                                        CombinedBirthdates.Birthdate AS Date
+                                    FROM 
+                                        Site_Master AS sm
+                                    JOIN 
+                                        (SELECT 
+                                            dw.SiteName,
+                                            CONCAT(
+                                                DATEPART(day, TRY_CONVERT(date, dw.Birthdate)),
+                                                '-',
+                                                DATEPART(month, TRY_CONVERT(date, dw.Birthdate)),
+                                                '-',
+                                                YEAR(GETDATE())
+                                            ) AS Birthdate
+                                        FROM 
+                                        Dw_VotersInfo AS dw
+                                        WHERE 
+                                            dw.SF = 1
+                                            AND dw.Birthdate <> ''
+                                            AND dw.Birthdate IS NOT NULL
+                                            AND DATEPART(month, TRY_CONVERT(date, dw.BirthDate)) = '$month' 
+                                            AND DATEPART(day, TRY_CONVERT(date, dw.BirthDate)) = '$date' 
+                                        UNION ALL
+                                        SELECT 
+                                            nv.SiteName,
+                                            CONCAT(
+                                                DATEPART(day, TRY_CONVERT(date, nv.Birthdate)),
+                                                '-',
+                                                DATEPART(month, TRY_CONVERT(date, nv.Birthdate)),
+                                                '-',
+                                                YEAR(GETDATE())
+                                            ) AS Birthdate
+                                        FROM 
+                                            NewVoterRegistration AS nv
+                                        WHERE 
+                                            nv.Birthdate <> ''
+                                            AND nv.Birthdate IS NOT NULL
+                                            AND DATEPART(month, TRY_CONVERT(date, nv.BirthDate)) = '$month'
+                                            AND DATEPART(day, TRY_CONVERT(date, nv.BirthDate)) = '$date' 
+                                        ) AS CombinedBirthdates
+                                    ON sm.SiteName = CombinedBirthdates.SiteName
+                                    WHERE sm.ElectionName = '$ULB'
+                                    GROUP BY 
+                                        CombinedBirthdates.Birthdate,
+                                        sm.SiteName, sm.ClientName
+                                    ORDER BY 
+                                        sm.SiteName, sm.ClientName;";
 
-                $DateWiseBdayCount = $db->ExecutveQueryMultipleRowSALData($DateWiseBdayQuery, $userName, $appName, $developmentMode);
+                $DateWiseBdayCount = $db->ExecutveQueryMultipleRowSALData($ULB,$DateWiseBdayQuery, $userName, $appName, $developmentMode);
 
                 ?>
                 <div class="card-header">

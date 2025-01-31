@@ -14,12 +14,14 @@ if($electionName == 'PT188'){
 }
 
     $Query = "SELECT sm.Ac_No,sm.ElectionName,soc.SiteName,sm.ClientName,sm.Ward_No,COUNT(Society_Cd)  as Societies,SUM(Rooms) as Rooms
-		FROM Survey_Entry_Data..Society_Master as soc
-		INNER JOIN Survey_Entry_Data..Site_Master AS sm on (soc.SiteName = sm.SiteName)
+		FROM Society_Master as soc
+		INNER JOIN Site_Master AS sm on (soc.SiteName = sm.SiteName)
         WHERE sm.ElectionName = '$electionName' AND soc.ElectionName = '$electionName'   AND soc.Remark != '' AND soc.Remark is NOT NULL  AND YEAR(soc.UpdatedDate) = 2024 $FromDate 
 		GROUP BY sm.Ac_No,sm.ElectionName,soc.SiteName,sm.ClientName,sm.Ward_No
 		ORDER BY sm.Ward_No";
-    $SocietyData = $db->ExecutveQueryMultipleRowSALData($Query, $userName, $appName, $developmentMode);    
+
+    // print_r($Query);
+    $SocietyData = $db->ExecutveQueryMultipleRowSALData($ULB,$Query, $userName, $appName, $developmentMode);    
 
     $societyTotal = array_sum(array_column($SocietyData, 'Societies'));
     $roomTotal = array_sum(array_column($SocietyData, 'Rooms'));

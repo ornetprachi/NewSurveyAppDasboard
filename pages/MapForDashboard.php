@@ -62,49 +62,42 @@
         }
         //KML For site //
         $MapData = array();
-        // $MapQuery = " SELECT Society_Cd,sm.ElectionName,Building_Image,SocietyName,sm.SiteName,em1.ExecutiveName As SurveyBy,em.ExecutiveName as ListingBy,
-        // CONVERT(varchar,sm.BList_UpdatedDate,103) AS ListingDate,CONVERT(varchar,sm.Survey_UpdatedDate,103) AS SurveyDate,Longitude,Latitude 
-        // FROM Society_Master as sm
-        // LEFT JOIN Executive_Master as em on (sm.BList_UpdatedByUser = em.UserName)
-        // LEFT JOIN Executive_Master as em1 on (sm.Survey_UpdatedByUser = em1.UserName) $ElectionCon $SiteCond
-        // ORDER BY sm.SiteName";
-
-    
-        $MapQuery = "  SELECT Society_Cd,sm.ElectionName,RoomSurveyDone,ss.ClientName,Building_Image,SocietyName,sm.SiteName,sm.SurveyBy, sm.ListedBy,
-        COALESCE(CONVERT(varchar,sm.ListedDate,29),'') AS ListingDate,CONVERT(varchar,sm.SurveyDate,27) AS SurveyDate,Longitude,Latitude 
-        FROM DataAnalysis..SurveySummary as sm
-        LEFT JOIN Survey_Entry_Data..Executive_Master as em on (sm.ListedBy = em.UserName)
-        LEFT JOIN Survey_Entry_Data..Executive_Master as em1 on (sm.SurveyBy = em1.UserName) 
-        INNER JOIN Survey_Entry_Data..Site_Master as ss on (sm.SiteName = ss.SiteName)
-        INNER JOIN Election_Master as elm on (sm.ElectionName = elm.ElectionName)
+        $MapQuery = "SELECT Society_Cd,sms.ClientName,sm.ElectionName,Building_Image,SocietyName,sm.SiteName,em1.ExecutiveName As RoomSurveyDone,em.ExecutiveName as ListedBy,
+        CONVERT(varchar,sm.BList_UpdatedDate,103) AS ListingDate,CONVERT(varchar,sm.Survey_UpdatedDate,103) AS SurveyDate,Longitude,Latitude 
+        FROM Society_Master as sm
+        LEFT JOIN Site_Master as sms ON sm.SiteName = sms.SiteName
+        LEFT JOIN Survey_Entry_Data..Executive_Master as em on (sm.BList_UpdatedByUser = em.UserName)
+        LEFT JOIN Survey_Entry_Data..Executive_Master as em1 on (sm.Survey_UpdatedByUser = em1.UserName)
+        INNER JOIN Survey_Entry_Data..Election_Master as elm on (sm.ElectionName = elm.ElectionName)
         $ElectionCon $SiteCond
         ORDER BY sm.SiteName";
-        $MapData = $db->ExecutveQueryMultipleRowSALData($MapQuery , $userName, $appName, $developmentMode);
-        $SiteMData = array();
-         $SiteMQuery = " SELECT  sm.SiteName,ss.ClientName,COUNT(DISTINCT(Society_Cd)) As Societies FROM Society_Master as sm
-        INNER JOIN Site_Master As ss on (sm.SiteName = ss.SiteName)
-        INNER JOIN Election_Master as elm on (sm.ElectionName = elm.ElectionName)
-       $ElectionSiteDropKMLCon
-        GROUP BY sm.SiteName,ss.ClientName";
-        $SiteMData = $db->ExecutveQueryMultipleRowSALData($SiteMQuery , $userName, $appName, $developmentMode);
-       
-       
+        
+        $MapData = $db->ExecutveQueryMultipleRowSALData($ULB,$MapQuery , $userName, $appName, $developmentMode);
 
+        // print_r($MapQuery);
+        $SiteMData = array();
+        $SiteMQuery = " SELECT sm.SiteName,ss.ClientName,COUNT(DISTINCT(Society_Cd)) As Societies FROM Society_Master as sm
+        INNER JOIN Site_Master As ss on (sm.SiteName = ss.SiteName)
+        INNER JOIN Survey_Entry_Data..Election_Master as elm on (sm.ElectionName = elm.ElectionName)
+        $ElectionSiteDropKMLCon
+        GROUP BY sm.SiteName,ss.ClientName";
+        $SiteMData = $db->ExecutveQueryMultipleRowSALData($ULB,$SiteMQuery , $userName, $appName, $developmentMode);
+       
         $SiteKmlData = array();
           $SiteKMLQuery = "SELECT sm.SiteName,sm.KMLFile_Url FROM Site_Master sm
                             INNER JOIN Society_Master soc
                             ON sm.SiteName = soc.SiteName
-                            INNER JOIN Election_Master as elm on (sm.ElectionName = elm.ElectionName)
+                            INNER JOIN Survey_Entry_Data..Election_Master as elm on (sm.ElectionName = elm.ElectionName)
                             $ElectionSiteDropKMLCon $SiteCond  
                             GROUP BY sm.SiteName , sm.KMLFile_Url";
-        $SiteKmlData = $db->ExecutveQueryMultipleRowSALData($SiteKMLQuery , $userName, $appName, $developmentMode);
+        $SiteKmlData = $db->ExecutveQueryMultipleRowSALData($ULB,$SiteKMLQuery , $userName, $appName, $developmentMode);
         
         $PocketKmlData = array();
         $PocketKMLQuery = "SELECT TOP(23)pm.Pocket_Cd,pm.SiteName,KMLFile_Url 
                             FROM Pocket_Master as pm
-                            INNER JOIN Election_Master as elm  on (pm.ElectionName = elm.ElectionName) 
+                            INNER JOIN Survey_Entry_Data..Election_Master as elm  on (pm.ElectionName = elm.ElectionName) 
                             $ElectionKMLCon  $SiteCon ";
-        $PocketKmlData = $db->ExecutveQueryMultipleRowSALData($PocketKMLQuery , $userName, $appName, $developmentMode);
+        $PocketKmlData = $db->ExecutveQueryMultipleRowSALData($ULB,$PocketKMLQuery , $userName, $appName, $developmentMode);
 
         //END KML For site //
        $sitedropdownquery = "SELECT COALESCE(sm.Site_Cd,0) AS Site_Cd, 
@@ -114,12 +107,12 @@
                             FROM Site_Master as sm
                             inner join Society_Master as soc
                             ON sm.SiteName = soc.SiteName
-                            INNER JOIN Election_Master as elm 
+                            INNER JOIN Survey_Entry_Data..Election_Master as elm 
                             on (sm.ElectionName = elm.ElectionName)
                             $ElectionSiteDropKMLCon 
                             GROUP BY sm.Site_Cd,sm.ClientName,sm.SiteName,sm.ElectionName";
         
-        $dataSite = $db->ExecutveQueryMultipleRowSALData($sitedropdownquery, $userName, $appName, $developmentMode);
+        $dataSite = $db->ExecutveQueryMultipleRowSALData($ULB,$sitedropdownquery, $userName, $appName, $developmentMode);
         $MapMarkerColorIcons = array("https://maps.google.com/mapfiles/ms/icons/orange-dot.png",
         "https://maps.google.com/mapfiles/ms/icons/blue-dot.png",
         "https://maps.google.com/mapfiles/ms/icons/red-dot.png",
@@ -254,6 +247,8 @@
         if($SiteName == 'All'){
             ?>
             function addMarkerWithTimeout(lat, lng,ClientName, SiteName,SocietyCount,image) {
+
+             
                 var marker = new google.maps.Marker({
                     position: new google.maps.LatLng(lat, lng),
                     map: map,
@@ -276,6 +271,7 @@
         }
 else{?>
         function addMarkerWithTimeout(lat, lng, SocietyName,Building_Image,SurveyBy,SurveyDate,Client,image) {
+      
                 var marker = new google.maps.Marker({
                     position: new google.maps.LatLng(lat, lng),
                     map: map,
@@ -316,10 +312,10 @@ if($SiteName == 'All'){
     if($SsrNo == $SizeofMapMarkerColors){
             $SsrNo = 0;
     }
-            $MarkerQuery = "  SELECT Society_Cd,ElectionName,Building_Image,SocietyName,SiteName,UpdatedByUser As SurveyBy,CONVERT(varchar,SurveyDate,103) AS SurveyDate,Longitude,Latitude 
+            $MarkerQuery = "  SELECT Society_Cd,ElectionName,Building_Image,SocietyName,SiteName,UpdateByUser As SurveyBy,CONVERT(varchar,SurveyDate,103) AS SurveyDate,Longitude,Latitude 
             FROM Society_Master  WHERE SiteName = '$Site' 
             order by SiteName";
-            $MData = $db->ExecutveQueryMultipleRowSALData($MarkerQuery , $userName, $appName, $developmentMode);
+            $MData = $db->ExecutveQueryMultipleRowSALData($ULB,$MarkerQuery , $userName, $appName, $developmentMode);
         ?>
             addMarkerWithTimeout('<?php echo $MData[0]["Latitude"]; ?>', '<?php echo $MData[0]["Longitude"]; ?>','<?php echo $val["ClientName"]; ?>','<?php echo $val["SiteName"]; ?>','<?php echo $val["Societies"]; ?>','<?php echo $MapMarkerColorIcons[$SsrNo]; ?>');
         <?php
@@ -466,10 +462,10 @@ if($SiteName == 'All'){
 
 </script>
 <!-- Local Link -->
-<!-- <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBgjNW0WA93qphgZW-joXVR6VC3IiYFjfo&callback=map" async defer ></script> -->
+<script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBgjNW0WA93qphgZW-joXVR6VC3IiYFjfo&callback=map" async defer ></script>
 <!-- Local Link -->
 
 <!-- Live Link -->
-<script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC0s06YL85Wn8zd527iZ90NB1goqW4Hxc4&callback=map"  ></script>
+<!-- <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC0s06YL85Wn8zd527iZ90NB1goqW4Hxc4&callback=map"  ></script> -->
 <!-- Live Link -->
 </html>

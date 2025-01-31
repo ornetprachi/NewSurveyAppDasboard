@@ -1,4 +1,5 @@
 <?php
+// Changes By Prachi For Report
 $db=new DbOperation();
 $userName=$_SESSION['SurveyUA_UserName'];
 $appName=$_SESSION['SurveyUA_AppName'];
@@ -46,13 +47,13 @@ if(
     $Qry = "SELECT SiteName,SocietyName,Society_Cd,Rooms,SecretaryName,SecretaryMobileNo,ChairmanName,ChairmanMobileNo,TresurerName,TresurerMobileNo,Remark,Building_Image,
             COALESCE(um.ExecutiveName,'') as ExecutiveName,
             CONVERT(varchar,sm.UpdatedDate,23) as UpdatedDate
-            FROM Survey_Entry_Data..Society_Master	as sm
-            LEFT JOIN Survey_Entry_Data..User_Master as um on (sm.UpdatedByUser = um.UserName and um.AppName = 'SurveyUtilityApp')
+            FROM Society_Master	as sm
+            LEFT JOIN Survey_Entry_Data..User_Master as um on (sm.UpdateByUser = um.UserName and um.AppName = 'SurveyUtilityApp')
             WHERE SiteName = '$SiteName' AND sm.ElectionName = '$electionName' AND Remark != '' AND Remark IS NOT NULL  AND YEAR(sm.UpdatedDate) = 2024
             AND CONVERT(varchar,sm.UpdatedDate,23)  BETWEEN '$fromdate' AND '$todate'
             order by SocietyName";
 
-    $Data = $db->ExecutveQueryMultipleRowSALData($Qry, $userName, $appName, $developmentMode);
+    $Data = $db->ExecutveQueryMultipleRowSALData($ULB,$Qry, $userName, $appName, $developmentMode);
 
 }else{
     $Data =array();
@@ -73,11 +74,11 @@ if(isset($_GET['SocietycD']) && isset($_GET['action'])){
                 COALESCE(um.ExecutiveName,'') as ExecutiveName,
                 CONVERT(varchar,sm.UpdatedDate,23) as UpdatedDate,  
                 COALESCE(IssueSolvedRemark,'') AS IssueSolvedRemark
-                FROM Survey_Entry_Data..Society_Master as sm
-                LEFT JOIN Survey_Entry_Data..User_Master as um on (sm.UpdatedByUser = um.UserName and um.AppName = 'SurveyUtilityApp')
+                FROM Society_Master as sm
+                LEFT JOIN Survey_Entry_Data..User_Master as um on (sm.UpdateByUser = um.UserName and um.AppName = 'SurveyUtilityApp')
                 WHERE Society_Cd = '$SocietycD' ";
 
-        $SocietyData = $db->ExecutveQuerySingleRowSALData($query, $userName, $appName, $developmentMode);
+        $SocietyData = $db->ExecutveQuerySingleRowSALData($ULB,$query, $userName, $appName, $developmentMode);
         // print_r($SocietyData);
         // die();
         if(sizeof($SocietyData)>0){
@@ -117,10 +118,10 @@ if(isset($_GET['SocietycD']) && isset($_GET['action'])){
 
         
     $Query = "SELECT SiteName
-                FROM Survey_Entry_Data..Society_Master 
+                FROM Society_Master 
                 WHERE ElectionName = '$electionName' AND Remark != '' AND Remark is NOT NULL  AND YEAR(UpdatedDate) = 2024
                 GROUP BY SiteName";
-    $SiteData = $db->ExecutveQueryMultipleRowSALData($Query, $userName, $appName, $developmentMode);
+    $SiteData = $db->ExecutveQueryMultipleRowSALData($ULB,$Query, $userName, $appName, $developmentMode);
 ?>
 <div class="row match-height" style="margin-bottom:-10px">
     <div class="col-md-12">

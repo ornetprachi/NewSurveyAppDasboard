@@ -1,5 +1,5 @@
 <?php
-
+//Changes By Prachi For Report
 if ($_SERVER['REQUEST_METHOD'] === "POST") {
 
     session_start();
@@ -39,7 +39,7 @@ if ($_SERVER['REQUEST_METHOD'] === "POST") {
 
        if($action == 'Update'){
 
-            $sql3 = "UPDATE Survey_Entry_Data..Society_Master
+            $sql3 = "UPDATE Society_Master
                     SET
                     Remark = N'$Issue',
                     Rooms  = $Rooms,

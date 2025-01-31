@@ -35,26 +35,24 @@ if ($_SERVER['REQUEST_METHOD'] === "POST") {
             $SelectedVoterCds = explode(',',$VoterCds);
             
            
-            $TSocietyQry = "SELECT Society_Cd,SocietyName,SocietyNameM FROM Society_Master WHERE Society_Cd = '$ToSociety'";
+            $TSocietyQry = "SELECT SocietyName,SocietyNameM FROM Society_Master WHERE Society_Cd = '$ToSociety'";
             $TSocietyData = $db->ExecutveQuerySingleRowSALData($ULB,$TSocietyQry, $userName, $appName, $developmentMode);
 
             $SocietyN = $TSocietyData['SocietyName'];
             $SocietyMar = $TSocietyData['SocietyNameM'];
-            $SocietyCd = $TSocietyData['Society_Cd'];
             
             foreach($SelectedVoterCds AS $SelectedVoterCdsLoop){
                 $VoterString = explode("~",$SelectedVoterCdsLoop);
                 $Voter_Cd = $VoterString[0];
                 $DataType = $VoterString[1];
-//  print_r($DataType);
+                //  print_r($DataType);
                 if($DataType == 'Voter')
                 {
                      $UpdateVoter = "UPDATE Dw_VotersInfo 
                                     SET
                                     SocietyName =  '$SocietyN',
                                     SocietyNameM = '$SocietyMar',
-                                    SubLocation_Cd = $SocietyCd,
-                                    Survey_Society_Cd = $ToSociety
+                                    Society_Cd = $ToSociety
                                     WHERE Voter_Cd = $Voter_Cd;";
                                     // print_r($UpdateVoter);
                                     // die();
@@ -67,8 +65,7 @@ if ($_SERVER['REQUEST_METHOD'] === "POST") {
                                     SET
                                     Societyname =  '$SocietyN',
                                     SocietyNameM = '$SocietyMar',
-                                    Subloc_cd = $SocietyCd,
-                                    Survey_Society_Cd = $ToSociety
+                                    Society_Cd = $ToSociety
                                     WHERE Voter_Cd = $Voter_Cd;";
                     $UpdateNonVoterData = $db->RunQueryData($ULB,$UpdateNonVoter, $userName, $appName, $developmentMode);
                     // print_r($UpdateNonVoter);
@@ -79,7 +76,7 @@ if ($_SERVER['REQUEST_METHOD'] === "POST") {
                                     SET
                                     SocietyName =  '$SocietyN',
                                     SocietyNameM = '$SocietyMar',
-                                    Sublocation_Cd = $SocietyCd
+                                    Society_Cd = $ToSociety
                                     WHERE LR_Cd = $Voter_Cd;";
                     $UpdateLockroomData = $db->RunQueryData($ULB,$UpdateLockroom, $userName, $appName, $developmentMode);
                 }

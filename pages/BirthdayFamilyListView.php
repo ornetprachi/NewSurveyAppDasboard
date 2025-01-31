@@ -1,5 +1,4 @@
 <?php 
-
     $db=new DbOperation();
     $userName=$_SESSION['SurveyUA_UserName'];
     $appName=$_SESSION['SurveyUA_AppName'];
@@ -26,9 +25,9 @@
                             COALESCE(Voter_Cd,0) AS Voter_Cd,
                             COALESCE(Ward_no,0) AS Ward_no
                         FROM
-                        $DBName..Dw_VotersInfo
+                        Dw_VotersInfo
                         where FamilyNo = $FamilyNo AND SF=1";
-    $CountListMain = $db->ExecutveQueryMultipleRowSALData($SiteWiseQuery, $userName, $appName, $developmentMode);
+    $CountListMain = $db->ExecutveQueryMultipleRowSALData($ULB,$SiteWiseQuery, $userName, $appName, $developmentMode);
 
 ?>
 

@@ -1,5 +1,6 @@
 <?php
-    session_start();
+//Changes by Prachi For Report
+session_start();
 include 'api/includes/DbOperation.php'; 
 $db=new DbOperation();
 $userName=$_SESSION['SurveyUA_UserName'];
@@ -43,16 +44,18 @@ $DBName = $_SESSION['SurveyUtility_DBName'];
                 COALESCE(socm.Building_Plate_Image, '') AS Building_Plate_Image,
                 COALESCE(socm.Building_Image, '') AS Building_Image,
                 COALESCE(socm.Sector, '') AS Sector,
-                COALESCE(socm.PlotNo, '') AS PlotNo,
+                COALESCE(socm.Plot_No, '') AS PlotNo,
                 COALESCE(socm.Area, '') AS Area
-                FROM $DBName..Dw_VotersInfo dw
-                INNER JOIN Survey_Entry_Data..Site_Master sm ON (sm.SiteName = dw.SiteName)
-                LEFT JOIN $DBName..SubLocationMaster subm ON (subm.SubLocation_Cd = dw.SubLocation_Cd)
-                LEFT JOIN Survey_Entry_Data..Society_Master socm ON (subm.Survey_Society_Cd = socm.Society_Cd)
+                FROM Dw_VotersInfo dw
+                INNER JOIN Society_Master socm ON (dw.Society_Cd = socm.Society_Cd)
                 WHERE dw.SF = 1 
                 -- AND CONVERT(varchar,CONVERT(date,dw.BirthDate,101),23) BETWEEN '1999-01-01' AND '2023-06-20'
                 AND dw.Voter_Cd = '$VoterCd'";
-$SiteWise = $db->ExecutveQuerySingleRowSALData($AddreessQuery, $userName, $appName, $developmentMode);
+                // print_r($AddreessQuery);
+
+$SiteWise = $db->ExecutveQuerySingleRowSALData($ULB,$AddreessQuery, $userName, $appName, $developmentMode);
+$SocietyAdd = '';
+$Building_Image_Path = '';
 if(sizeof($SiteWise)>0){    
     $Building_Plate_Image = $SiteWise['Building_Plate_Image'];
     $SocietyName = $SiteWise['SocietyName'];
@@ -70,6 +73,7 @@ if(sizeof($SiteWise)>0){
         $PlotVar = "";
     }
     $Area = $SiteWise['Area'];
+    $Building_Image_Path = $SiteWise['Building_Image'];
     $SocietyAdd = $SocietyName." ".$SectorVar." ".$PlotVar.", ".$Area;
 }
 
@@ -100,7 +104,7 @@ if(sizeof($SiteWise)>0){
                             <!-- <div class="card"> -->
                                 <div class="card-content">
                                     <div class="card-body">
-                                        <img class="card-img img-fluid mb-1" style="height:450px;" src="<?php echo $SiteWise['Building_Image']; ?>">
+                                        <img class="card-img img-fluid mb-1" style="height:450px;" src="<?php echo $Building_Image_Path; ?>">
                                         <h5 class="mt-1"><b>Address : </b></h5>
                                         <b><p class="card-text"><b><?php echo $SocietyAdd; ?></b></p>
                                     </div>

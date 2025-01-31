@@ -5,6 +5,8 @@ $appName=$_SESSION['SurveyUA_AppName'];
 $developmentMode=$_SESSION['SurveyUA_DevelopmentMode'];
 $peopleCount = '';
 
+
+// print_r($_GET);
 if(
     (isset($_GET['electionName']) && !empty($_GET['electionName'])) &&
     (isset($_GET['SiteName']) && !empty($_GET['SiteName'])) &&
@@ -66,7 +68,7 @@ if(
         FROM 
         (
             SELECT
-                Sitename, UpdateByUser, Voter_Cd, Ac_No, List_No, Voter_Id, Ward_No, SocietyName,
+                Sitename, AddedBy AS AddedBy, Voter_Cd, Ac_No, List_No, Voter_Id, Ward_No, SocietyName,
                 UpdatedDate, RoomNo, FullName, FullNameMar, Age, Sex, FamilyNo,
                 Convert(Varchar, BirthDate, 23) AS BirthDate,
                 MobileNo, AndroidFormNo as FormNo, District, Religion, SF,Convert(Varchar, AnniversaryDate, 23) AS AnniversaryDate ,
@@ -74,42 +76,43 @@ if(
                 SubCaste, SurName, Name AS FirstName, MiddleName,LockedButSurvey, QC_UpdateByUser, QC_UpdatedDate, Remark, QC_Done , 
                 Col4, '' AS LR_Cd
                 FROM  
-                $DBName..Dw_VotersInfo 
+                Dw_VotersInfo 
                 WHERE (UpdatedStatus = 'Y' OR UpdatedStatus = 'N') 
 		        AND SiteName = '$SiteName'
                 AND SocietyName = '$SocietyName'
             UNION ALL 
             SELECT 
-                Sitename, UpdateByUser, Voter_Cd, 0 AS Ac_No, 0 AS List_No, 0 AS Voter_Id, Ward_No, SocietyName,
+                Sitename, added_by AS AddedBy, Voter_Cd, 0 AS Ac_No, 0 AS List_No, 0 AS Voter_Id, Ward_No, SocietyName,
                 UpdatedDate, RoomNo, FullName,'' AS FullNameMar, Age, Sex, FamilyNo, 
                 Convert(Varchar, BirthDate, 23) AS BirthDate,
                 MobileNo, AndroidFormNo as FormNo, District, Religion, '' AS SF,Convert(Varchar, AnniversaryDate, 23) AS AnniversaryDate , Subloc_Cd AS Society_Cd, '' AS SocietyNameM,
                 Hstatus AS HS, Occupation, Education, OwnerName, OwnerMobileNo, SubCaste, SurName, Name AS FirstName, MiddleName,LockedButSurvey,
                 QC_UpdateByUser, QC_UpdatedDate, Remark, QC_Done , Col4 , '' AS LR_Cd
                 FROM 
-                $DBName..NewVoterRegistration 
+                NewVoterRegistration 
                 WHERE (UpdatedStatus = 'Y' OR UpdatedStatus = 'N') 
 		        AND SiteName = '$SiteName'
                 AND SocietyName = '$SocietyName'
             UNION ALL 
             SELECT 
-                Sitename, UpdateByUser, 0 AS Voter_Cd, 0 AS Ac_No, 0 AS List_No, 0 AS Voter_Id, Ward_No, SocietyName, UpdatedDate, RoomNo,
+                Sitename, added_by AS AddedBy, 0 AS Voter_Cd, 0 AS Ac_No, 0 AS List_No, 0 AS Voter_Id, Ward_No, SocietyName, UpdatedDate, RoomNo,
                 'LOCKED' AS FullName, '' AS FullNameMar, '' AS Age, '' AS Sex, '' AS FamilyNo, '' AS BirthDate,
                 '' AS MobileNo, '' AS FormNo, '' AS District, '' AS Religion, '' AS SF, '' AS AnniversaryDate , Sublocation_Cd AS Society_Cd,
                 SocietyNameM, '' AS HS, '' AS Occupation, '' AS Education, '' AS OwnerName, '' AS OwnerMobileNo, '' AS SubCaste, '' AS SurName,
                 '' AS FirstName, '' AS MiddleName, '' AS LockedButSurvey, '' AS QC_UpdateByUser, '' AS QC_UpdatedDate, Remark, 'False' AS QC_Done ,
                  '' AS Col4,  LR_Cd
                 FROM 
-                $DBName..LockRoom 
+                LockRoom 
                 WHERE (Locked = 1) 
 		        AND SiteName = '$SiteName'
                 AND SocietyName = '$SocietyName'
         ) AS D
-        LEFT JOIN (SELECT UserName, Executive_Cd  FROM Survey_Entry_Data..User_Master GROUP BY UserName, Executive_Cd) um on (D.UpdateByUser = um.UserName COLLATE SQL_Latin1_General_CP1_CI_AS)
+        LEFT JOIN (SELECT UserName, Executive_Cd  FROM Survey_Entry_Data..User_Master GROUP BY UserName, Executive_Cd) um on (D.AddedBy = um.Executive_Cd)
         LEFT JOIN Survey_Entry_Data..Executive_Master em on (em.Executive_Cd = um.Executive_Cd) 
         ORDER BY  D.SocietyName,D.RoomNo
         "; 
 
+        // print_r($sql3);
         $result = $db->ExecutveQueryMultipleRowSALData($ULB,$sql3 , $userName, $appName, $developmentMode);
 
         // usort($result, function($a, $b) {

@@ -15,110 +15,231 @@ if(
 
     $electionName = $_GET['electionName'];
     $ExecutiveName = $_GET['ExecutiveName'];
-    //$SiteName = $_GET['SiteName'];
+    $SiteName = '';
     $UserName = $_GET['UserName'];
     $Date = $_GET['SurveyDate'];
-
+    $Executive_Cd = $_GET['ExecutiveCd'];
+    
     $DBName = $db->GetDBName2($ULB,$electionName, $userName, $appName, $developmentMode);
 
     if(!empty($DBName)){
 
-         $sql3 = "SELECT 
-        D.QC_Done,
-        ROW_NUMBER() OVER(ORDER BY D.UpdatedDate Desc) AS SrNo,
-        D.FormNo,
-        D.Voter_Cd AS Voter_Cd,
-        D.Ac_No,
-        D.List_No, 
-        D.Voter_Id, 
-        D.SF, 
-        D.Ward_No AS WardNo,
-        CONVERT(nvarchar(50),D.Ac_No) + ' / ' + CONVERT(nvarchar(50),D.List_No) + ' / ' + CONVERT(nvarchar(50),D.Voter_Id) AS CorpNo,
-        D.FullName,
-        D.FullNameMar,
-        D.Society_Cd,
-        D.SocietyName,
-        D.SocietyNameM, 
-        D.Age AS Age, 
-        D.Sex AS Sex,
-        D.FamilyNo, 
-        D.RoomNo,
-        D.MobileNo AS MobileNo, 
-        D.BirthDate AS BirthDate, 
-        D.AnniversaryDate, 
-        D.HS, 
-        D.Occupation, 
-        D.Education, 
-        D.OwnerName,
-        D.OwnerMobileNo, 
-        D.District, 
-        D.Religion, 
-        D.SubCaste, 
-        D.LockedButSurvey AS LBS, 
-        D.Remark, 
-        D.Sitename, 
-        em.ExecutiveName AS UpdateByUserName,
-        em.MobileNo AS UpdateByUserMobile,
-        Convert(Varchar, D.UpdatedDate, 0) AS UpdatedDate,
-        Convert(varchar, D.UpdatedDate,20) AS UpdatedDateOBJ,
-        D.QC_UpdateByUser,
-        Convert(Varchar, D.QC_UpdatedDate, 0) AS QC_UpdatedDate, 
-        D.SurName AS SurName, 
-        D.FirstName AS FirstName, 
-        D.MiddleName AS MiddleName,
-        D.Col4 AS FloorNo,
-	    D.LR_Cd
-        FROM 
-        (
-            SELECT
-                Sitename, UpdateByUser, Voter_Cd, Ac_No, List_No, Voter_Id, Ward_No, SocietyName,
-                UpdatedDate, RoomNo, FullName, FullNameMar, Age, Sex, FamilyNo,
-                Convert(Varchar, BirthDate, 23) AS BirthDate,
-                MobileNo, AndroidFormNo as FormNo, District, Religion, SF,Convert(Varchar, AnniversaryDate, 23) AS AnniversaryDate ,
-                Sublocation_Cd AS Society_Cd, SocietyNameM, Hstatus AS HS, Occupation, Education, OwnerName, OwnerMobileNo,
-                SubCaste, SurName, Name AS FirstName, MiddleName,LockedButSurvey, QC_UpdateByUser, QC_UpdatedDate, Remark, QC_Done , 
-                Col4, '' AS LR_Cd
-                FROM  
-                $DBName..Dw_VotersInfo 
-                WHERE (UpdatedStatus = 'Y' OR UpdatedStatus = 'N') 
-			    AND CONVERT(VARCHAR,UpdatedDate,103) = '$Date'
-			    AND UpdateByUser = '$UserName'
-		        --AND SiteName = '$SiteName'
-            UNION ALL 
-            SELECT 
-                Sitename, UpdateByUser, Voter_Cd, 0 AS Ac_No, 0 AS List_No, 0 AS Voter_Id, Ward_No, SocietyName,
-                UpdatedDate, RoomNo, FullName,'' AS FullNameMar, Age, Sex, FamilyNo, 
-                Convert(Varchar, BirthDate, 23) AS BirthDate,
-                MobileNo, AndroidFormNo as FormNo, District, Religion, '' AS SF,Convert(Varchar, AnniversaryDate, 23) AS AnniversaryDate , Subloc_Cd AS Society_Cd, '' AS SocietyNameM,
-                Hstatus AS HS, Occupation, Education, OwnerName, OwnerMobileNo, SubCaste, SurName, Name AS FirstName, MiddleName,LockedButSurvey,
-                QC_UpdateByUser, QC_UpdatedDate, Remark, QC_Done , Col4 , '' AS LR_Cd
-                FROM 
-                $DBName..NewVoterRegistration 
-                WHERE (UpdatedStatus = 'Y' OR UpdatedStatus = 'N') 
-			    AND CONVERT(VARCHAR,UpdatedDate,103) = '$Date'
-			    AND UpdateByUser = '$UserName'
-		        --AND SiteName = '$SiteName'
-            UNION ALL 
-            SELECT 
-                Sitename, UpdateByUser, 0 AS Voter_Cd, 0 AS Ac_No, 0 AS List_No, 0 AS Voter_Id, Ward_No, SocietyName, UpdatedDate, RoomNo,
-                'LOCKED' AS FullName, '' AS FullNameMar, '' AS Age, '' AS Sex, '' AS FamilyNo, '' AS BirthDate,
-                '' AS MobileNo, '' AS FormNo, '' AS District, '' AS Religion, '' AS SF, '' AS AnniversaryDate , Sublocation_Cd AS Society_Cd,
-                SocietyNameM, '' AS HS, '' AS Occupation, '' AS Education, '' AS OwnerName, '' AS OwnerMobileNo, '' AS SubCaste, '' AS SurName,
-                '' AS FirstName, '' AS MiddleName, '' AS LockedButSurvey, '' AS QC_UpdateByUser, '' AS QC_UpdatedDate, Remark, 'False' AS QC_Done ,
-                 '' AS Col4,  LR_Cd
-                FROM 
-                $DBName..LockRoom 
-                WHERE (Locked = 1) 
-                AND CONVERT(VARCHAR,UpdatedDate,103) = '$Date'
-			    AND UpdateByUser = '$UserName'
-		        --AND SiteName = '$SiteName'
-        ) AS D
-        LEFT JOIN (SELECT UserName, Executive_Cd  
-        FROM Survey_Entry_Data..User_Master GROUP BY UserName, Executive_Cd) um on (D.UpdateByUser = um.UserName COLLATE Latin1_General_CI_AI)
-        LEFT JOIN Survey_Entry_Data..Executive_Master em on (em.Executive_Cd = um.Executive_Cd) 
-        ORDER BY  Convert(varchar, D.UpdatedDate,20),D.SocietyName,D.RoomNo
-        "; 
+         $sql3 = "	SELECT 
+		D.QC_Done,
+		ROW_NUMBER() OVER (ORDER BY D.AddedDate DESC) AS SrNo,
+		D.FormNo,
+		D.Voter_Cd AS Voter_Cd,
+		D.Ac_No,
+		D.List_No,
+		D.Voter_Id,
+		D.SF,
+		D.Ward_No AS WardNo,
+		CONVERT(nvarchar(50), D.Ac_No) + ' / ' + 
+		CONVERT(nvarchar(50), D.List_No) + ' / ' + 
+		CONVERT(nvarchar(50), D.Voter_Id) AS CorpNo,
+		D.FullName,
+		D.FullNameMar,
+		D.Society_Cd,
+		D.SocietyName,
+		D.SocietyNameM,
+		D.Age AS Age,
+		D.Sex AS Sex,
+		D.FamilyNo,
+		D.RoomNo,
+		D.MobileNo AS MobileNo,
+		D.BirthDate AS BirthDate,
+		D.AnniversaryDate,
+		D.HS,
+		D.Occupation,
+		D.Education,
+		D.OwnerName,
+		D.OwnerMobileNo,
+		D.District,
+		D.Religion,
+		D.SubCaste,
+		D.LockedButSurvey AS LBS,
+		D.Remark,
+		D.Sitename,
+		em.ExecutiveName AS UpdateByUserName,
+		em.MobileNo AS UpdateByUserMobile,
+		Convert(Varchar, D.AddedDate, 0) AS UpdatedDate,
+		Convert(varchar, D.AddedDate, 20) AS UpdatedDateOBJ,
+		D.QC_UpdateByUser,
+		Convert(Varchar, D.QC_UpdatedDate, 0) AS QC_UpdatedDate,
+		D.SurName AS SurName,
+		D.FirstName AS FirstName,
+		D.MiddleName AS MiddleName,
+		D.Col4 AS FloorNo,
+		D.LR_Cd
+	FROM 
+		(
+			SELECT 
+				Sitename,
+				AddedBy AS AddedBy,
+				Voter_Cd,
+				Ac_No,
+				List_No,
+				Voter_Id,
+				Ward_No,
+				SocietyName,
+				AddedDate AS AddedDate,
+				RoomNo,
+				FullName,
+				FullNameMar,
+				Age,
+				Sex,
+				FamilyNo,
+				Convert(Varchar, BirthDate, 23) AS BirthDate,
+				MobileNo,
+				AndroidFormNo AS FormNo,
+				District,
+				Religion,
+				SF,
+				Convert(Varchar, AnniversaryDate, 23) AS AnniversaryDate,
+				Sublocation_Cd AS Society_Cd,
+				SocietyNameM,
+				Hstatus AS HS,
+				Occupation,
+				Education,
+				OwnerName,
+				OwnerMobileNo,
+				SubCaste,
+				SurName,
+				Name AS FirstName,
+				MiddleName,
+				LockedButSurvey,
+				QC_UpdateByUser,
+				QC_UpdatedDate,
+				Remark,
+				QC_Done,
+				Col4,
+				'' AS LR_Cd
+			FROM Dw_VotersInfo
+			WHERE 
+				(UpdatedStatus = 'Y' OR UpdatedStatus = 'N') 
+				AND CONVERT(VARCHAR, AddedDate, 103) = '$Date' 
+				AND AddedBy =$Executive_Cd 
+				-- AND SiteName = '' 
+        
+			UNION 
 
+			SELECT 
+				Sitename,
+				added_by AS AddedBy,
+				Voter_Cd,
+				0 AS Ac_No,
+				0 AS List_No,
+				0 AS Voter_Id,
+				Ward_No,
+				SocietyName,
+				added_date AS AddedDate,
+				RoomNo,
+				FullName,
+				'' AS FullNameMar,
+				Age,
+				Sex,
+				FamilyNo,
+				Convert(Varchar, BirthDate, 23) AS BirthDate,
+				MobileNo,
+				AndroidFormNo AS FormNo,
+				District,
+				Religion,
+				'' AS SF,
+				Convert(Varchar, AnniversaryDate, 23) AS AnniversaryDate,
+				Subloc_Cd AS Society_Cd,
+				'' AS SocietyNameM,
+				Hstatus AS HS,
+				Occupation,
+				Education,
+				OwnerName,
+				OwnerMobileNo,
+				SubCaste,
+				SurName,
+				Name AS FirstName,
+				MiddleName,
+				LockedButSurvey,
+				QC_UpdateByUser,
+				QC_UpdatedDate,
+				Remark,
+				QC_Done,
+				Col4,
+				'' AS LR_Cd
+			FROM NewVoterRegistration
+			WHERE 
+				(UpdatedStatus = 'Y' OR UpdatedStatus = 'N') 
+				AND CONVERT(VARCHAR, added_date, 103) = '$Date' 
+				AND added_by = $Executive_Cd 
+				-- AND SiteName = '' 
+        
+			UNION 
+
+			SELECT 
+				Sitename,
+				added_by AS AddedBy,
+				0 AS Voter_Cd,
+				0 AS Ac_No,
+				0 AS List_No,
+				0 AS Voter_Id,
+				Ward_No,
+				SocietyName,
+				added_date AS AddedDate,
+				RoomNo,
+				'LOCKED' AS FullName,
+				'' AS FullNameMar,
+				'' AS Age,
+				'' AS Sex,
+				'' AS FamilyNo,
+				'' AS BirthDate,
+				'' AS MobileNo,
+				'' AS FormNo,
+				'' AS District,
+				'' AS Religion,
+				'' AS SF,
+				'' AS AnniversaryDate,
+				Sublocation_Cd AS Society_Cd,
+				SocietyNameM,
+				'' AS HS,
+				'' AS Occupation,
+				'' AS Education,
+				'' AS OwnerName,
+				'' AS OwnerMobileNo,
+				'' AS SubCaste,
+				'' AS SurName,
+				'' AS FirstName,
+				'' AS MiddleName,
+				'' AS LockedButSurvey,
+				'' AS QC_UpdateByUser,
+				'' AS QC_UpdatedDate,
+				Remark,
+				'False' AS QC_Done,
+				'' AS Col4,
+				LR_Cd
+			FROM LockRoom
+			WHERE 
+				(Locked = 1) 
+				AND CONVERT(VARCHAR, added_date, 103) = '$Date' 
+				AND added_by = $Executive_Cd
+				-- AND SiteName = '' 
+		) AS D
+	LEFT JOIN 
+		(
+			SELECT 
+				UserName, 
+				Executive_Cd 
+			FROM Survey_Entry_Data..User_Master 
+			WHERE ElectionName = '$ULB'
+            AND  ExecutiveName = '$ExecutiveName'
+			GROUP BY UserName, Executive_Cd
+		) um 
+		ON D.AddedBy = um.Executive_Cd 
+	LEFT JOIN Survey_Entry_Data..Executive_Master em 
+		ON em.Executive_Cd = um.Executive_Cd
+	ORDER BY 
+		Convert(varchar, D.AddedDate, 20),
+		D.SocietyName,
+		D.RoomNo;
+        "; 
+        // print_r($sql3);
         $result = $db->ExecutveQueryMultipleRowSALData($ULB,$sql3 , $userName, $appName, $developmentMode);
 
         // usort($result, function($a, $b) {
