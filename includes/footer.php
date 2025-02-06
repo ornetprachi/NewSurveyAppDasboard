@@ -887,55 +887,29 @@
 //   });
 //     });
 // });
-$(document).ready(function() {
-  var table = $('#SurveySummaryList').DataTable({
-    lengthMenu: [ [-1,20, 40, 50], ["All",20, 40, 50] ],
-    columnDefs: [
-      { targets: [12,13,14,15,16,17], visible: false } // Initially hide Columns 3 and 4 (indexes 2 and 3)
-    ]
-  });
+// $(document).ready(function() {
+//   var table = $('#SurveySummaryList').DataTable({
+//     lengthMenu: [ [-1,20, 40, 50], ["All",20, 40, 50] ],
+//     columnDefs: [
+//       { targets: [12,13,14,15,16,17], visible: false } // Initially hide Columns 3 and 4 (indexes 2 and 3)
+//     ]
+//   });
 
-  $('#showCountBtn').click(function() {
-    var columnIndexes = [12,13,14,15,16,17]; // Indexes of the columns to show
+//   $('#showCountBtn').click(function() {
+//     var columnIndexes = [12,13,14,15,16,17]; // Indexes of the columns to show
 
-    var columns = table.columns().visible(true); // Hide all columns initially 
+//     var columns = table.columns().visible(true); // Hide all columns initially 
 
-    // columnIndexes.forEach(function(index) {
-    //   columns.column(index).visible(true);
-    // });
+//     // columnIndexes.forEach(function(index) {
+//     //   columns.column(index).visible(true);
+//     // });
 
-    table.columns.adjust().draw(); // Adjust and redraw the DataTable after showing columns
-  });
-});
+//     table.columns.adjust().draw(); // Adjust and redraw the DataTable after showing columns
+//   });
+// });
 
 </script>
-<script>
-  
-  $(document).ready(function () {
-    var table = $('#SurveySummaryExecutiveList').DataTable({
 
-      lengthMenu: [ [-1,20, 40, 50], ["All",20, 40, 50] ],
-      columnDefs : [
-        //hide the second & fourth column
-        { visible: false, targets: [11,12,13,14] }
-    ]
-    });
-    $('#showExeCountBtn').click(function() {
-    var columnIndexes = [11,12,13,14]; // Indexes of the columns to show
-
-    var columns = table.columns().visible(true); // Hide all columns initially 
-    table.columns.adjust().draw(); // Adjust and redraw the DataTable after showing columns
-  });
-});
-</script>
-<script>
-  
-  $(document).ready(function () {
-    $('#OverallSummaryTable').DataTable({
-      "lengthMenu": [ [-1,20, 40, 50], ["All",20, 40, 50] ]
-    });
-});
-</script>
 <script>
   
 //   $(document).ready(function () {
@@ -976,16 +950,6 @@ $(document).ready(function () {
   
 </script>
 
-
-<script>
-  
-  $(document).ready(function () {
-    $('#SupervisorSummary').DataTable({
-      "lengthMenu": [ [-1,20, 40, 50], ["All",20, 40, 50] ]
-    });
-});
-
-</script>
 <script>
   $(document).ready(function () {
     $('#SurveyQCDetailView').DataTable({
@@ -1251,39 +1215,14 @@ $(document).ready(function () {
     });
 });
 </script>  
-    <script>
-        $(document).ready(function() {
-            "use strict"
-            $('#OnClickModalView').DataTable({
-                "lengthMenu": [ [20, 40, 50,-1], [20, 40, 50,"All"] ]
-            });
-        });
-        $(document).ready(function() {
-            "use strict"
-            $('#ExecutiveWiseMobileReport').DataTable({
-                // "lengthMenu": [ [20, 40, 50,-1], [20, 40, 50,"All"] ]
-                paging:false,
-                searching:false,
-                "bInfo" : false,
-                // "columnDefs": [
-                //   { "orderable": false, "targets": 1 },
-                //   { "orderable": false, "targets": 2 }
-                // ]
-            });
-        });
-        $(document).ready(function() {
-            "use strict"
-            $('#MobileWiseReport').DataTable({
-                // "lengthMenu": [ [20, 40, 50,-1], [20, 40, 50,"All"] ]
-                paging:false,
-                searching:false,
-                "bInfo" : false,
-                // "columnDefs": [
-                //   { "orderable": false, "targets": 1 } // Disable ordering for column index 2
-                // ]
-            });
-        });
-    </script>
+  <script>
+      $('a[data-toggle="tab"]').on('click', function() {
+          $('#ExecutiveAndMobileWiseModal').hide(); 
+          $('#SiteWiseAllDetail').hide();
+          $('#SiteData').hide();
+          $('#SurveySummaryExecutiveDataLoad').hide();
+      });
+  </script>
 
 </body>
 <!-- END: Body-->

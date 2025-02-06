@@ -1,4 +1,6 @@
 var Executive_CdArray = [];
+let SWAllSociety;
+let Site;
 function setElectionNameInSession(electionName) {
     var ajaxRequest; // The variable that makes Ajax possible!
 
@@ -151,7 +153,6 @@ function setQCReportFilterInSession(qcReportFilter) {
     }
 
 }
-
 function setQCTypeInSession(QCType) {
     var ajaxRequest; // The variable that makes Ajax possible!
 
@@ -6250,7 +6251,7 @@ function getAllSiteData(SiteName) {
     }
 
 }
-function getExecutiveData(ExecutiveName){
+function getExecutiveData(ExecutiveName,ExecutiveCd){
 
     var ajaxRequest; // The variable that makes Ajax possible!
 
@@ -6274,6 +6275,8 @@ function getExecutiveData(ExecutiveName){
 
     ajaxRequest.onreadystatechange = function() {
         if (ajaxRequest.readyState == 4) {
+            $('#SiteData').hide();
+            $('#SiteWiseAllDetail').hide();
             $('#SurveySummaryExecutiveDataLoad').show();
             $('html, body').animate({
                 scrollTop: $("#SurveySummaryExecutiveDataLoad").offset().top
@@ -6292,45 +6295,12 @@ function getExecutiveData(ExecutiveName){
     }
     // alert(ExecutiveName);
 
-    var queryString = "?ExecutiveName="+ExecutiveName;
+    var queryString = "?ExecutiveName="+ExecutiveName+"&ExecutiveCd="+ExecutiveCd;
     // alert(queryString);
     ajaxRequest.open("POST", "setExecutiveNammeInSessionForExecutiveDetail.php" + queryString, true);
     ajaxRequest.send(null);
 }
-function getExeFilter(Status){
 
-    var ajaxRequest; // The variable that makes Ajax possible!
-
-    try {
-        // Opera 8.0+, Firefox, Safari
-        ajaxRequest = new XMLHttpRequest();
-    } catch (e) {
-        // Internet Explorer Browsers
-        try {
-            ajaxRequest = new ActiveXObject("Msxml2.XMLHTTP");
-        } catch (e) {
-            try {
-                ajaxRequest = new ActiveXObject("Microsoft.XMLHTTP");
-            } catch (e) {
-                // Something went wrong
-                alert("Your browser broke!");
-                return false;
-            }
-        }
-    }
-
-    ajaxRequest.onreadystatechange = function() {
-        if (ajaxRequest.readyState == 4) {
-                window.location.href='index.php?p=Survey_Summary_Report';
-        }
-    }
-    // alert(Status);
-
-    var queryString = "?Status="+Status;
-    // alert(queryString);
-    ajaxRequest.open("POST", "setExecutiveActiveInActiveInSession.php" + queryString, true);
-    ajaxRequest.send(null);
-}
 function GetFromAndToDate(){
     var ajaxRequest; // The variable that makes Ajax possible!
 
@@ -6639,7 +6609,7 @@ function setSiteSurveyQCDateWiseInSession(siteName) {
 
     }
 }
-
+// Changes by prachi for repoort
 
 function getSurveyQCDateWiseTableFilterData() {
 
@@ -6703,49 +6673,201 @@ function getSurveyQCDateWiseTableFilterData() {
 }
 function getSiteWiseDetail(Site){
 
-    var ajaxRequest; // The variable that makes Ajax possible!
-
-    try {
-        // Opera 8.0+, Firefox, Safari
-        ajaxRequest = new XMLHttpRequest();
-    } catch (e) {
-        // Internet Explorer Browsers
-        try {
-            ajaxRequest = new ActiveXObject("Msxml2.XMLHTTP");
-        } catch (e) {
-            try {
-                ajaxRequest = new ActiveXObject("Microsoft.XMLHTTP");
-            } catch (e) {
-                // Something went wrong
-                alert("Your browser broke!");
-                return false;
+    $('#siteDetailTitleName').text(Site);
+    $('#SiteWiseAllDetail').hide();
+    $('#SurveySummaryExecutiveDataLoad').hide();
+    $('#SiteData').show();
+    if ($.fn.dataTable.isDataTable('#SiteNameWiseSurveyTable')) {
+        $('#SiteNameWiseSurveyTable').DataTable().clear().destroy();
+    }
+    
+    let SWSocietyData = $('#SiteNameWiseSurveyTable').DataTable({
+        processing: true,
+        serverSide: true,
+        responsive: true,
+        autoWidth: false,
+        ajax: {
+            url: 'SetSiteNameForModalInSession.php',
+            type: 'POST',
+            data: function (d) {
+                d.search.value = $('#SiteNameWiseSurveyTable_filter input[type=search]').val(); 
+                d.Site = Site;
+            },
+            beforeSend: function () {
+            },
+            complete: function () {
+                $('html, body').animate({
+                    scrollTop: $('#SiteNameWiseSurveyTable').offset().top
+                }, 1000);
             }
+        },
+        columns: [
+            { 
+                data: null, 
+                orderable: false, 
+                render: function(data, type, row, meta) {
+                    return meta.row + 1 + meta.settings._iDisplayStart;  // Serial Number
+                }
+            },
+            {
+                data: null,
+                render: function(data, type, row) {
+                    return `<a href="index.php?p=Survey_Society_Detail&electionName=${row.ElectionName}&SocietyName=${row.SocietyName}&SiteName=${row.SiteName}" target="_blank">
+                                <i class="fa fa-eye ml-1" style="color: #36abb9;"></i>
+                            </a>`; 
+                }
+            },
+            { 
+                data: 'SocietyName', 
+                render: function(data) {
+                    return `<b>${data}</b>`; 
+                }
+            },
+            { 
+                data: 'PocketName', 
+                render: function(data) {
+                    return `<b>${data}</b>`; 
+                }
+            },
+            { 
+                data: 'ExecutiveName',
+                render: function(data, type, row) {
+                    return `<td title="${row.MobileNo}" style="cursor:pointer;">${data}</td>`; 
+                }
+            },
+            { 
+                data: 'TotalRoom',
+                className: 'text-center'
+            },
+            { 
+                data: 'RoomSurveyDone',
+                className: 'text-center'
+            },
+            { 
+                data: 'LockRoom',
+                className: 'text-center'
+            },
+            { 
+                data: 'TotalVoters',
+                className: 'text-center'
+            },
+            { 
+                data: 'TotalNonVoters',
+                className: 'text-center'
+            },
+            { 
+                data: 'LBS',
+                className: 'text-center'
+            },
+            { 
+                data: 'TotalMobileCount',
+                className: 'text-center'
+            },
+            { 
+                data: 'BirthdaysCount',
+                className: 'text-center'
+            }
+        ],
+        order: [[1, 'asc']],
+        pageLength: 20,
+        lengthMenu: [[20, 40, 50, -1], [20, 40, 50, "All"]],
+        language: {
+            emptyTable: 'No data available',
+            processing: 'Loading data...',
         }
-    }
+    });
+  
+} 
 
-    ajaxRequest.onreadystatechange = function() {
-        if (ajaxRequest.readyState == 4) {
-            var ajaxDisplay = document.getElementById('SiteWiseDetail');
-            ajaxDisplay.innerHTML = ajaxRequest.responseText;
-            // $('#MODAL_VIEW').modal('show');
-            $('#SiteData').show();   
-            $(document).ready(function () {
-                $('#SiteNameWiseSurveyTable').DataTable({
-                  "lengthMenu": [ [-1,20, 40, 50], ["All",20, 40, 50] ]
-                });
-            });
-            $('html, body').animate({
-                scrollTop: $("#SiteWiseDetail").offset().top
-            }, 500); 
-        }
+
+function getSiteWiseAllDetail(SiteName,date,Tdate) {
+    Site = SiteName;
+    $('#siteName').text(SiteName);
+    $('#SiteData').hide();
+    $('#SurveySummaryExecutiveDataLoad').hide();
+    $('#SiteWiseAllDetail').show();
+    if ($.fn.dataTable.isDataTable('#SiteWiseAllSociety')) {
+        $('#SiteWiseAllSociety').DataTable().clear().destroy();
     }
-    // alert(Status);
-    //    var div ='profile';
-    var queryString = "?Site="+Site;
-    // alert(Site);
-    ajaxRequest.open("POST", "SetSiteNameForModalInSession.php" + queryString, true);
-    ajaxRequest.send(null);
-}   
+    
+    SWAllSociety = $('#SiteWiseAllSociety').DataTable({
+        processing: true,
+        serverSide: true,
+        responsive: true,
+        autoWidth: false,
+        ajax: {
+            url: 'SetSiteNameDeatilForModalInSession.php',
+            type: 'POST',
+            data: function (d) {
+                d.search.value = $('#SiteWiseAllSociety_filter input[type=search]').val(); 
+                d.Site = SiteName;
+                d.date = date;
+                d.Tdate = Tdate; 
+            },
+            beforeSend: function () {
+            },
+            complete: function () {
+                $('html, body').animate({
+                    scrollTop: $('#SiteWiseAllSociety').offset().top
+                }, 1000);
+            }
+        },
+        columns: [
+            { 
+                data: null, 
+                orderable: false, 
+                render: function (data, type, row, meta) {
+                    return meta.row + 1 + meta.settings._iDisplayStart;  
+                }
+            },
+            { 
+                data: null,
+                render: function (data, type, row) {
+                    return `<a href="index.php?p=Survey_Society_Detail&electionName=${row.ElectionName}&SocietyName=${row.SocietyName}&SiteName=${row.SiteName}" target="_blank">
+                                <i class="fa fa-eye ml-1" style="color: #36abb9;"></i>
+                            </a>`;
+                }
+            },
+            {   data: 'SocietyName',
+                render: function (data, type, row) {
+                    return `<b>${data}</b>`;
+                }
+            },  
+            { data: 'PlotNo' },       
+            { data: 'PocketNo' },     
+            { data: 'PocketName' },   
+            { 
+                data: 'ListedBy',
+                render: function (data, type, row) {
+                    return `<td title="${row.MobileNo}" style="cursor:pointer;">${data}</td>`;  
+                }
+            },
+            { data: 'TotalRoom' },   
+            { data: 'RoomSurveyDone' },
+            { data: 'LockRoom' },    
+            { data: 'TotalVoters' }, 
+            { data: 'TotalNonVoters' }, 
+            { data: 'LBS' },          
+            { data: 'TotalMobileCount' }, 
+            { data: 'BirthdaysCount' }, 
+        ],
+        order: [[1, 'asc']],
+        pageLength: 20,
+        lengthMenu: [[20, 40, 50, -1], [20, 40, 50, "All"]],
+        language: {
+            emptyTable: 'No data available',
+            processing: 'Loading data...',
+        }
+    });
+}
+
+function dateforlist()
+{
+    var date = document.getElementsByName('fdate')[0].value;
+    var Tdate = document.getElementsByName('tdate')[0].value;
+    getSiteWiseAllDetail(Site,date,Tdate);
+}
+ 
 function getSiteNameForMap(SiteName) {
     var ajaxRequest; // The variable that makes Ajax possible!
 
@@ -6825,6 +6947,7 @@ function setSiteForDashboardInSession(SiteName) {
     }
 
 }
+// Changes by prachi for repoort
 function getAllDetailSiteData(SiteName) {
     var ajaxRequest; // The variable that makes Ajax possible!
 
@@ -9018,101 +9141,101 @@ function GetSiteDetailQc(Site){
 
 //Executive And Mobile Wise ---------------------------------------------------------
 
-    function getExecutiveWiseDataInForm(ExecutiveName,MobileNo,DBName,FamilyNos,datacnt,flag){
+function getExecutiveWiseDataInForm(ExecutiveName, MobileNo, DBName, FamilyNos, datacnt, flag) {
+    $('#ExecutiveAndMobileWiseModal').show();
+    if ($.fn.dataTable.isDataTable('#OnClickModalView')) {
+        $('#OnClickModalView').DataTable().clear().destroy();
+    }
 
-        var ajaxRequest; // The variable that makes Ajax possible!
-
-        try {
-            // Opera 8.0+, Firefox, Safari
-            ajaxRequest = new XMLHttpRequest();
-        } catch (e) {
-            // Internet Explorer Browsers
-            try {
-                ajaxRequest = new ActiveXObject("Msxml2.XMLHTTP");
-            } catch (e) {
-                try {
-                    ajaxRequest = new ActiveXObject("Microsoft.XMLHTTP");
-                } catch (e) {
-                    // Something went wrong
-                    alert("Your browser broke!");
-                    return false;
+    let modelview;
+    modelview = $('#OnClickModalView').DataTable({
+        responsive: true,
+        autoWidth: false,
+        processing: true,
+        serverSide: true,
+        ajax: {
+            url: 'ExecutiveAndMobileWiseModalView.php',
+            type: 'POST',
+            data: function (d) {
+                d.search.value = $('#OnClickModalView_filter input[type=search]').val();
+                d.ExecutiveName = ExecutiveName;
+                d.MobileNo = MobileNo;
+                d.DBName = DBName;
+                d.FamilyNos = FamilyNos;
+                d.datacnt = datacnt;
+                d.flag = flag;
+            },
+            beforeSend: function () {
+            },
+            complete: function (json) {
+                var totalRecords = json.responseJSON.recordsTotal;
+                var cardTitle = '';
+                if (flag == 'EW') {
+                    cardTitle = 'Executive Wise (' + totalRecords + ') - ' + ExecutiveName;
+                } else if (flag == 'MW') {
+                    cardTitle = 'Mobile No Wise (' + totalRecords + ') - ' + ExecutiveName;
                 }
-            }
-        }
-
-        ajaxRequest.onreadystatechange = function() {
-            if (ajaxRequest.readyState == 4) {
-                // $( "#AttendenceTable" ).load(window.location.href + "#AttendenceTable" );
-                var ajaxDisplay = document.getElementById('ExecutiveAndMobileWiseModal');
-                ajaxDisplay.innerHTML = ajaxRequest.responseText;
-                $('#loading').show();
-                $('#ExecutiveMobileDiv').show();
-                 $(document).ready(function() {
-                      "use strict"
-                      $('#OnClickModalView').DataTable({
-                          "lengthMenu": [ [20, 40, 50,-1], [20, 40, 50,"All"] ]
-                      });
-                  });
+                $('#execMobTitle').text(cardTitle);
                 $('html, body').animate({
-                    scrollTop: $("#ExecutiveAndMobileWiseModal").offset().top
-                }, 500);
-                
-            
+                    scrollTop: $('#OnClickModalView').offset().top
+                }, 1000);
             }
-        }
-    var queryString = "?ExecutiveName="+ExecutiveName+"&MobileNo="+MobileNo+"&DBName="+DBName+"&FamilyNos="+FamilyNos+"&datacnt="+datacnt+"&flag="+flag;
-        ajaxRequest.open("POST","ExecutiveAndMobileWiseModalView.php" + queryString, true);
-        ajaxRequest.send(null);
-    }
-
-
-
-    function getMobileNoWiseDataInForm(MobileNo,ExecutiveName,DBName,FamilyNos,datacnt,flag){
-
-        var ajaxRequest; // The variable that makes Ajax possible!
-
-        try {
-            // Opera 8.0+, Firefox, Safari
-            ajaxRequest = new XMLHttpRequest();
-        } catch (e) {
-            // Internet Explorer Browsers
-            try {
-                ajaxRequest = new ActiveXObject("Msxml2.XMLHTTP");
-            } catch (e) {
-                try {
-                    ajaxRequest = new ActiveXObject("Microsoft.XMLHTTP");
-                } catch (e) {
-                    // Something went wrong
-                    alert("Your browser broke!");
-                    return false;
+        },
+        columns: [
+            {
+                data: null,
+                orderable: false,
+                render: function (data, type, row, meta) {
+                    return meta.row + 1 + meta.settings._iDisplayStart;
                 }
+            },
+            {
+                data: null,
+                render: function (data, type, row) {
+                    return `<span>${row.FamilyNo}</span>`;
+                }
+            },
+            {
+                data: 'UpdatedDate',
+            },
+            {
+                data: null,
+                render: function(data, type, row) {
+                    return row.AC_No + '/' + row.List_No + '/' + row.Voter_Id;
+                }
+            },
+            {
+                data: 'SiteName',
+                // className: 'text-left'
+            },
+            {
+                data: 'FullName',
+            },
+            {
+                data: 'MobileNo',
+            },
+            {
+                data: 'Age',
+            },
+            {
+                data: 'Gender',
+            },
+            {
+                data: 'SocietyName',
+            },
+            {
+                data: 'RoomNo',
             }
+        ],
+        order: [[1, 'asc']],
+        pageLength: 20,
+        lengthMenu: [[20, 40, 50, -1], [20, 40, 50, "All"]],
+        language: {
+            emptyTable: 'No data available',
+            processing: 'Loading data...',
         }
-
-        ajaxRequest.onreadystatechange = function() {
-            if (ajaxRequest.readyState == 4) {
-                // $( "#AttendenceTable" ).load(window.location.href + "#AttendenceTable" );
-                var ajaxDisplay = document.getElementById('ExecutiveAndMobileWiseModal');
-                ajaxDisplay.innerHTML = ajaxRequest.responseText;
-                
-                    $(document).ready(function() {
-                        "use strict"
-                        $('#OnClickModalView').DataTable({
-                          "lengthMenu": [ [20, 40, 50,-1], [20, 40, 50,"All"] ]
-                        });
-                    });
-                  $('#ExecutiveMobileDiv').show();
-                  $('html, body').animate({
-                      scrollTop: $("#ExecutiveAndMobileWiseModal").offset().top
-                  }, 500);
-            
-            }
-        }
-    var queryString = "?MobileNo="+MobileNo+"&ExecutiveName="+ExecutiveName+"&DBName="+DBName+"&FamilyNos="+FamilyNos+"&datacnt="+datacnt+"&flag="+flag;
-        ajaxRequest.open("POST","ExecutiveAndMobileWiseModalView.php" + queryString, true);
-        ajaxRequest.send(null);
-    }
-
+    });
+}
 
     
 function setPaginationNoInSession(pageNo) {
